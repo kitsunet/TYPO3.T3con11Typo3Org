@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<site uuid="" nodeName="t3con11typo3org">
+		<properties>
+			<name>T3CON11 Site</name>
+			<state>1</state>
+		</properties>
+		<node uuid="" type="TYPO3:Page" nodeName="homepage" locale="en_EN">
+			<properties>
+				<title>Homepage</title>
+			</properties>
+			<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+				<node uuid="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
+					<properties>
+						<headline>Foo Bar</headline>
+						<text><![CDATA[Foo Bar Baz]]>
+						</text>
+					</properties>
+				</node>
+				<node uuid="" type="Conference:Plugin" nodeName="test1" locale="en_EN">
+					<properties>
+						<controller>Setup</controller>
+						<action>index</action>
+					</properties>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="login" locale="en_EN">
+				<properties>
+					<title>Login</title>
+				</properties>
+				<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+					<node uuid="" type="Conference:Plugin" nodeName="test2" locale="en_EN">
+						<properties>
+							<controller>Account\Login</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="manageAccount" locale="en_EN">
+				<properties>
+					<title>Manage Account</title>
+				</properties>
+				<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+					<node uuid="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
+						<properties>
+							<headline>Manage account</headline>
+							<text><![CDATA[Bla bla manage account]]></text>
+						</properties>
+					</node>
+					<node uuid="" type="Conference:Plugin" nodeName="manageAccount" locale="en_EN">
+						<properties>
+							<controller>Account\Overview</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="personalinfo" locale="en_EN">
+				<properties>
+					<title>Personal Info</title>
+				</properties>
+				<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+					<node uuid="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
+						<properties>
+							<headline>Personal Info</headline>
+							<text><![CDATA[Bla bla personal info]]></text>
+						</properties>
+					</node>
+					<node uuid="" type="Conference:Plugin" nodeName="personalInfo" locale="en_EN">
+						<properties>
+							<controller>Account\Personal</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="createSpeakerProfile" locale="en_EN">
+				<properties>
+					<title>Create Speaker Profile</title>
+				</properties>
+				<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+					<node uuid="" type="Conference:Plugin" nodeName="createSpeakerProfile" locale="en_EN">
+						<properties>
+							<controller>Account\SpeakerProfile</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="mySpeakerProfile" locale="en_EN">
+				<properties>
+					<title>My Speaker Profile</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="myPapers" locale="en_EN">
+				<properties>
+					<title>My Papers</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="reviewPapers" locale="en_EN">
+				<properties>
+					<title>Review Papers</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="votePapers" locale="en_EN">
+				<properties>
+					<title>Vote Papers</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="circulars" locale="en_EN">
+				<properties>
+					<title>Circulars</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="conference" locale="en_EN">
+				<properties>
+					<title>Conference</title>
+				</properties>
+				<node uuid="" type="TYPO3:Page" nodeName="location" locale="en_EN">
+					<properties>
+						<title>Location</title>
+					</properties>
+				</node>
+				<node uuid="" type="TYPO3:Page" nodeName="tracks" locale="en_EN">
+					<properties>
+						<title>Tracks</title>
+					</properties>
+				</node>
+				<node uuid="" type="TYPO3:Page" nodeName="sessionTypes" locale="en_EN">
+					<properties>
+						<title>Session Types</title>
+					</properties>
+				</node>
+				<node uuid="" type="TYPO3:Page" nodeName="intermissionTypes" locale="en_EN">
+					<properties>
+						<title>Intermission Types</title>
+					</properties>
+				</node>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="schedule" locale="en_EN">
+				<properties>
+					<title>Schedule</title>
+				</properties>
+			</node>
+			<node uuid="" type="TYPO3:Page" nodeName="manageAccounts" locale="en_EN">
+				<properties>
+					<title>Manage Accounts</title>
+				</properties>
+			</node>
+		</node>
+	</site>
+</root>
