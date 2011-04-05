@@ -148,7 +148,7 @@
 
 		<div id="login-register-box"><img src="{f:uri.resource(path: 'Images/header/login-register-header.png')}" alt="" />
 			<h3 class="login"><span>Login</span></h3>
-			<f:form action="authenticate" controller="Account\Login" method="post">
+			<f:form action="authenticate" controller="Account\Login" package="Conference" method="post">
 				<div>
 					<label for="username">
 						Username
@@ -165,7 +165,7 @@
 			</f:form>
 
 			<h3 class="register"><span>Register</span></h3>
-			<f:link.action action="index" controller="Account\Registration" class="register">Join the event and <strong>register</strong> now</f:link.action>
+			<f:link.action action="index" controller="Account\Registration" package="Conference" class="register">Join the event and <strong>register</strong> now</f:link.action>
 			<div class="bottom-shadow">&nbsp;</div>
 		</div>
 
