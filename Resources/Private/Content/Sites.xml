@@ -10,6 +10,96 @@
 				<title>Homepage</title>
 			</properties>
 			<node uuid="" type="TYPO3:Section" nodeName="main" locale="en_EN">
+				<node uuid="" type="TYPO3:Html" nodeName="topslider" locale="en_EN">
+					<properties>
+						<source><![CDATA[
+					<div class="slider" id="top-slider">
+					<div class="slider-content">
+						<ul class="slides">
+							<li class="slide">
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
+								<div class="d slide-content">
+									<div class="hgroup">
+										<h2>Professional Speakers - 1</h2>
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p><a href="#" class="bu">Details</a></p>
+								</div>
+
+							</li>
+							<li class="slide">
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-02.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
+								<div class="d slide-content">
+									<div class="hgroup">
+										<h2>Professional Speakers - 2</h2>
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p><a href="#" class="bu">Details</a></p>
+								</div>
+
+							</li>
+							<li class="slide">
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
+								<div class="d slide-content">
+									<div class="hgroup">
+										<h2>Professional Speakers - 3</h2>
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p><a href="#" class="bu">Details</a></p>
+								</div>
+
+							</li>
+							<li class="slide">
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
+								<div class="d slide-content">
+									<div class="hgroup">
+										<h2>Professional Speakers - 4</h2>
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p><a href="#" class="bu">Details</a></p>
+								</div>
+
+							</li>
+						</ul>
+
+					</div><!-- slider-content -->
+
+					<ul class="slider-nav">
+						<li class="active">
+							<div class="d">
+								<h6>Professional Speakers</h6>
+								<p>Lorem ipsum dolor sit amet</p>
+							</div>
+						</li>
+						<li>
+							<div class="d">
+								<h6>4 Different Tracks</h6>
+								<p>Sessions for everyone</p>
+							</div>
+						</li>
+						<li>
+							<div class="d">
+								<h6>Get in touch...</h6>
+								<p>...with core developers</p>
+							</div>
+						</li>
+						<li>
+							<div class="d">
+								<h6>Lorem ipsum</h6>
+								<p>Ut enim ad minim veniam</p>
+							</div>
+						</li>
+					</ul>
+
+				</div><!-- top-slider -->
+								  
+						]]></source>
+					</properties>
+				</node>
 				<node uuid="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
 					<properties>
 						<headline>Welcome</headline>
