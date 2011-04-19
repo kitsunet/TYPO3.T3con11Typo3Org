@@ -7,43 +7,13 @@ page.body.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.ht
 page.body.sectionName = "body"
 
 page.head {
-
 	stylesheets {
-
 		fromTemplate = Template
 		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
 		fromTemplate.sectionName = 'stylesheets'
-
-	/*
-		reset = Stylesheet
-		reset.source = 'resource://T3con11Typo3Org/Public/Stylesheets/reset.css'
-		reset.media = 'screen'
-
-		grid = Stylesheet
-		grid.source = 'resource://T3con11Typo3Org/Public/Stylesheets/grid.css'
-		grid.media = 'screen'
-
-		main = Stylesheet
-		main.source = 'resource://T3con11Typo3Org/Public/Stylesheets/main.css'
-		main.media = 'screen'
-
-		print = Stylesheet
-		print.source = 'resource://T3con11Typo3Org/Public/Stylesheets/print.css'
-		print.media = 'print'
-
-		ie = Node
-		ie.value = '<!--[if IE]><link rel="stylesheet" href="../../../Public/Stylesheets/ie.css" media="all" /><![endif]-->'
-
-		ie7 = Text
-		ie7.value = '<!--[if IE 7]><link rel="stylesheet" href="../../../Public/Stylesheets/ie7.css" media="all" /><![endif]-->'
-
-		ie8 = Text
-		ie8.value = '<!--[if IE 8]><link rel="stylesheet" href="../../../Public/Stylesheets/ie8.css" media="all" /><![endif]-->'
-	*/
 	}
 
 	javascripts {
-
 		fromTemplate = Template
 		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
 		fromTemplate.sectionName = 'javascripts'
