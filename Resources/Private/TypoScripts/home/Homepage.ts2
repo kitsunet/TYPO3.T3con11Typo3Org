@@ -1,29 +1,33 @@
 /**
- * Root TypoScript template for the T3CON website
- */
+ * Special template selection and settings for the homepage
+ *
+ * Note: All settings from the Root template are repeated here because currently TS template inheritence doesn't
+ *       fully work.
+ * /
 
 page = Page
 page.body = Template
 page.body {
-	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Homepage.html'
 	sectionName = "body"
 }
 
 page.head {
 	stylesheets {
 		fromTemplate = Template
-		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Homepage.html'
 		fromTemplate.sectionName = 'stylesheets'
 	}
 
 	javascripts {
 		fromTemplate = Template
-		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Homepage.html'
 		fromTemplate.sectionName = 'javascripts'
 	}
 }
 
 # Other parts of the page:
+
 page.parts {
 	mainMenu = Menu
 	mainMenu {
@@ -32,3 +36,4 @@ page.parts {
 		maximumLevels = 1
 	}
 }
+
