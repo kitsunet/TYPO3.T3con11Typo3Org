@@ -177,7 +177,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .extensions							{ float: right; }
 .extensions .h-bar-search-submit	{ background-image: url(../Images/dark-grey.png); border-color: #8b8b8b; }
 
-.h-bar-nav					{ position: absolute; right: 201px; top: -2px; width: 200px; text-align: right; }
+.h-bar-nav					{ position: absolute; right: 10px; top: -2px; width: 200px; text-align: right; }
 .h-bar-nav > li				{ display: inline-block; position: relative; background: url(../Images/h-bar-nav-li.png) no-repeat 0 9px; text-align: left; margin-left: -1px; }
 .h-bar-nav > li:first-child	{ background: none; }
 .h-bar-nav > li > a			{ text-decoration: none; display: block; }
