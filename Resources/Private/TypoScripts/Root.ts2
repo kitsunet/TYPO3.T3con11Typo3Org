@@ -26,7 +26,7 @@ page.parts {
 	mainMenu {
 		entryLevel = 1
 		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/MainMenu.html'
-		maximumLevels = 2
+		maximumLevels = 1
 	}
 	subMenu = Menu
 	subMenu {

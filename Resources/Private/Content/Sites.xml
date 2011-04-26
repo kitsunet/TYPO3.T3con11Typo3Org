@@ -6,316 +6,359 @@
 			<state>1</state>
 			<siteResourcesPackageKey>T3con11Typo3Org</siteResourcesPackageKey>
 		</properties>
-		<node identifier="" type="TYPO3:Page" nodeName="homepage" locale="en_EN">
+		<node identifier="5fee5645-e059-4e9e-aa1f-94915dfdda92" type="TYPO3:Page" nodeName="home" locale="">
 			<properties>
-				<title>Homepage</title>
+				<title>Home</title>
 			</properties>
-			<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-				<node identifier="" type="TYPO3:Html" nodeName="topslider" locale="en_EN">
+			<node identifier="f30d82ab-4275-48c7-914c-724ddf6b536d" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="e9a1c2d2-525e-4257-b4d9-273493db2921" type="TYPO3:Html" nodeName="topslider" locale="">
 					<properties>
 						<source><![CDATA[
-					<div class="slider" id="top-slider">
-					<div class="slider-content">
-						<ul class="slides">
+							<div class="slider" id="top-slider">
+							<div class="slider-content">
+							<ul class="slides">
 							<li class="slide">
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
-								<div class="d slide-content">
-									<div class="hgroup">
-										<h2>Professional Speakers - 1</h2>
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<p><a href="#" class="bu">Details</a></p>
-								</div>
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
+							width="982" height="282" alt="Slider 03" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Professional Speakers - 1</h2>
+							<h3>Lorem ipsum dolor sit amet</h3>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua.</p>
+							<p><a href="#" class="bu">Details</a></p>
+							</div>
 
 							</li>
 							<li class="slide">
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-02.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
-								<div class="d slide-content">
-									<div class="hgroup">
-										<h2>Professional Speakers - 2</h2>
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<p><a href="#" class="bu">Details</a></p>
-								</div>
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-02.jpg"
+							width="982" height="282" alt="Slider 03" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Professional Speakers - 2</h2>
+							<h3>Lorem ipsum dolor sit amet</h3>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua.</p>
+							<p><a href="#" class="bu">Details</a></p>
+							</div>
 
 							</li>
 							<li class="slide">
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
-								<div class="d slide-content">
-									<div class="hgroup">
-										<h2>Professional Speakers - 3</h2>
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<p><a href="#" class="bu">Details</a></p>
-								</div>
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
+							width="982" height="282" alt="Slider 03" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Professional Speakers - 3</h2>
+							<h3>Lorem ipsum dolor sit amet</h3>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua.</p>
+							<p><a href="#" class="bu">Details</a></p>
+							</div>
 
 							</li>
 							<li class="slide">
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg" width="982" height="282" alt="Slider 03" class="slide-img" />
-								<div class="d slide-content">
-									<div class="hgroup">
-										<h2>Professional Speakers - 4</h2>
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<p><a href="#" class="bu">Details</a></p>
-								</div>
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
+							width="982" height="282" alt="Slider 03" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Professional Speakers - 4</h2>
+							<h3>Lorem ipsum dolor sit amet</h3>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua.</p>
+							<p><a href="#" class="bu">Details</a></p>
+							</div>
 
 							</li>
-						</ul>
+							</ul>
 
-					</div><!-- slider-content -->
+							</div><!-- slider-content -->
 
-					<ul class="slider-nav">
-						<li class="active">
+							<ul class="slider-nav">
+							<li class="active">
 							<div class="d">
-								<h6>Professional Speakers</h6>
-								<p>Lorem ipsum dolor sit amet</p>
+							<h6>Professional Speakers</h6>
+							<p>Lorem ipsum dolor sit amet</p>
 							</div>
-						</li>
-						<li>
+							</li>
+							<li>
 							<div class="d">
-								<h6>4 Different Tracks</h6>
-								<p>Sessions for everyone</p>
+							<h6>4 Different Tracks</h6>
+							<p>Sessions for everyone</p>
 							</div>
-						</li>
-						<li>
+							</li>
+							<li>
 							<div class="d">
-								<h6>Get in touch...</h6>
-								<p>...with core developers</p>
+							<h6>Get in touch...</h6>
+							<p>...with core developers</p>
 							</div>
-						</li>
-						<li>
+							</li>
+							<li>
 							<div class="d">
-								<h6>Lorem ipsum</h6>
-								<p>Ut enim ad minim veniam</p>
+							<h6>Lorem ipsum</h6>
+							<p>Ut enim ad minim veniam</p>
 							</div>
-						</li>
-					</ul>
+							</li>
+							</ul>
 
-				</div><!-- top-slider -->
+							</div><!-- top-slider -->
 
 						]]></source>
 					</properties>
 				</node>
-				<node identifier="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
+				<node identifier="eca65e3d-3442-4c72-93c2-9bdc332b186d" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
-						<headline>Welcome</headline>
-						<text><![CDATA[This is the homepage.<br /><a href="setup">SETUP</a>]]>
+						<headline>T3CON11 - Frankfurt</headline>
+						<text><![CDATA[
+						
+							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
+							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
+							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
+								will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
+								and to connect with other managers, developers and designers from all over the world. Many
+								internationally-known leaders of the TYPO3 community will be attending and presenting.</p>
+						
+						]]></text>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3:Page" nodeName="location" locale="">
+			<properties>
+				<title>Location</title>
+			</properties>
+			<node identifier="248c86d8-93c6-461d-a793-2b26ed4f0877" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="bd98b3e6-09e0-4ad4-9ebc-c1ef1d115996" type="TYPO3:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>Location</headline>
+						<text>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
+						Frankfurt International Airport.
 						</text>
 					</properties>
 				</node>
 			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="login" locale="en_EN">
-				<properties>
-					<title>Login</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="login" locale="en_EN">
-						<properties>
-							<controller>Account\Login</controller>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="manage-account" locale="en_EN">
-				<properties>
-					<title>Manage Account</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
-						<properties>
-							<headline>Manage account</headline>
-							<text><![CDATA[manage account]]></text>
-						</properties>
-					</node>
-					<node identifier="" type="Conference:Plugin" nodeName="manageAccount" locale="en_EN">
-						<properties>
-							<controller>Account\Overview</controller>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="personalinfo" locale="en_EN">
-				<properties>
-					<title>Personal Info</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="TYPO3:Text" nodeName="text1" locale="en_EN">
-						<properties>
-							<headline>Personal Info</headline>
-							<text><![CDATA[Personal info]]></text>
-						</properties>
-					</node>
-					<node identifier="" type="Conference:Plugin" nodeName="personalInfo" locale="en_EN">
-						<properties>
-							<controller>Account\Personal</controller>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="create-speaker-profile" locale="en_EN">
-				<properties>
-					<title>Create Speaker Profile</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="createSpeakerProfile" locale="en_EN">
-						<properties>
-							<controller>Account\SpeakerProfile</controller>
-							<action>new</action>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="my-speaker-profile" locale="en_EN">
-				<properties>
-					<title>My Speaker Profile</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="mySpeakerProfile" locale="en_EN">
-						<properties>
-							<controller>Account\SpeakerProfile</controller>
-							<action>edit</action>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="my-papers" locale="en_EN">
-				<properties>
-					<title>My Papers</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="myPapers" locale="en_EN">
-						<properties>
-							<controller>Conference\Paper</controller>
-							<action>myPapers</action>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="review-papers" locale="en_EN">
-				<properties>
-					<title>Review Papers</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="reviewPapers" locale="en_EN">
-						<properties>
-							<controller>Conference\Paper</controller>
-							<action>review</action>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="vote-papers" locale="en_EN">
-				<properties>
-					<title>Vote Papers</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="votePapers" locale="en_EN">
-						<properties>
-							<controller>Conference\Paper</controller>
-							<action>voting</action>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="circulars" locale="en_EN">
-				<properties>
-					<title>Circulars</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="circular" locale="en_EN">
-						<properties>
-							<controller>Circular</controller>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="conference" locale="en_EN">
-				<properties>
-					<title>Conference</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="conference" locale="en_EN">
-						<properties>
-							<controller>Conference</controller>
-							<action>edit</action>
-						</properties>
-					</node>
-				</node>
-				<node identifier="" type="TYPO3:Page" nodeName="location" locale="en_EN">
+		</node>
+		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale=""
+				hidden="true">
+			<properties>
+				<title>Speakers</title>
+			</properties>
+			<node identifier="623d8c8d-bb22-428f-ab4a-c66935574eb7" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="fc5fb65c-dee5-46a8-926c-5c4a925079e5" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
-						<title>Location</title>
+						<headline>Foo</headline>
+						<text>foo.
+						</text>
 					</properties>
-					<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-						<node identifier="" type="Conference:Plugin" nodeName="conferenceLocation" locale="en_EN">
-							<properties>
-								<controller>Conference\Location</controller>
-							</properties>
-						</node>
-					</node>
-				</node>
-				<node identifier="" type="TYPO3:Page" nodeName="tracks" locale="en_EN">
-					<properties>
-						<title>Tracks</title>
-					</properties>
-					<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-						<node identifier="" type="Conference:Plugin" nodeName="conferenceTracks" locale="en_EN">
-							<properties>
-								<controller>Conference\Track</controller>
-							</properties>
-						</node>
-					</node>
-				</node>
-				<node identifier="" type="TYPO3:Page" nodeName="sessionTypes" locale="en_EN">
-					<properties>
-						<title>Session Types</title>
-					</properties>
-					<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-						<node identifier="" type="Conference:Plugin" nodeName="conferenceSessionTypes" locale="en_EN">
-							<properties>
-								<controller>Conference\SessionType</controller>
-							</properties>
-						</node>
-					</node>
-				</node>
-				<node identifier="" type="TYPO3:Page" nodeName="intermissionTypes" locale="en_EN">
-					<properties>
-						<title>Intermission Types</title>
-					</properties>
-					<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-						<node identifier="" type="Conference:Plugin" nodeName="conferenceIntermissionTypes" locale="en_EN">
-							<properties>
-								<controller>Conference\IntermissionType</controller>
-							</properties>
-						</node>
-					</node>
 				</node>
 			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="schedule" locale="en_EN">
-				<properties>
-					<title>Schedule</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="schedule" locale="en_EN">
+		</node>
+		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale=""
+				hidden="true">
+			<properties>
+				<title>Sessions</title>
+			</properties>
+			<node identifier="3a7f15f9-8392-43fa-b197-a90b756f1cd7" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="f8ba0504-6570-4866-84a8-cf3a544a0057" type="TYPO3:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>Foo</headline>
+						<text>foo.
+						</text>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="32cb5163-05ad-4dac-8887-ad38769bb213" type="TYPO3:Page" nodeName="buzz" locale="">
+			<properties>
+				<title>Buzz</title>
+			</properties>
+			<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="30e54be0-1b58-4be3-8680-b6f78e79962d" type="TYPO3:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>Buzz</headline>
+						<text>foo.
+						</text>
+					</properties>
+				</node>
+			</node>
+		</node>
+		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3:Page" nodeName="sponsors" locale="">
+			<properties>
+				<title>Sponsors</title>
+			</properties>
+			<node identifier="34021530-ad3c-43ee-8552-66b952e2cf76" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>Sponsors</headline>
+						<text><![CDATA[
+							
+							<ul>
+								<li><a href="sponsors/become-a-sponsor.html">Become a Sponsor</a></li>
+								<li><a href="sponsors/list-of-sponsors.html">List of Sponsors</a></li>
+							</ul>
+							
+						]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3:Page" nodeName="become-a-sponsor"
+					locale="">
+				<node identifier="a98dbd8a-19ac-4ca9-8a62-e0d8279b50ae" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
-							<controller>Conference\Schedule</controller>
+							<headline>Sponsoring T3CON11</headline>
+							<text>There are many ways you can support the biggest conference of the TYPO3 community and at the
+							same time get some real benefits for your company.</text>
+						</properties>
+					</node>
+					<node identifier="1999344f-a3e5-401a-98c7-f26f5b4383e8" type="TYPO3:Text" nodeName="text2" locale="">
+						<properties>
+							<headline>Advantages for your company</headline>
+							<text><![CDATA[
+							
+								<ul>
+									<li>You position yourself within a unique surrounding without any divergence loss in a
+										top-class target group of decision makers and visionaries
+									</li>
+									<li>You profit of the exclusive image of an innovative conference
+									</li>
+									<li>You can demonstrate the leading position of your corporation on the market and present
+										your products in an optimized way
+									</li>
+									<li>You can use T3CON11 as platform for networking in order to intensify your business
+										relationships: Why not invite selected customers and partners?
+									</li>
+								</ul>
+								<p>There are various possibilities to get integrated in the event and to get in touch with your
+									target group. Of course we will consider your individual ideas as well.
+								</p>
+								<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
+							
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="1a7c9908-18f0-46f0-a936-9d39fd1ff03b" type="TYPO3:Text" nodeName="text3" locale="">
+						<properties>
+							<headline>The Target Group</headline>
+							<text><![CDATA[
+							
+								<p>At T3CON11 the movers and shakers of the internet meet each other: entrepreneurs, managers,
+									marketing decision makers, consultants, and investors. You will reach a unique collection of
+									decision makers, executive managers, opinion leaders, early adopters, replicators,
+									visionaries
+									and trendsetters.</p>
+								<p>The participants of T3CON10 were</p>
+								<ul>
+									<li>predominantly male</li>
+									<li>20-49 years old</li>
+									<li>executive managers and decision makers</li>
+								</ul>
+								<p>
+									The intimate atmosphere offers enough space for information exchange, networking and the
+									possibility to discuss topics which are a trend today and mass market tomorrow.</p>
+									
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="b4fa1254-1d3a-46a3-a9ed-46ad5f3ee80f" type="TYPO3:Text" nodeName="text4" locale="">
+						<properties>
+							<headline>Become a Sponsor Now!</headline>
+							<text><![CDATA[
+								
+								<p><strong>THIS NEEDS TO BECOME A SPECIAL TEASER BOX WITH FILE DOWNLOAD</strong></p>
+								
+							]]></text>
 						</properties>
 					</node>
 				</node>
 			</node>
-			<node identifier="" type="TYPO3:Page" nodeName="manageAccounts" locale="en_EN">
-				<properties>
-					<title>Manage Accounts</title>
-				</properties>
-				<node identifier="" type="TYPO3:Section" nodeName="main" locale="en_EN">
-					<node identifier="" type="Conference:Plugin" nodeName="manageAccounts" locale="en_EN">
+			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors"
+					locale="">
+				<node identifier="332db998-97dc-4c59-ad4d-b820785de7f2" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
-							<controller>Account\Manage</controller>
-							<action>find</action>
+							<headline>List of Sponsors</headline>
+							<text>tbd.</text>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3:Page" nodeName="contact" locale="">
+			<properties>
+				<title>Contact</title>
+			</properties>
+			<node identifier="87048ff2-f59d-42e0-a5f5-5161aab18a23" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="12c2569f-a4ce-4705-a5fc-6e0c9df1a2ee" type="TYPO3:Text" nodeName="text1" locale="">
+					<properties>
+						<headline>Contact</headline>
+						<text><![CDATA[
+							
+							<p>Get in touch with us</p>
+							<ul>
+								<li><a href="contact/team.html">Team</a></li>
+								<li><a href="contact/press.html">Press</a></li>
+								<li><a href="contact/imprint.html">Imprint</a></li>
+							</ul>
+							
+						]]></text>
+					</properties>
+				</node>
+			</node>
+			<node identifier="85eba769-1b5b-41f0-bb65-292315e26e15" type="TYPO3:Page" nodeName="team" locale="">
+				<properties>
+					<title>Team</title>
+				</properties>
+				<node identifier="6f8277ea-ba1e-429c-a7b3-14b50ee95fbe" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="f138bca9-b458-4012-81ab-8256df0fb9ef" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Team</headline>
+							<text><![CDATA[
+								
+								<p>Get in touch with the team.</p>
+								
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3:Page" nodeName="press" locale="">
+				<properties>
+					<title>Press</title>
+				</properties>
+				<node identifier="3ef93463-eec3-4913-8ef7-e1aeaf007e01" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="9384cf4a-acc9-4e94-ac27-3db21bfe9b82" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Press</headline>
+							<text><![CDATA[
+								
+								<p>Press contact.</p>
+								
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale=""
+				hiddenInIndex="true">
+			<properties>
+				<title>My</title>
+			</properties>
+			<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="">
+				<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="d9f48a84-4446-431d-83a0-740cfe04a29f" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Foo</headline>
+							<text>foo.
+							</text>
 						</properties>
 					</node>
 				</node>
