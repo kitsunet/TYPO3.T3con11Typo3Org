@@ -1,8 +1,8 @@
 {namespace typo3=F3\TYPO3\ViewHelpers}
-<typo3:aloha.notEditable>
 <f:render section="itemList" arguments="{items: items}" />
-</typo3:aloha.notEditable>
 <f:section name="itemList">
+	<typo3:aloha.notEditable>
+		<ul class="nav">
 		<f:for each="{items}" as="item">
 			<li class="{f:if(condition: item.state.active, then: 'act-if-sub', else: 'no')}">
 				<typo3:link.node node="{item.node}">{item.label}</typo3:link.node>
@@ -11,6 +11,8 @@
 				</f:if>
 			</li>
 		</f:for>
+		</ul>
+	</typo3:aloha.notEditable>
 </f:section>
 <f:section name="subList">
 	<div class="nav-sub">
