@@ -329,6 +329,60 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="d9c54154-c290-4a33-98d2-8e81b1ae0de5" type="TYPO3:Page" nodeName="imprint" locale="">
+				<properties>
+					<title>Imprint</title>
+				</properties>
+				<node identifier="a7c7818e-8dc7-4551-8ac0-79b075e61855" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1113d0e7-96f2-47f1-a869-ae892dcdddae" type="TYPO3:Text" nodeName="4db6f2f239013" locale="">
+						<properties>
+							<headline>Impressum</headline>
+							<text><![CDATA[<p>TYPO3 Association<br />
+Sihlbruggstraße 105<br />
+6340 Baar</p>
+
+<p>Represented by the <a href="http://association.typo3.org/about/board/">board</a></p>
+
+<h2>Contact:</h2>
+
+<p>Facsimile: +41 (0)41 511 00 39<br />
+Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
+
+<h2>Registry entry:</h2>
+
+<p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
+
+<h2>Umsatzsteuer-ID:</h2>
+
+<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE267193843</p>
+
+<h2>Personal data protection</h2>
+
+<p>If you provide us with personal data (e.g. your name, address or
+email), that data will be used only for the indicated purpose. It will
+not be given to third parties.</p>
+
+<p>A cookie is a little textfile, that is stored from your browser on
+your system. We use cookies to keep your session activated. We do not
+use cookies for personal data recognition, but only to collect anonymous
+statistical data. If you choose to disable cookies, you may still use
+this website, but some functionality will not be available.</p>
+
+<p>For statistical reasons we collect the following technical data:<ul>
+<li>requested file</li>
+<li>type of browser</li>
+<li>type of operating system</li>
+<li>referrer URL</li>
+<li>time and date of the use of the website</li>
+<li>your IP address</li>
+</ul>
+This data is collected anonymously and will be kept separately from
+private user data, you might have given to us. It will not be given to
+third parties.</p>]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
 			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3:Page" nodeName="press" locale="">
 				<properties>
 					<title>Press</title>
