@@ -7,7 +7,7 @@ button 		{ border:0; background:transparent; cursor: pointer; margin: 0; overflo
 
 /* General styles
 ------------------------------ */
-html 		{ height:100%; font: 12px/18px Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+html 		{ height:100%; font: 12px/18px Arial, 'Helvetica Neue', Helvetica, sans-serif; background: #FBFBFB; }
 body 		{ min-height:100%; }
 
 /* Page home 
@@ -111,7 +111,7 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 .s-sidebar	{ float: right; width: 166px;  padding: 0 0 0 27px; min-height: 1px; }
 .s-body		{ overflow: hidden; padding-right: 20px; }
 .a 			{ }
-.h 			{ height:130px; position:absolute; top:0; left:0; width:981px; z-index: 10; }
+.h 			{ height:130px; position:absolute; top:0; left:0; width:981px; z-index: 10; background: #FBFBFB; }
 .f 			{ min-height:100px; background:#fbfbfb url(../Images/shadow-footer.jpg) no-repeat center 0; font-size: 11px; color: #8c8c8c; }
 .f-body		{ width: 981px; margin: 0 auto; position: relative; padding: 29px 0 40px 0; }
 .f .g		{  }
@@ -166,7 +166,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 #logo 			{ text-decoration:none; display:block; width: 118px; position: absolute; left: 15px; top: 43px; }
 #logo img		{ }
 
-.h-bar			{ position: absolute; top: 15px; right: 0; z-index: 200; }
+.h-bar			{ position: absolute; top: 52px; right: 0; z-index: 200; font-size: 11px; }
 
 .h-bar-search						{ display: inline-block; border: 1px solid #dbdbdb; height: 21px; background: url(../Images/s-buttons.png) repeat-x 0 -94px; }
 .h-bar-search-input					{ width: 169px; display: inline-block; background: url(../Images/i-arrows.png) no-repeat -1023px -355px; }
@@ -177,7 +177,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .extensions							{ float: right; }
 .extensions .h-bar-search-submit	{ background-image: url(../Images/dark-grey.png); border-color: #8b8b8b; }
 
-.h-bar-nav					{ position: absolute; right: 10px; top: -2px; width: 200px; text-align: right; }
+.h-bar-nav					{ position: absolute; right: 0px; top: -2px; width: 200px; text-align: right; }
 .h-bar-nav > li				{ display: inline-block; position: relative; background: url(../Images/h-bar-nav-li.png) no-repeat 0 9px; text-align: left; margin-left: -1px; }
 .h-bar-nav > li:first-child	{ background: none; }
 .h-bar-nav > li > a			{ text-decoration: none; display: block; }
