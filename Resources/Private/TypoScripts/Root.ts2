@@ -29,6 +29,15 @@ page.parts {
 	mainMenu {
 		entryLevel = 1
 		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/MainMenu.html'
-		maximumLevels = 1
+		maximumLevels = 2
 	}
+
+	subMenu = Menu
+	subMenu {
+		entryLevel = 2
+		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/SubMenu.html'
+
+	}
+
+	breadcrumb = BreadcrumbMenu
 }

@@ -43,8 +43,16 @@
 		<!-- ### content ### -->
 		<div class="c" id="content">
 
+			<!-- ### aside ### -->
+			<div class="a" id="aside">
+				{parts.subMenu}
+				<div id="aside-end"></div>
+			</div>
+			<!-- ^^^ aside ^^^ -->
+
 			<!-- ### section ### -->
 			<div class="s d" id="section">
+				{parts.breadcrumb}
 				<f:flashMessages />
 				{content.main}
 			</div>
