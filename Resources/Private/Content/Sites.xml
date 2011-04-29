@@ -23,57 +23,56 @@
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
-							<h2>Professional Speakers - 1</h2>
-							<h3>Lorem ipsum dolor sit amet</h3>
+							<h2>Become a Sponsor</h2>
+							<h3>Support the T3CON11 in Hanau</h3>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua.</p>
-							<p><a href="#" class="bu">Details</a></p>
+							<p>Sponsor the event with money to place your company logo in prominent positions or donate
+							goods or services your company offers.</p>
+							<p><a href="sponsors/become-a-sponsor.html" class="bu">Become a Sponsor</a></p>
 							</div>
 
 							</li>
 							<li class="slide">
 							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-02.jpg"
-							width="982" height="282" alt="Slider 03" class="slide-img"
+							width="982" height="282" alt="T3CON10 Video Team" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
-							<h2>Professional Speakers - 2</h2>
-							<h3>Lorem ipsum dolor sit amet</h3>
+							<h2>You missed T3CON10?</h2>
+							<h3>Videos of the talks are online</h3>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua.</p>
+							<p>If you missed parts or all of last year's T3CON10 in Frankfurt, here is your chance to
+							view some videos of the sessions captured by our video team.</p>
 							<p><a href="#" class="bu">Details</a></p>
 							</div>
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
-							width="982" height="282" alt="Slider 03" class="slide-img"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-03.jpg"
+							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
-							<h2>Professional Speakers - 3</h2>
-							<h3>Lorem ipsum dolor sit amet</h3>
+							<h2>Congress Park Hanau</h2>
+							<h3>An inspiring location</h3>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua.</p>
-							<p><a href="#" class="bu">Details</a></p>
+							<p>The Congress Park Hanau offers a wonderful location for the T3CON11 and is close to the
+							Frankfurt international airport.</p>
+							<p><a href="/location.html" class="bu">Details</a></p>
 							</div>
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
-							width="982" height="282" alt="Slider 03" class="slide-img"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-04.jpg"
+							width="982" height="282" alt="Packed session at T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
-							<h2>Professional Speakers - 4</h2>
-							<h3>Lorem ipsum dolor sit amet</h3>
+							<h2>Call for Papers</h2>
+							<h3>The Call for Papers starts soon!</h3>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua.</p>
-							<p><a href="#" class="bu">Details</a></p>
+							<p>Within May the Call for papers will start. Don't miss the opportunity to present at the
+							T3CON11 in Hanau!</p>
 							</div>
 
 							</li>
@@ -84,26 +83,26 @@
 							<ul class="slider-nav">
 							<li class="active">
 							<div class="d">
-							<h6>Professional Speakers</h6>
-							<p>Lorem ipsum dolor sit amet</p>
+							<h6>Become a Sponsor</h6>
+							<p>Support the T3CON11 in Hanau</p>
 							</div>
 							</li>
 							<li>
 							<div class="d">
-							<h6>4 Different Tracks</h6>
-							<p>Sessions for everyone</p>
+							<h6>You missed T3CON10?</h6>
+							<p>Videos of the talks are online</p>
 							</div>
 							</li>
 							<li>
 							<div class="d">
-							<h6>Get in touch...</h6>
-							<p>...with core developers</p>
+							<h6>Congress Park Hanau</h6>
+							<p>An inspiring location</p>
 							</div>
 							</li>
 							<li>
 							<div class="d">
-							<h6>Lorem ipsum</h6>
-							<p>Ut enim ad minim veniam</p>
+							<h6>Call for Papers</h6>
+							<p>The Call for Papers starts soon!</p>
 							</div>
 							</li>
 							</ul>
@@ -117,14 +116,12 @@
 					<properties>
 						<headline>T3CON11 - Frankfurt</headline>
 						<text><![CDATA[
-
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
 								will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
 								and to connect with other managers, developers and designers from all over the world. Many
-								internationally-known leaders of the TYPO3 community will be attending and presenting.</p>
-
+								internationally known leaders of the TYPO3 community will be attending and presenting.</p>
 						]]></text>
 					</properties>
 				</node>
@@ -139,14 +136,17 @@
 					<properties>
 						<headline>Location</headline>
 						<text><![CDATA[<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
-						Frankfurt International Airport.</p>
+						Frankfurt International Airport. No road passes by the Congress Park Hanau (CPH) – it is central
+						in every regard: at the centre of Germany and at the heart of Hessen.</p>
+
+						<p>Hanau is situated just 34 kilometres from Frankfurt Airport and 20 kilometres from Messe Frankfurt,
+						with an ICE high-speed train link and direct connections to the A3, A45 and A66 highways.</p>
 						]]></text>
 					</properties>
 				</node>
 			</node>
 		</node>
-		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale=""
-				hidden="true">
+		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale="" hidden="true">
 			<properties>
 				<title>Speakers</title>
 			</properties>
@@ -160,8 +160,7 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale=""
-				hidden="true">
+		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale="" hidden="true">
 			<properties>
 				<title>Sessions</title>
 			</properties>
@@ -188,6 +187,41 @@
 					</properties>
 				</node>
 			</node>
+			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3:Page" nodeName="t3con10-videos" locale="">
+				<properties>
+					<title>Videos of T3CON10 Frankfurt</title>
+				</properties>
+				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Videos of T3CON10 Frankfurt</headline>
+							<text><![CDATA[
+								<p>As every year also last year our video team was hard at work and captured (most of)
+								the sessions for your viewing pleasure. Below is a glimpse of what the <a href="http://vimeo.com/channels/t3con">T3CON channel
+								over at vimeo</a> has to offer.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3:Html" nodeName="html1" locale="">
+						<properties>
+							<source><![CDATA[
+								<style type="text/css">
+								.vimeoBadge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
+								.vimeoBadge img { border: solid 1px #ccc; }
+								.vimeoBadge #vimeo_badge_logo { margin-top:10px; width: 57px; height: 16px; }
+								.vimeoBadge .credit { font: normal 11px verdana,sans-serif; }
+								.vimeoBadge .clip { padding:0; float:left; margin:0 10px 10px 0; width:160px; }
+								.vimeoBadge .caption { overflow:hidden; width:160px; height: 40px; }
+								.vimeoBadge .clear { display: block; clear: both; visibility: hidden; }
+								</style>
+								<div class="vimeoBadge">
+									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=uploaded&amp;stream_id=&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
+								</div>
+							]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3:Page" nodeName="sponsors" locale="">
 			<properties>
@@ -208,8 +242,7 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3:Page" nodeName="become-a-sponsor"
-					locale="">
+			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3:Page" nodeName="become-a-sponsor" locale="">
 				<properties>
 					<title>Become a sponsor</title>
 				</properties>
@@ -282,8 +315,7 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors"
-					locale="">
+			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors" locale="">
 				<properties>
 					<title>List of sponsors</title>
 				</properties>
@@ -319,6 +351,45 @@
 					</properties>
 				</node>
 			</node>
+			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3:Page" nodeName="faq" locale="">
+				<properties>
+					<title>FAQ</title>
+				</properties>
+				<node identifier="0989e7be-708c-43ad-abac-a98635d15913" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="2f993441-4201-4d23-ba19-7a21df317133" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Frequently Asked Questions</headline>
+							<text><![CDATA[<h2>Why do I have to pay German VAT?</h2>
+
+							<p>Even if you are from an EU country, the US or some other place in the world, you have to pay German Value Added Tax (VAT) for the conference fee. The reason is that the conference is held in Germany and all "proceedings" occur within the country. There is no way that someone could claim that a good is being shipped outside of Germany.</p>
+							<p>For example, when staying in a hotel in Germany, the bill is VAT-taxed as well. So, unfortunately, the VAT issue is out of our hands.</p>
+							<p>If you attend on behalf of a company then your tax official can tell you if and how to get the VAT back.</p>
+
+							<h2>How do I pay using a bank transfer?</h2>
+
+							<p>Bank transfers usually take about three working days to be processed. There are a couple of reasons why your transfer may not appear immediately in your online account.</p>
+							<p>First, you may have placed the order after the bank has processed their orders for the day (not all banks process even online banking immediately).</p>
+							<p>Second, we usually check our bank transfer records every day, but on some days this may not be possible.</p>
+							<p>On the day the bank transfer arrives in our bank account, we will process the payment and record the exact amount we received. If there is a gap between the amount paid and the amount due, the difference will be requested.</p>
+							<p>If you do not see your payment processed within 10 days, then something has gone wrong. Usually payments will be processed much faster, but please do not contact us earlier regarding bank transfers.</p>
+
+							<h2>How do I book two half-day tutorials?</h2>
+
+							<p>First register regularly for the conference and book one of the tutorials along with the registration. After finishing your registration you'll be logged-in automatically to your newly-created website account (login information will be sent to you by email, too). As a logged-in user you can return any time to the registration page ("Visitors"-&gt;"Registration &amp; Order") and book an additional tutorial. Please take care not to "double book" - ordering two tutorials that run in parallel.</p>
+
+							<h2>I only want to book tutorials, why does this not work?</h2>
+
+							<p>We believe it is important for everyone to attend the main conference, so we do not offer an option to attend only the tutorials. The tutorials can only be booked if you are a regular attendee.</p>
+
+							<h2>I booked one full day tutorial, why am I charged for two half day tutorials?</h2>
+
+							<p>Each of the tutorials is only half a day long. So even when a topic continues for a full day, it will show on your invoice as two half-day tutorials.</p>
+
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
 			<node identifier="85eba769-1b5b-41f0-bb65-292315e26e15" type="TYPO3:Page" nodeName="team" locale="">
 				<properties>
 					<title>Team</title>
@@ -331,6 +402,49 @@
 
 								<p>Get in touch with the team.</p>
 
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3:Page" nodeName="press" locale="">
+				<properties>
+					<title>Press</title>
+				</properties>
+				<node identifier="3ef93463-eec3-4913-8ef7-e1aeaf007e01" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="9384cf4a-acc9-4e94-ac27-3db21bfe9b82" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Press</headline>
+							<text><![CDATA[<p>This press section is intended to help you with your work as an active
+							journalist. You will be able to accredit online for T3CON11 at this website and we will try
+							to assist you by all means possible.</p>
+
+							<h3>What you get as an accredited journalist</h3>
+
+							<ul>
+								<li>Free entry to the conference</li>
+								<li>First hand press information about the conference</li>
+								<li>Priority contact for important questions regarding T3CON10 and TYPO3</li>
+								<li>Exclusive invitation and free entry to TYPO3 annual "press get together"</li>
+							</ul>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="19ac10d3-6b16-42e3-ad5a-debbdb01fe4f" type="TYPO3:Text" nodeName="text2" locale="">
+						<properties>
+							<headline>Press contact</headline>
+							<text><![CDATA[<p><strong>Søren Schaffstein</strong><br />
+							TYPO3 Association Press Officer</p>
+
+							<p>Phone: +49 69 2475218 0<br />
+							Fax: +49 69 2475218 99<br />
+							Email: press@typo3.org</p>
+
+							<p>TYPO3 Association - Press Office<br/>
+							Søren Schaffstein<br />
+							Sihlbruggstrasse 105<br />
+							CH-6340 Baar<br />
+							Switzerland</p>
 							]]></text>
 						</properties>
 					</node>
@@ -350,7 +464,7 @@ Sihlbruggstraße 105<br />
 
 <p>Represented by the <a href="http://association.typo3.org/about/board/">board</a></p>
 
-<h2>Contact:</h2>
+<h2>Contact</h2>
 
 <p>Facsimile: +41 (0)41 511 00 39<br />
 Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
@@ -359,9 +473,9 @@ Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
 
 <p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
 
-<h2>Umsatzsteuer-ID:</h2>
+<h2>VAT ID</h2>
 
-<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE267193843</p>
+<p>VAT ID per §27a UStG: DE267193843</p>
 
 <h2>Personal data protection</h2>
 
@@ -390,30 +504,15 @@ third parties.</p>]]></text>
 					</node>
 				</node>
 			</node>
-			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3:Page" nodeName="press" locale="">
-				<properties>
-					<title>Press</title>
-				</properties>
-				<node identifier="3ef93463-eec3-4913-8ef7-e1aeaf007e01" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="9384cf4a-acc9-4e94-ac27-3db21bfe9b82" type="TYPO3:Text" nodeName="text1" locale="">
-						<properties>
-							<headline>Press</headline>
-							<text><![CDATA[
-
-								<p>Press contact.</p>
-
-							]]></text>
-						</properties>
-					</node>
-				</node>
-			</node>
 		</node>
-		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale=""
-				hiddenInIndex="true">
+		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="" hiddenInIndex="true">
 			<properties>
 				<title>My</title>
 			</properties>
 			<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="">
+				<properties>
+					<title>Login</title>
+				</properties>
 				<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="d9f48a84-4446-431d-83a0-740cfe04a29f" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
