@@ -210,6 +210,9 @@
 			</node>
 			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3:Page" nodeName="become-a-sponsor"
 					locale="">
+				<properties>
+					<title>Become a sponsor</title>
+				</properties>
 				<node identifier="a98dbd8a-19ac-4ca9-8a62-e0d8279b50ae" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
@@ -281,6 +284,9 @@
 			</node>
 			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors"
 					locale="">
+				<properties>
+					<title>List of sponsors</title>
+				</properties>
 				<node identifier="332db998-97dc-4c59-ad4d-b820785de7f2" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
