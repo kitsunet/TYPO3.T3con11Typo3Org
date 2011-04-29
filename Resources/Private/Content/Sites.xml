@@ -117,14 +117,14 @@
 					<properties>
 						<headline>T3CON11 - Frankfurt</headline>
 						<text><![CDATA[
-						
+
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
 								will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
 								and to connect with other managers, developers and designers from all over the world. Many
 								internationally-known leaders of the TYPO3 community will be attending and presenting.</p>
-						
+
 						]]></text>
 					</properties>
 				</node>
@@ -138,9 +138,9 @@
 				<node identifier="bd98b3e6-09e0-4ad4-9ebc-c1ef1d115996" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Location</headline>
-						<text>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
-						Frankfurt International Airport.
-						</text>
+						<text><![CDATA[<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
+						Frankfurt International Airport.</p>
+						]]></text>
 					</properties>
 				</node>
 			</node>
@@ -154,8 +154,8 @@
 				<node identifier="fc5fb65c-dee5-46a8-926c-5c4a925079e5" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Foo</headline>
-						<text>foo.
-						</text>
+						<text><![CDATA[<p>foo.</p>
+						]]></text>
 					</properties>
 				</node>
 			</node>
@@ -169,8 +169,8 @@
 				<node identifier="f8ba0504-6570-4866-84a8-cf3a544a0057" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Foo</headline>
-						<text>foo.
-						</text>
+						<text><![CDATA[<p>foo.</p>
+						]]></text>
 					</properties>
 				</node>
 			</node>
@@ -183,8 +183,8 @@
 				<node identifier="30e54be0-1b58-4be3-8680-b6f78e79962d" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Buzz</headline>
-						<text>foo.
-						</text>
+						<text><![CDATA[<p>foo.</p>
+						]]></text>
 					</properties>
 				</node>
 			</node>
@@ -198,12 +198,12 @@
 					<properties>
 						<headline>Sponsors</headline>
 						<text><![CDATA[
-							
+
 							<ul>
 								<li><a href="sponsors/become-a-sponsor.html">Become a Sponsor</a></li>
 								<li><a href="sponsors/list-of-sponsors.html">List of Sponsors</a></li>
 							</ul>
-							
+
 						]]></text>
 					</properties>
 				</node>
@@ -214,15 +214,15 @@
 					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Sponsoring T3CON11</headline>
-							<text>There are many ways you can support the biggest conference of the TYPO3 community and at the
-							same time get some real benefits for your company.</text>
+							<text><![CDATA[<p>There are many ways you can support the biggest conference of the TYPO3 community and at the
+							same time get some real benefits for your company.</p>]]></text>
 						</properties>
 					</node>
 					<node identifier="1999344f-a3e5-401a-98c7-f26f5b4383e8" type="TYPO3:Text" nodeName="text2" locale="">
 						<properties>
 							<headline>Advantages for your company</headline>
 							<text><![CDATA[
-							
+
 								<ul>
 									<li>You position yourself within a unique surrounding without any divergence loss in a
 										top-class target group of decision makers and visionaries
@@ -240,7 +240,7 @@
 									target group. Of course we will consider your individual ideas as well.
 								</p>
 								<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
-							
+
 							]]></text>
 						</properties>
 					</node>
@@ -248,7 +248,7 @@
 						<properties>
 							<headline>The Target Group</headline>
 							<text><![CDATA[
-							
+
 								<p>At T3CON11 the movers and shakers of the internet meet each other: entrepreneurs, managers,
 									marketing decision makers, consultants, and investors. You will reach a unique collection of
 									decision makers, executive managers, opinion leaders, early adopters, replicators,
@@ -263,7 +263,7 @@
 								<p>
 									The intimate atmosphere offers enough space for information exchange, networking and the
 									possibility to discuss topics which are a trend today and mass market tomorrow.</p>
-									
+
 							]]></text>
 						</properties>
 					</node>
@@ -271,9 +271,9 @@
 						<properties>
 							<headline>Become a Sponsor Now!</headline>
 							<text><![CDATA[
-								
+
 								<p><strong>THIS NEEDS TO BECOME A SPECIAL TEASER BOX WITH FILE DOWNLOAD</strong></p>
-								
+
 							]]></text>
 						</properties>
 					</node>
@@ -285,7 +285,8 @@
 					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>List of Sponsors</headline>
-							<text>tbd.</text>
+							<text><![CDATA[<p>tbd.</p>
+							]]></text>
 						</properties>
 					</node>
 				</node>
@@ -300,14 +301,14 @@
 					<properties>
 						<headline>Contact</headline>
 						<text><![CDATA[
-							
+
 							<p>Get in touch with us</p>
 							<ul>
 								<li><a href="contact/team.html">Team</a></li>
 								<li><a href="contact/press.html">Press</a></li>
 								<li><a href="contact/imprint.html">Imprint</a></li>
 							</ul>
-							
+
 						]]></text>
 					</properties>
 				</node>
@@ -321,9 +322,9 @@
 						<properties>
 							<headline>Team</headline>
 							<text><![CDATA[
-								
+
 								<p>Get in touch with the team.</p>
-								
+
 							]]></text>
 						</properties>
 					</node>
@@ -392,9 +393,9 @@ third parties.</p>]]></text>
 						<properties>
 							<headline>Press</headline>
 							<text><![CDATA[
-								
+
 								<p>Press contact.</p>
-								
+
 							]]></text>
 						</properties>
 					</node>
@@ -411,8 +412,8 @@ third parties.</p>]]></text>
 					<node identifier="d9f48a84-4446-431d-83a0-740cfe04a29f" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Foo</headline>
-							<text>foo.
-							</text>
+							<text><![CDATA[<p>foo.</p>
+							]]></text>
 						</properties>
 					</node>
 				</node>
