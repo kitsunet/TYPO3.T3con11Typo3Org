@@ -943,3 +943,14 @@ form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 /*
 ------------------------------ */
 .speaker-teaser		{ margin-top: 20px; }
+
+/* contribute section
+------------------------------ */
+h3.survey.question {clear:both;}
+img.intext.right {float:right; margin-bottom:1em;}
+img.intext.left {float:left; margin-bottom:1em;}
+
+table.sponsors th,
+table.sponsors td,
+table.sponsors td img {border:none;}
+table.sponsors th {background-color:inherit;}

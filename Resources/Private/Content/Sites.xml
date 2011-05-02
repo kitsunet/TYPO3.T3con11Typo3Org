@@ -18,7 +18,7 @@
 							<div class="slider-content">
 							<ul class="slides">
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-01.jpg"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-01.jpg"
 							width="982" height="282" alt="Slider 03" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -33,7 +33,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-02.jpg"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-02.jpg"
 							width="982" height="282" alt="T3CON10 Video Team" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -48,7 +48,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-03.jpg"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-03.jpg"
 							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -63,7 +63,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/slider-04.jpg"
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-04.jpg"
 							width="982" height="282" alt="Packed session at T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -145,8 +145,8 @@
 						<p>Hanau is situated just 34 kilometres from Frankfurt Airport and 20 kilometres from Messe Frankfurt,
 						with an ICE high-speed train link and direct connections to the A3, A45 and A66 highways.</p>
 
-						<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
-						<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
+						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
+						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
 						]]></text>
 					</properties>
 				</node>
@@ -169,7 +169,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="" type="TYPO3:Text" nodeName="text2" locale="">
+					<node identifier="9c6daf37-d208-4b26-bf6c-01932eec6541" type="TYPO3:Text" nodeName="text2" locale="">
 						<properties>
 							<headline>Getting there by plane</headline>
 							<text><![CDATA[<p>The Congress Park Hanau is located just 30 minutes from the airport in
@@ -180,7 +180,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="" type="TYPO3:Text" nodeName="text3" locale="">
+					<node identifier="830f7b96-bda4-49c7-9561-4ba8c08ccfc2" type="TYPO3:Text" nodeName="text3" locale="">
 						<properties>
 							<headline>Getting there by public transport</headline>
 							<text><![CDATA[<p>The Congress Park Hanau can be reached with public transport easily.</p>
@@ -253,12 +253,12 @@
 			</node>
 			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3:Page" nodeName="t3con10-videos" locale="">
 				<properties>
-					<title>Videos of T3CON10 Frankfurt</title>
+					<title>TYPO3 Conference Videos</title>
 				</properties>
 				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
-							<headline>Videos of T3CON10 Frankfurt</headline>
+							<headline>Videos of past TYPO3 conferences</headline>
 							<text><![CDATA[
 								<p>As every year also last year our video team was hard at work and captured (most of)
 								the sessions for your viewing pleasure. Below is a glimpse of what the <a href="http://vimeo.com/channels/t3con">T3CON channel
@@ -377,11 +377,74 @@
 						<properties>
 							<headline>Become a Sponsor Now!</headline>
 							<text><![CDATA[
-
-								<p><strong>THIS NEEDS TO BECOME A SPECIAL TEASER BOX WITH FILE DOWNLOAD</strong></p>
-
+								<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf">
+								<strong>All details, options, prices andorder form for sponsoring.</strong></a>
 							]]></text>
 						</properties>
+					</node>
+					<node identifier="f020cd55-e065-4feb-9bb8-fb2047b07617" type="TYPO3:Text" nodeName="text5" locale="">
+						<properties>
+							<headline>Great response to T3CON10!</headline>
+							<text><![CDATA[<p>T3CON09 was a real success! Have a look at the <a href="contribute/become-a-sponsor/survey-results-2010.html">
+							survey results</a> about last years conference T3CON10 and expect T3CON11 to get even better!
+							</p>]]></text>
+						</properties>
+					</node>
+				</node>
+				<node identifier="8d9b37ed-2213-405b-b7aa-e3d3274cbee2" type="TYPO3:Page" nodeName="survey-results-2010" locale="" hiddenInIndex="true">
+					<properties>
+						<title>T3CON10 visitor survey results</title>
+					</properties>
+					<node identifier="a371b574-40d3-4a13-b5a9-ebf95154bf80" type="TYPO3:Section" nodeName="main" locale="">
+						<node identifier="e1f827ae-0087-4cec-bbea-91aeb420ee8f" type="TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>Results of the T3CON10 visitor survey</headline>
+								<text><![CDATA[<h3 class="survey question">What category do you fit in best?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Visitors_Jobs.png" width="407" height="350" alt="Visitortype" class="intext right"/>
+								<p>It was interesting to see that there are lots of developers present
+								at the conference. Since T3CON10 was targeted at business people, we see
+								lots of potential here and will invite more business oriented people for
+								2011.</p>
+
+								<h3 class="survey question">How do you rate the ticket fees for attending the conference?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Pricing.png" width="294" height="309" alt="Conference Pricing" class="intext left"/>
+								<p>We are happy to see that most people thought that tickets were fairly
+								priced. So it is most likely that ticket prices will stay that way for
+								T3CON11.</p>
+
+								<h3 class="survey question">How do you rate the overall quality of the talks you attended?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Talk_Quality.png" width="227" height="290" alt="Talk Quality" class="intext right"/>
+								<p>Great, that people really liked the quality of the talks. We will of
+								course try to get even better talks and more interesting speakers from
+								TYPO3 related areas... But results like these make us happy.</p>
+
+								<h3 class="survey question">What do you think about the hotel the conference took place in?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Hotel.png" width="231" height="298" alt="Conference Hotel" class="intext left"/>
+								<p>Most people liked the hotel and only a few had complaints which we
+								already investigate. A general remark was, that having two different
+								floors for the conference was a bit irritating. We'll see into it how we
+								can improve that...</p>
+
+								<h3 class="survey question">What is your opinion of the conference being in Frankfurt, Germany?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Location_Frankfurt.png" width="250" height="276" alt="Conference Location Frankfurt" class="intext right"/>
+								<p>Not much to say but T3CON11 will again be in Frankfurt, Germany.</p>
+
+								<h3 class="survey question">How likely is it that you attend the next TYPO3 conference T3CON11?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Attend_next_year.png" width="348" height="296" alt="Attend Next Year" class="intext left"/>
+								<p>Nearly 50% of the conference visitors will definitely be back in
+								2010. That's great, especially since only very few are probably not
+								coming.</p>
+
+								<h3 class="survey question">What is your overall rating for T3CON10?</h3>
+								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Overall_Rating.png" width="303" height="294" alt="Overall Rating" class="intext right"/>
+								<p>This is somehow one of the most rewarding facts about T3CON10: Seeing
+								that nearly everybody liked the conference and it was a great success.
+								This gives us fuel for all the thousands of hours of work necessary for
+								T3CON10!</p>
+								<p>Thank you!</p>
+							]]></text>
+							</properties>
+						</node>
 					</node>
 				</node>
 			</node>
@@ -393,7 +456,7 @@
 					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Website</headline>
-							<text><![CDATA[<p> you want to support the TYPO3 conference as an individual, just do it!
+							<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
 							Every single Euro of yours is appreciated! Just donate any amount you see fit for your
 							personal situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
 
@@ -411,9 +474,105 @@
 					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>List of Sponsors</headline>
-							<text><![CDATA[<p>tbd.</p>
-							]]></text>
+							<text><![CDATA[
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>Platinum Sponsors</h3></th><th><h3>Gold Sponsors</h3></th><th><h3>Silver Sponsors</h3></th></tr>
+									<tr><th>10,000 € donation</th><th>7,500 € donation</th><th>5,000 € donation</th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>Bronze Sponsors</h3></th><th colspan="2"><h3>Donations</h3></th></tr>
+									<tr><th>2,500 € donation</th><th>200 € donation</th><th></th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+										</td>
+										<td>
+											<a href="http://www.netzpepper.de/">netzpepper</a>
+										</td>
+										<td>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						]]></text>
 						</properties>
+					</node>
+				</node>
+				<node identifier="7f1f47af-0cb5-47d6-9f99-febdff614d9b" type="TYPO3:Page" nodeName="domainfactory" locale="">
+					<properties>
+						<title>domainFACTORY GmbH</title>
+					</properties>
+					<node identifier="542812ba-bf3d-42f8-a373-b2ccb299473a" type="TYPO3:Section" nodeName="main" locale="">
+						<node identifier="3d9cacf9-0f25-45e9-b821-84046721bece" type="TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>domainFACTORY GmbH</headline>
+								<text><![CDATA[<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH" class="intext right"/>
+								<p>In the year of its 10th anniversary Munich based domainFACTORY GmbH is
+								one of the leading webhosting companies in Germany, serving more than 100,000 customers
+								and managing well over 700,000 domain names. Following its claim "Premium Hosting. Premium
+								Service." the company managed to establish itself as a high quality provider with an
+								excellent price-performance ratio.</p>
+
+								<p>Due to the combination of high-end server systems, extensive feature sets and outstanding
+								customer service domainFACTORY is capable of satisfying the high requirements of business
+								customers and professionals. For agencies and resellers there is a product line available
+								enabling companies to offer webhosting services in their own name.</p>
+
+								<p>With &nbsp;JiffyBox&nbsp; domainFACTORY recently launched an innovative cloud hosting
+								service. The flexible on-demand virtual servers come with many interesting features and
+								full remote control using the RESTful API. For cloud servers from JiffyBox you only pay
+								what you use without any minimum contract commitments.</p>
+
+								<p>Offering a full range of webhosting services starting from domain registration to
+								dedicated and cloud servers, domainFACTORY currently also hosts many TYPO3 based projects
+								from small private up to big enterprise websites. The company's own website has also been
+								running on TYPO3 for many years.</p>
+
+								<h3>Facts</h3>
+
+								<ul>
+									<li>One of the leading webhosting companies in Germany</li>
+									<li>Over 100,000 customers with more than 700,000 domain names</li>
+									<li>High quality provider with excellent price-performance ratio</li>
+									<li>Webhosting services from domain registration to dedicated servers</li>
+									<li>Product line for agencies and resellers</li>
+									<li>Innovative cloud hosting service &nbsp;JiffyBox&nbsp</li>
+								</ul>
+
+								<h3>Contact</h3>
+
+								<p>Website: <a href="http://www.df.eu">http://www.df.eu</a><br />
+								E-mail: support(at)df.eu<br />
+								<br />Hotline: 0800 323 98 00 (outside Germany: +49 89 552660)</p>
+								]]></text>
+							</properties>
+						</node>
 					</node>
 				</node>
 			</node>
@@ -494,10 +653,9 @@
 								(Mo-Fr 08:00 - 12:00)</p>
 
 								<h3>Conference organisation</h3>
-								<p>Jürgen Egeling</p>
-
-								<h3>Website</h3>
-								<h3>Speaker contact</h3>
+								<p>If you have general questions or remarks about the conferenc, please contact Jürgen Egeling at punkt.de:<br />
+								Jürgen Egeling<br />
+								egeling(at)punkt.de</p>
 							]]></text>
 						</properties>
 					</node>
@@ -555,47 +713,48 @@
 						<properties>
 							<headline>Impressum</headline>
 							<text><![CDATA[<p>TYPO3 Association<br />
-Sihlbruggstraße 105<br />
-6340 Baar</p>
+							Sihlbruggstraße 105<br />
+							6340 Baar</p>
 
-<p>Represented by the <a href="http://association.typo3.org/about/board/">board</a></p>
+							<p>Represented by the <a href="http://association.typo3.org/about/board/">board</a></p>
 
-<h2>Contact</h2>
+							<h2>Contact</h2>
 
-<p>Facsimile: +41 (0)41 511 00 39<br />
-Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
+							<p>Facsimile: +41 (0)41 511 00 39<br />
+							Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
 
-<h2>Registry entry:</h2>
+							<h2>Registry entry:</h2>
 
-<p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
+							<p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
 
-<h2>VAT ID</h2>
+							<h2>VAT ID</h2>
 
-<p>VAT ID per §27a UStG: DE267193843</p>
+							<p>VAT ID per §27a UStG: DE267193843</p>
 
-<h2>Personal data protection</h2>
+							<h2>Personal data protection</h2>
 
-<p>If you provide us with personal data (e.g. your name, address or
-email), that data will be used only for the indicated purpose. It will
-not be given to third parties.</p>
+							<p>If you provide us with personal data (e.g. your name, address or
+							email), that data will be used only for the indicated purpose. It will
+							not be given to third parties.</p>
 
-<p>A cookie is a little textfile, that is stored from your browser on
-your system. We use cookies to keep your session activated. We do not
-use cookies for personal data recognition, but only to collect anonymous
-statistical data. If you choose to disable cookies, you may still use
-this website, but some functionality will not be available.</p>
+							<p>A cookie is a little textfile, that is stored from your browser on
+							your system. We use cookies to keep your session activated. We do not
+							use cookies for personal data recognition, but only to collect anonymous
+							statistical data. If you choose to disable cookies, you may still use
+							this website, but some functionality will not be available.</p>
 
-<p>For statistical reasons we collect the following technical data:<ul>
-<li>requested file</li>
-<li>type of browser</li>
-<li>type of operating system</li>
-<li>referrer URL</li>
-<li>time and date of the use of the website</li>
-<li>your IP address</li>
-</ul>
-This data is collected anonymously and will be kept separately from
-private user data, you might have given to us. It will not be given to
-third parties.</p>]]></text>
+							<p>For statistical reasons we collect the following technical data:<ul>
+							<li>requested file</li>
+							<li>type of browser</li>
+							<li>type of operating system</li>
+							<li>referrer URL</li>
+							<li>time and date of the use of the website</li>
+							<li>your IP address</li>
+							</ul>
+							This data is collected anonymously and will be kept separately from
+							private user data, you might have given to us. It will not be given to
+							third parties.</p>
+							]]></text>
 						</properties>
 					</node>
 				</node>
