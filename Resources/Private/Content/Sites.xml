@@ -43,7 +43,7 @@
 							</div>
 							<p>If you missed parts or all of last year's T3CON10 in Frankfurt, here is your chance to
 							view some videos of the sessions captured by our video team.</p>
-							<p><a href="#" class="bu">Details</a></p>
+							<p><a href="community/t3con10-videos.html" class="bu">Details</a></p>
 							</div>
 
 							</li>
@@ -128,9 +128,7 @@
 					</properties>
 				</node>
 			</node>
-
-			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale="">
-			</node>
+			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale=""/>
 		</node>
 		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3:Page" nodeName="location" locale="">
 			<properties>
@@ -146,6 +144,9 @@
 
 						<p>Hanau is situated just 34 kilometres from Frankfurt Airport and 20 kilometres from Messe Frankfurt,
 						with an ICE high-speed train link and direct connections to the A3, A45 and A66 highways.</p>
+
+						<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
+						<img src="_Resources/Static/Packages/T3con11Typo3Org/Images/Content/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
 						]]></text>
 					</properties>
 				</node>
@@ -212,7 +213,6 @@
 							<source><![CDATA[
 								<style type="text/css">
 								.vimeoBadge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
-								.vimeoBadge img { border: solid 1px #ccc; }
 								.vimeoBadge #vimeo_badge_logo { margin-top:10px; width: 57px; height: 16px; }
 								.vimeoBadge .credit { font: normal 11px verdana,sans-serif; }
 								.vimeoBadge .clip { padding:0; float:left; margin:0 10px 10px 0; width:160px; }
@@ -220,7 +220,7 @@
 								.vimeoBadge .clear { display: block; clear: both; visibility: hidden; }
 								</style>
 								<div class="vimeoBadge">
-									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=uploaded&amp;stream_id=&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
+									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=channel&amp;stream_id=145371&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
 								</div>
 							]]></source>
 						</properties>
@@ -404,9 +404,17 @@
 						<properties>
 							<headline>Team</headline>
 							<text><![CDATA[
+								<h3>Sponsoring Questions?</h3>
+								<p>If you have any questions about your sponsoring, please contact Sandra Krieg at punkt.de:<br />
+								krieg(at)punkt.de
+								Phone: +49 721 9109-125
+								(Mo-Fr 08:00 - 12:00)</p>
 
-								<p>Get in touch with the team.</p>
+								<h3>Conference organisation</h3>
+								<p>Jürgen Egeling</p>
 
+								<h3>Website</h3>
+								<h3>Speaker contact</h3>
 							]]></text>
 						</properties>
 					</node>
@@ -429,7 +437,7 @@
 							<ul>
 								<li>Free entry to the conference</li>
 								<li>First hand press information about the conference</li>
-								<li>Priority contact for important questions regarding T3CON10 and TYPO3</li>
+								<li>Priority contact for important questions regarding T3CON11 and TYPO3</li>
 								<li>Exclusive invitation and free entry to TYPO3 annual "press get together"</li>
 							</ul>
 							]]></text>
