@@ -128,7 +128,53 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale=""/>
+			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale="">
+				<node identifier="" type="TYPO3:Html" nodeName="html1" locale="">
+					<properties>
+						<source><![CDATA[
+							<div class="gc">
+								<h4>Dates to watch</h4>
+								<div class="general-box">
+									<div class="d">
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">20.05</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Call for Papers opens</h6>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-news-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">01.06</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Early Bird tickets available</h6>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-news-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">20.06</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Call for Papers closes</h6>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-news-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">04.07</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Program Announced</h6>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-news-item -->
+									</div>
+								</div><!-- general-box -->
+							</div><!-- gc -->
+						]]></source>
+					</properties>
+				</node>
+			</node>
 		</node>
 		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3:Page" nodeName="location" locale="">
 			<properties>
