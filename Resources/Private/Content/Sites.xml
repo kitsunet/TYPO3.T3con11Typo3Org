@@ -6,11 +6,11 @@
 			<state>1</state>
 			<siteResourcesPackageKey>T3con11Typo3Org</siteResourcesPackageKey>
 		</properties>
-		<node identifier="5fee5645-e059-4e9e-aa1f-94915dfdda92" type="TYPO3:Page" nodeName="home" locale="">
+		<node identifier="5fee5645-e059-4e9e-aa1f-94915dfdda92" type="TYPO3:Page" nodeName="overview" locale="">
 			<properties>
-				<title>Home</title>
+				<title>Overview</title>
 			</properties>
-			<node identifier="f30d82ab-4275-48c7-914c-724ddf6b536d" type="TYPO3:Section" nodeName="main" locale="">
+			<node identifier="f30d82ab-4275-48c7-914c-724ddf6b536d" type="TYPO3:Section" nodeName="teaser" locale="">
 				<node identifier="e9a1c2d2-525e-4257-b4d9-273493db2921" type="TYPO3:Html" nodeName="topslider" locale="">
 					<properties>
 						<source><![CDATA[
@@ -112,6 +112,8 @@
 						]]></source>
 					</properties>
 				</node>
+			</node>
+			<node identifier="6ebb2dd9-5924-4bbc-8602-e52495ad2451" type="TYPO3:Section" nodeName="main" locale="">
 				<node identifier="eca65e3d-3442-4c72-93c2-9bdc332b186d" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>T3CON11 - Frankfurt</headline>
@@ -125,6 +127,9 @@
 						]]></text>
 					</properties>
 				</node>
+			</node>
+
+			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale="">
 			</node>
 		</node>
 		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3:Page" nodeName="location" locale="">

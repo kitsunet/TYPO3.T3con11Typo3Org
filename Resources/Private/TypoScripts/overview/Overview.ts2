@@ -4,7 +4,7 @@
  */
 
 page.body {
-	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Homepage.html'
+	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Overview.html'
 }
 
 page.head {
