@@ -161,7 +161,7 @@ $(document).ready(function(){
 
 				//Cufon.replace('h1', { fontFamily: 'Share-Bold' });
 				Cufon.replace('.b-numbers li, .b-numbers h4, .b-numbers p, .b-numbers h3, .b-communities-text, .b-social-closed', { fontFamily: 'Share-Italic' });
-				Cufon.replace('h1, .d h2, .d h3, .d h4, .d h5, .user-welcome h5, form legend', { fontFamily: 'Share-Regular' });
+				Cufon.replace('h1, .d h2, .d h3, .d h4, .d h5, .user-welcome h5, form legend, .con-data', { fontFamily: 'Share-Regular' });
 				
 				// Social block on homepage
 				$('.b-social').socialBox();

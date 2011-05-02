@@ -164,8 +164,10 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 
 /* Header elements
 ------------------------------ */
-#logo 			{ text-decoration:none; display:block; width: 118px; position: absolute; left: 15px; top: 43px; }
+#logo 			{ text-decoration:none; display:block; width: 132px; position: absolute; left: 15px; top: 32px; }
 #logo img		{ }
+.con-data			{ position: absolute; left: 305px; top: 30px; font-size: 13px; color: #5c5c5c; line-height: 13px; }
+.con-data strong	{ font-weight: normal; fonz-size: 15px; color: #202020; line-height: 23px; }
 
 .h-bar			{ position: absolute; top: 52px; right: 0; z-index: 200; font-size: 11px; }
 
@@ -190,7 +192,8 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-drop-h-l					{ left: -3px; }
 .b-drop-h-r					{ right: -3px; background-position: -2px 0; }
 .b-drop-h .ico				{ margin: 0 0 0 6px; }
-.h-bar-nav > li:hover .b-drop-h		{ background: #fff; border-color: #e3e3e3; }
+.h-bar-nav > li .b-drop-h	{ background: #fff; border: 1px solid #e3e3e3; }
+.h-bar-nav > li:hover .b-drop-h { background: #fff; border-color: #e3e3e3; border-bottom: 0; }
 .h-bar-nav > li:hover .b-drop-body,
 .h-bar-nav > li:hover .b-drop-h-r,
 .h-bar-nav > li:hover .b-drop-h-l,
