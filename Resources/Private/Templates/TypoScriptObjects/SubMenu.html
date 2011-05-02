@@ -5,7 +5,7 @@
 <f:section name="itemList">
 	<ul class="nav-aside" >
 		<f:for each="{items}" as="item">
-			<li class="{f:if(condition: item.state.active, then: 'cur', else: 'no')}">
+			<li class="{item.state}">
 				<typo3:link.node node="{item.node}"><span>{item.label}</span></typo3:link.node>
 				<f:if condition="{item.subItems}">
 					<f:render section="subItemList" arguments="{items: item.subItems}" />
@@ -18,7 +18,7 @@
 <f:section name="subItemList">
 	<ul>
 		<f:for each="{items}" as="item">
-			<li class="{f:if(condition: item.state.active, then: 'cur, else: 'no')}">
+			<li class="{item.state}">
 				<typo3:link.node node="{item.node}"><span>{item.label}</span></typo3:link.node>
 				<f:if condition="{item.subItems}">
 					<f:render section="subItemList" arguments="{items: item.subItems}" />

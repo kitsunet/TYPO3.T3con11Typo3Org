@@ -3,26 +3,25 @@
 <f:render section="itemList" arguments="{items: items}" />
 </typo3:aloha.notEditable>
 <f:section name="itemList">
-
-		<ul class="nav">
+	<ul class="nav">
 		<f:for each="{items}" as="item">
-			<li class="{f:if(condition: item.state.active, then: 'act-if-sub', else: 'no')}">
-				<typo3:link.node node="{item.node}">{item.label} </typo3:link.node>
+			<li class="{item.state}">
+				<typo3:link.node node="{item.node}">{item.label}</typo3:link.node>
 				<f:if condition="{item.subItems}">
 					<f:render section="subList" arguments="{items: item.subItems}" />
 				</f:if>
 			</li>
 		</f:for>
-		</ul>
-
+	</ul>
 </f:section>
+
 <f:section name="subList">
 	<div class="nav-sub">
 		<div class="col">
 			<ul>
 				<f:for each="{items}" as="item">
-					<li class="{f:if(condition: item.state.active, then: 'act-if-sub', else: 'no')}">
-						<typo3:link.node node="{item.node}">{item.label} </typo3:link.node>
+					<li class="{item.state}">
+						<typo3:link.node node="{item.node}">{item.label}</typo3:link.node>
 					</li>
 				</f:for>
 			</ul>

@@ -250,7 +250,8 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .nav 				{ border:1px solid #e97e0d; height:32px; position: absolute; bottom: 0; left: 0; right: 0; display:block; background:transparent url(../Images/s-buttons.png) repeat-x 0 0; z-index: 80;}
 .nav li 			{ float:left; position:relative;}
 .nav > li > a 		{ text-decoration:none; color:#fff; display:inline-block; background:transparent url(../Images/s-buttons.png) no-repeat 0 0; height:32px; line-height:32px;  padding:0 10px; border-right:1px solid #e97e0d; border-left:1px solid #ffc37d;}
-.nav > .cur > a,
+.nav > .active > a,
+.nav > .current > a,
 .nav > li > a:hover { background-position: 0 -32px;}
 
 .nav > li:first-child a {border-right:1px solid #e97e0d; border-left:0;} 
@@ -281,7 +282,8 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 					{ border-top: 0; }
 .b-drop-nav	a		{ text-decoration: none; display: block; padding: 1px 6px 2px 6px; }
 .b-drop-nav	a:hover,
-.b-drop-nav	.cur a	{ color: #8c8c8c; background: #f5f5f5; }
+.b-drop-nav	.active a,
+.b-drop-nav	.current a { color: #8c8c8c; background: #f5f5f5; }
 
 /* Footer elements
 ------------------------------ */
@@ -317,14 +319,14 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 	padding-left: 8px;
 	padding-right: 8px;
 }
-.nav-aside li.act,
-.nav-aside li.act:hover {
+.nav-aside li.active,
+.nav-aside li.active:hover {
 	background: url(../Images/nav-aside.png) no-repeat 100% 0 transparent;
 	padding-top: 1px;
 	margin-bottom: -1px;
 }
 .nav-aside a,
-.nav-aside > li.act > span {
+.nav-aside > li.active > span {
 	display: inline-block;
 	color: #ff8700;
 	font-weight: bold;
@@ -345,23 +347,23 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 	padding-left: 50px;
 	background-position: -925px -435px;
 }
-.nav-aside ul li.act ul ul span {
+.nav-aside ul li.active ul ul span {
 	padding-left: 70px;
 	background-position: -905px -435px;
 }
 .nav-aside li:hover,
 .nav-aside li a:hover,
-.nav-aside ul li.act {
+.nav-aside ul li.active {
 	background: url(../Images/nav-aside.png) no-repeat 100% 0;
 	padding-top: 1px;
 }
 .nav-aside li:hover > a,
-.nav-aside li.act > a,
+.nav-aside li.active > a,
 .nav-aside li.cursub > a,
-.nav-aside li.cur > a,
-.nav-aside ul li.act > a,
+.nav-aside li.current > a,
+.nav-aside ul li.active > a,
 .nav-aside ul li.cursub > a,
-.nav-aside ul li.cur > a{
+.nav-aside ul li.current > a{
 	background: #efefef url(../Images/nav-aside.png) no-repeat 100% 100%;
 	padding: 3px 0 5px;
 	margin-bottom: -1px;
@@ -369,44 +371,44 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .nav-aside ul li:hover span {
 	color: #555555;
 }
-.nav-aside ul li.act span {
+.nav-aside ul li.active span {
 	background-position: -925px -435px;
 	color: #555555;
 }
 .nav-aside ul a:hover span,
-.nav-aside ul li.cur span {
+.nav-aside ul li.current span {
 	background-position: -902px -475px;
 }
 .nav-aside li.cursub,
 .nav-aside li.cursub:hover,
-.nav-aside li.cur,
-.nav-aside li.cur:hover {
+.nav-aside li.current,
+.nav-aside li.current:hover {
 	background: url(../Images/nav-aside.png) no-repeat 100% 0 transparent;
 	padding-top: 1px;
 }
-.nav-aside li li.cur span {
+.nav-aside li li.current span {
 	background: url(../Images/i-arrows.png) no-repeat -902px -475px;
 }
 .nav-aside ul li li a:hover span,
-.nav-aside ul li li.cur span {
+.nav-aside ul li li.current span {
 	background: url(../Images/i-arrows.png) no-repeat -885px -475px;
 }
 .nav-aside ul li li li a:hover span,
-.nav-aside ul li li li.cur a span {
+.nav-aside ul li li li.current a span {
 	background-position: -865px -475px;
 }
 .nav-aside ul li.cursub > a > span,
-.nav-aside ul li.cur span {
+.nav-aside ul li.current span {
 	font-weight: bold;
 	color: #000000;
 }
 .nav-aside ul li.cursub > a > span {
 	background-position: -1221px -153px;
 }
-.nav-aside ul li li.act > a > span {
+.nav-aside ul li li.active > a > span {
 	background-position: -1204px -153px;
 }
-.nav-aside ul li.act li.cursub > a > span {
+.nav-aside ul li.active li.cursub > a > span {
 	background-position: -885px -474px;
 }
 .nav-aside ul li.cursub > li > a > span {
@@ -414,16 +416,16 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 	font-weight: normal;
 	background-position: -925px -435px;
 }
-.nav-aside ul li.act > a > span {
+.nav-aside ul li.active > a > span {
 	background-position: -1221px -153px;
 }
-.nav-aside ul li.act > a > span {
+.nav-aside ul li.active > a > span {
 	font-weight: normal;
 }
 .nav-aside ul {
 	margin: 0;
 }
-.nav-aside > li.act:hover > a {
+.nav-aside > li.active:hover > a {
 	padding: 3px 0 5px 0;
 }
 
@@ -816,7 +818,7 @@ form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 .slider-nav	li:first-child	{ padding: 0; }
 .slider-nav	div				{ height: 66px; border-left: 1px solid #FFF; background: url(../Images/slider-bg.png) repeat-x 0 -66px; padding-left: 22px; line-height: 16px; color: #8c8c8c; }
 .slider-nav	li:hover div	{ background-position: 0 -264px; }
-.slider-nav	li.act div		{ background-position: 0 -132px; border: 0; padding-left: 23px; color: #ffdca5;  }
+.slider-nav	li.active div		{ background-position: 0 -132px; border: 0; padding-left: 23px; color: #ffdca5;  }
 .slider-nav	.act,
 .slider-nav	.act + li		{ background: url(../Images/slider-bg.png) repeat-x 0 -198px; }
 
