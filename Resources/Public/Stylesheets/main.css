@@ -8,7 +8,7 @@ button 		{ border:0; background:transparent; cursor: pointer; margin: 0; overflo
 /* General styles
 ------------------------------ */
 html 		{ height:100%; font: 12px/18px Arial, 'Helvetica Neue', Helvetica, sans-serif; background: #FBFBFB; }
-body 		{ min-height:100%; }
+body 		{ min-height:100%; background: url(../Images/body-bg.jpg) 50% top no-repeat; }
 
 /* Page home 
 ------------------------------ */
@@ -106,12 +106,12 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 
 /* Stucture
 ------------------------------ */
-.p 			{ width:981px; margin:0 auto; position:relative; padding-top:130px; background:#fff;}
+.p 			{ width:981px; margin:0 auto; position:relative; padding-top:130px; background: transparent;}
 .s 			{ padding: 22px 28px 0 33px; overflow: hidden; }
 .s-sidebar	{ float: right; width: 166px;  padding: 0 0 0 27px; min-height: 1px; }
 .s-body		{ overflow: hidden; padding-right: 20px; }
 .a 			{ }
-.h 			{ height:130px; position:absolute; top:0; left:0; width:981px; z-index: 10; background: #FBFBFB; }
+.h 			{ height:130px; position:absolute; top:0; left:0; width:981px; z-index: 10; background: transparent; }
 .f 			{ min-height:100px; background:#fbfbfb url(../Images/shadow-footer.jpg) no-repeat center 0; font-size: 11px; color: #8c8c8c; }
 .f-body		{ width: 981px; margin: 0 auto; position: relative; padding: 29px 0 40px 0; }
 .f .g		{  }
@@ -121,6 +121,7 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 .f .gc		{ padding-left: 45px; }
 .f p		{ margin: 0 0 14px 0; }
 .c 			{ border:1px solid #eaeaea; border-width:0 1px; min-height:500px; position: relative; z-index: 0; padding-bottom: 40px; }
+#content	{ background: #ffffff; }
 
 /* Block with image
 ------------------------------ */
@@ -179,7 +180,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 
 .h-bar-nav					{ position: absolute; right: 0px; top: -2px; width: 200px; text-align: right; }
 .h-bar-nav > li				{ display: inline-block; position: relative; background: url(../Images/h-bar-nav-li.png) no-repeat 0 9px; text-align: left; margin-left: -1px; }
-.h-bar-nav > li:first-child	{ background: none; }
+.h-bar-nav > li:first-child	{ background: #ffffff; }
 .h-bar-nav > li > a			{ text-decoration: none; display: block; }
 .h-bar-nav a				{ color: #e87c0c; }
 
