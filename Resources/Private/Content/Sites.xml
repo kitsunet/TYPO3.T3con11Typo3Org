@@ -28,7 +28,7 @@
 							</div>
 							<p>Sponsor the event with money to place your company logo in prominent positions or donate
 							goods or services your company offers.</p>
-							<p><a href="sponsors/become-a-sponsor.html" class="bu">Become a Sponsor</a></p>
+							<p><a href="contribute/become-a-sponsor.html" class="bu">Become a Sponsor</a></p>
 							</div>
 
 							</li>
@@ -151,6 +151,61 @@
 					</properties>
 				</node>
 			</node>
+			<node identifier="64ba26b4-b102-45c2-be62-eac9c0877d6b" type="TYPO3:Page" nodeName="getting-there" locale="">
+				<properties>
+					<title>Getting there</title>
+				</properties>
+				<node identifier="a6589165-e53f-4698-8ed1-f4238d314188" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="e499cf64-b940-4a49-858b-01a6dc00fe67" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Getting there by train</headline>
+							<text><![CDATA[<p>The Congress Park Hanau and Deutsche Bahn offer a specially priced package
+							for getting to Hanau and back home. Detailed information on the
+							<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Trainticket Congress Hanau.pdf">
+							special train ticket package</a> is available in PDF form.</p>
+
+							<p>To get to the conference location from the train station you can take a cab or use public
+							transport.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="" type="TYPO3:Text" nodeName="text2" locale="">
+						<properties>
+							<headline>Getting there by plane</headline>
+							<text><![CDATA[<p>The Congress Park Hanau is located just 30 minutes from the airport in
+							Frankfurt (FRA).</p>
+
+							<p>To get to the conference location from the airport you can take a cab or use public
+							transport.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="" type="TYPO3:Text" nodeName="text3" locale="">
+						<properties>
+							<headline>Getting there by public transport</headline>
+							<text><![CDATA[<p>The Congress Park Hanau can be reached with public transport easily.</p>
+
+							<p>Using buses number 2 or 10 go to stop &nbsp;Nordstraße&nbsp;, close to &nbsp;Schlosspark&nbsp;
+							Taking bus number 3 leave at stop &nbsp;Schlossplatz&nbsp;.</p>
+
+							<p>From the &nbsp;Freiheitsplatz&nbsp; (about 600 meters walking distance) connections into
+							all of Hanau and to the central train station (lines number 2 and 7) are available until late
+							in the night.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="cf88585e-78a0-4ccd-bd72-98b085ded82b" type="TYPO3:Text" nodeName="text4" locale="">
+						<properties>
+							<headline>Getting there by car</headline>
+							<text><![CDATA[<p>General: Follow the signs for &nbsp;Congress Park Hanau&nbsp; or &nbsp;CPH&nbsp;.
+							Detailed information on
+							<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Getting there by car.pdf">
+							how to get there by car</a> is available in PDF form.</p>
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale="" hidden="true">
 			<properties>
@@ -180,17 +235,20 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="32cb5163-05ad-4dac-8887-ad38769bb213" type="TYPO3:Page" nodeName="buzz" locale="">
+		<node identifier="32cb5163-05ad-4dac-8887-ad38769bb213" type="TYPO3:Page" nodeName="community" locale="">
 			<properties>
-				<title>Buzz</title>
+				<title>Community</title>
 			</properties>
 			<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="30e54be0-1b58-4be3-8680-b6f78e79962d" type="TYPO3:Text" nodeName="text1" locale="">
-					<properties>
-						<headline>Buzz</headline>
-						<text><![CDATA[<p>foo.</p>
-						]]></text>
-					</properties>
+				<node identifier="29aa63a1-2f4b-4e52-a359-0764e2875256" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="d7b2c335-5a6e-4aaf-bfdb-eb78640ddf46" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Website banners</headline>
+							<text><![CDATA[<p>Help spread the word! Pick the banner of your choice and place it on your webserver.</p>
+							<p>The official T3CON11 link is <a href="http://t3con11-frankfurt.typo3.org">http://t3con11-frankfurt.typo3.org</a></p>
+							]]></text>
+						</properties>
+					</node>
 				</node>
 			</node>
 			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3:Page" nodeName="t3con10-videos" locale="">
@@ -228,21 +286,28 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3:Page" nodeName="sponsors" locale="">
+		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3:Page" nodeName="contribute" locale="">
 			<properties>
-				<title>Sponsors</title>
+				<title>Contribute</title>
 			</properties>
 			<node identifier="34021530-ad3c-43ee-8552-66b952e2cf76" type="TYPO3:Section" nodeName="main" locale="">
 				<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
-						<headline>Sponsors</headline>
-						<text><![CDATA[
+						<headline>Contribute to make TYPO3 even better!</headline>
+						<text><![CDATA[<p>TYPO3 is Open Source Software and therefore of course free to use and download.
+						But having some money available for development, travel expenses, motivation and loads of other
+						stuff helps TYPO3 a lot.</p>
 
-							<ul>
-								<li><a href="sponsors/become-a-sponsor.html">Become a Sponsor</a></li>
-								<li><a href="sponsors/list-of-sponsors.html">List of Sponsors</a></li>
-							</ul>
+						<h3>Company support</h3>
+						<p>The TYPO3 Conference T3CON11 offers you as a company the opportunity to contribute to the
+						TYPO3 project in many different ways. Sponsor the event with money to place your company logo in
+						prominent positions or donate stuff or services your company offers. Find out more in the
+						&nbsp;Become a sponsor&nbsp; section.</p>
 
+						<h3>Individual support</h3>
+						<p>Your support as an individual is also greatly appreciated. Why not help with all the small
+						things during the conference as a &nbsp;helping hand&nbsp;? Or just donate 10 Euro to do your
+						tiny bit for TYPO3?</p>
 						]]></text>
 					</properties>
 				</node>
@@ -320,6 +385,24 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="521fbb09-48d8-4bef-8dcd-1f5d5e88bf07" type="TYPO3:Page" nodeName="individual-support" locale="">
+				<properties>
+					<title>Indiviudal support</title>
+				</properties>
+				<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Website</headline>
+							<text><![CDATA[<p> you want to support the TYPO3 conference as an individual, just do it!
+							Every single Euro of yours is appreciated! Just donate any amount you see fit for your
+							personal situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
+
+							<p>If you like to donate but things seem unclear for you, just get in contact!</p>
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
 			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors" locale="">
 				<properties>
 					<title>List of sponsors</title>
@@ -356,7 +439,7 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3:Page" nodeName="faq" locale="">
+			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3:Page" nodeName="faq" locale="" hidden="true">
 				<properties>
 					<title>FAQ</title>
 				</properties>
