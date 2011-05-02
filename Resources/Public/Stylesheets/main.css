@@ -250,23 +250,25 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .nav > .cur > a,
 .nav > li > a:hover { background-position: 0 -32px;}
 
-.nav li:first-child a {border-right:1px solid #e97e0d; border-left:0;} 
+.nav > li:first-child a {border-right:1px solid #e97e0d; border-left:0;} 
 
 .nav .f-r 			{  border-left:1px solid #e97e0d;}
 .nav .f-r a 		{ border-right:0;}
 
 .nav .f-r .ico 		{ position:relative; top:3px; margin-left:-5px;}
 
-.nav .nav-sub 		{ position:absolute; left:-1px; top:32px; background:#ff8700 url(../Images/nav-sub.png) no-repeat 0 0; border:1px solid #e97e0d; width:388px; height:274px; color:#fff; display:none;  }
+.nav .nav-sub 		{ width:388px; position:absolute; left:-1px; top:33px; /*BEN:height:274px;*/ overflow:hidden; color:#fff; display:none;}
 
-.nav .nav-sub .col 	{ width:162px; float:left; padding:15px; margin-left:2px;}
-.nav .nav-sub .col:first-child { margin-left:2px;}
+.nav .nav-sub .col 	{ width:161px; padding:15px 17px 15px 17px; /*border:1px solid #e97e0d;*/ /*border-width:1px 1px 1px 0; */height:274px; background:transparent url(../Images/nav-sub.png) no-repeat -193px 0; position:relative; float:left;}
+.nav .nav-sub .col:first-child { padding:15px; background-position:0 0; /*border-width:1px 0 1px 1px;*/ margin:0 -3px 0 0; top:0;}
 
+.nav .nav-sub .animate { margin-top:-285px;}
 .nav .nav-sub li  	{ float:none; font-size:11px;}
-.nav .nav-sub a 	{ text-decoration:none; color:#ffe7cb; display:block; padding:1px 5px;}
-.nav .nav-sub a:hover { background:#f57500; color:#fff;}
+.nav .nav-sub a 	{ text-decoration:none; color:#e5e5e5; display:block; padding:1px 5px;}
+.nav .nav-sub a:hover { background:#5f5f5f; color:#fff;}
 .nav .nav-sub ul 	{ margin-bottom:15px;}
-.nav .nav-sub h4 	{ font-weight:bold; padding:3px 5px; font-size:12px; }
+.nav .nav-sub h4 	{ font-weight:bold; font-size:12px; }
+
 
 .nav li:hover .nav-sub 	{ display:block; }
 
@@ -302,27 +304,128 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 
 .c .nav-aside								{ margin: 14px 0 44px; }
 .nav-aside > li:first-child					{ background: none !important; }				
-.nav-aside li								{ background: url(../Images/nav-aside.png) no-repeat 0 0; }
+.nav-aside > li:first-child {
+	background: none !important;
+}
+.nav-aside li {
+	background: url(../Images/nav-aside.png) no-repeat 0 0;
+}
+.nav-aside span {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.nav-aside li.act,
+.nav-aside li.act:hover {
+	background: url(../Images/nav-aside.png) no-repeat 100% 0 transparent;
+	padding-top: 1px;
+	margin-bottom: -1px;
+}
 .nav-aside a,
-.nav-aside > li.cur > span					{ display: inline-block; color: #ff8700; font-weight: bold; text-decoration: none; padding: 3px 0 5px; width: 100%; }
-.nav-aside ul span							{ display: inline-block; padding-left: 17px; background: url(../Images/i-arrows.png) no-repeat -948px -435px; }
-
+.nav-aside > li.act > span {
+	display: inline-block;
+	color: #ff8700;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 4px 0;
+	width: 100%;
+}
+.nav-aside ul a {
+	font-weight: normal;
+	color: #555555;
+}
+.nav-aside ul span {
+	display: inline-block;
+	padding-left: 30px;
+	background: url(../Images/i-arrows.png) no-repeat -942px -435px;
+}
+.nav-aside ul ul span {
+	padding-left: 50px;
+	background-position: -925px -435px;
+}
+.nav-aside ul li.act ul ul span {
+	padding-left: 70px;
+	background-position: -905px -435px;
+}
 .nav-aside li:hover,
-.nav-aside ul li.cur						{ background: url(../Images/nav-aside.png) no-repeat 100% 0; padding-top: 1px;}
-
+.nav-aside li a:hover,
+.nav-aside ul li.act {
+	background: url(../Images/nav-aside.png) no-repeat 100% 0;
+	padding-top: 1px;
+}
 .nav-aside li:hover > a,
-.nav-aside ul li.cur > a					{ background: #efefef url(../Images/nav-aside.png) no-repeat 100% 100%; padding: 2px 0 6px; margin-bottom: -1px; }
+.nav-aside li.act > a,
+.nav-aside li.cursub > a,
+.nav-aside li.cur > a,
+.nav-aside ul li.act > a,
+.nav-aside ul li.cursub > a,
+.nav-aside ul li.cur > a{
+	background: #efefef url(../Images/nav-aside.png) no-repeat 100% 100%;
+	padding: 3px 0 5px;
+	margin-bottom: -1px;
+}
+.nav-aside ul li:hover span {
+	color: #555555;
+}
+.nav-aside ul li.act span {
+	background-position: -925px -435px;
+	color: #555555;
+}
+.nav-aside ul a:hover span,
+.nav-aside ul li.cur span {
+	background-position: -902px -475px;
+}
+.nav-aside li.cursub,
+.nav-aside li.cursub:hover,
+.nav-aside li.cur,
+.nav-aside li.cur:hover {
+	background: url(../Images/nav-aside.png) no-repeat 100% 0 transparent;
+	padding-top: 1px;
+}
+.nav-aside li li.cur span {
+	background: url(../Images/i-arrows.png) no-repeat -902px -475px;
+}
+.nav-aside ul li li a:hover span,
+.nav-aside ul li li.cur span {
+	background: url(../Images/i-arrows.png) no-repeat -885px -475px;
+}
+.nav-aside ul li li li a:hover span,
+.nav-aside ul li li li.cur a span {
+	background-position: -865px -475px;
+}
+.nav-aside ul li.cursub > a > span,
+.nav-aside ul li.cur span {
+	font-weight: bold;
+	color: #000000;
+}
+.nav-aside ul li.cursub > a > span {
+	background-position: -1221px -153px;
+}
+.nav-aside ul li li.act > a > span {
+	background-position: -1204px -153px;
+}
+.nav-aside ul li.act li.cursub > a > span {
+	background-position: -885px -474px;
+}
+.nav-aside ul li.cursub > li > a > span {
+	color: #555555;
+	font-weight: normal;
+	background-position: -925px -435px;
+}
+.nav-aside ul li.act > a > span {
+	background-position: -1221px -153px;
+}
+.nav-aside ul li.act > a > span {
+	font-weight: normal;
+}
+.nav-aside ul {
+	margin: 0;
+}
+.nav-aside > li.act:hover > a {
+	padding: 3px 0 5px 0;
+}
 
-.nav-aside ul li:hover span,
-.nav-aside ul li.cur span					{ background-position: -908px -475px; color: #000; }
-/*
-.nav-aside ul li.cur span					{ font-weight: normal; }
-*/
-.nav-aside ul 								{ margin: 0; }
-
-.nav-aside > li.cur:hover					{ padding: 0; }
-.nav-aside > li.cur:hover > a				{ background: none; padding: 3px 0 5px; margin: 0 }		
-
+/* Sponsors block
+--------------------------------------- */
 .sponsors									{ overflow: hidden; margin: 0 0 17px -7px; }						
 .sponsors img								{ float: left; margin: 0 0 7px 7px; border: 1px solid #d9d9d9; }
 
