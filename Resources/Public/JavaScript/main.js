@@ -1,27 +1,27 @@
 (function($) {
 				// Calculate fixed tabs width
 				$.fn.calculateTabsWidth = function() {
-					
+
 				$(this).each(function() {
-					
+
 					var o = $(this);
 					var list = $(o).find('li');
 					var oWidth = o.outerWidth(true);
-					
+
 					o.parent().width(oWidth); // fix for FF4 :)
-					
+
 					var tabsNo = $(list).length;
 					tabsNo = (tabsNo == 0) ? 1 : tabsNo;
 
 					var tabsWidth = 0, addWidth = 0, mod = 0, counter = 0;
-					
+
 					$(list).each(function() {
 						tabsWidth += $(this).outerWidth(true);
 					});
-					
+
 					mod = (oWidth - tabsWidth) % tabsNo;
 				    addWidth = (oWidth - mod - tabsWidth) / tabsNo;
-					
+
 				    $(list).each(function() {
 
 						newWidth = (counter < mod) ? $(this).width() + addWidth + 1 : $(this).width() + addWidth;
@@ -31,7 +31,7 @@
 
 					    counter++;
 				    });
-				
+
 				});
 
 				}
@@ -41,14 +41,14 @@
 (function($) {
 				// Accordion
 				$.fn.accordion = function() {
-					
+
 					$(this).find('> .a-body').each(function(){
 						$(this).data('height', $(this).height());
 					});
-					
+
 					$(this).find('> .a-h:not(.open)').addClass('closed')
 					    .next().hide().css('height',0);
-					
+
 					$(this).find('> .a-h').click(function(){
 					  if($(this).hasClass('closed')){
 					    var domCurrent = $(this);
@@ -68,7 +68,7 @@
 (function($) {
 // Social box
 $.fn.socialBox = function() {
-	
+
 	var o = $(this),
 		$body = o.find('.b-social-body'),
 		$opened = o.find('.b-social-opened'),
@@ -78,16 +78,16 @@ $.fn.socialBox = function() {
 		o_closed_height = $closed.height(),
 		sOpenedClass = 'b-social-open',
 		sClosedClass = 'b-social-close';
-		
+
 	$closed.css('position', 'absolute');
-	
+
 	if(o.hasClass(sOpenedClass)) {
 		$closed.hide();
 	} else {
 		$body.height(o_closed_height);
 		$opened.hide();
 	}
-	
+
 	$toggle.click(function(){
 		if(o.hasClass(sOpenedClass)){
 			$closed.fadeIn();
@@ -108,7 +108,7 @@ $.fn.socialBox = function() {
 })(jQuery);
 
 $(document).ready(function(){
-				
+
 				$('body').removeClass('js-off');
 
 				$.tools.tabs.addEffect("default", function(tabIndex, done) {	// Removed display none for inactive tabs
@@ -123,26 +123,35 @@ $(document).ready(function(){
 				if ($('#top-slider').length > 0) {
 
 					$('#top-slider .slider-nav').tabs('#top-slider .slides > .slide', {tabs: 'li', current: 'active', effect: 'fade', fadeInSpeed: 1000, fadeOutSpeed: 1000, rotate: true}).slideshow({autoplay:true});
-				
+
+						// Stop the slider and click event when a button in the slider is clicked
+					$('#top-slider .slides > .slide a.bu').click(function() {
+						var slider = $('#top-slider .slider-nav').tabs('#top-slider .slides > .slide');
+						slider.data('slideshow').stop();
+						slider.data('tabs').getCurrentTab().addClass('active');
+						location.href = $(this).attr('href');
+						return false;
+					});
+
 					// var api = $('#top-slider .slider-nav').data("tabs");
-					// 				
+					//
 					// 					api.onBeforeClick(function() {
 					// 				    	$('#top-slider .slider-content	').css({'background': '#FFF'});
 					// 					});
-					// 				
+					//
 					// 					var fadeTimeout = 5000; // 5 seconds
-					// 				
+					//
 					// 					function makeCarousel() {
 					// 				    	api.next();
 					// 						timer = setTimeout(makeCarousel, fadeTimeout);
 					// 					}
-					// 				
+					//
 					// 					var timer = setTimeout(makeCarousel, fadeTimeout);
-					// 				
+					//
 					// 					$('#top-slider .slider').mouseover(function() {
 					// 						clearTimeout(timer);
 					// 					}).mouseleave(function() {
-					// 						timer = setTimeout(makeCarousel, fadeTimeout);	
+					// 						timer = setTimeout(makeCarousel, fadeTimeout);
 					// 					});
 				}
 				// END Home page Main Scroller/ Tabs
@@ -151,7 +160,7 @@ $(document).ready(function(){
 						$("#small-slider .slider-content").scrollable({circular: true, next: '.slider-nav .next', prev: '.slider-nav .prev'}).autoscroll({interval:4000});
 						$('.slider-nav .next, .slider-nav .prev').click(function() { return false; })
 				}
-				
+
 				if ($('.ticker-slider').length > 0) {
 					//$(".ticker-slider .slider-content").scrollable({circular: true}).autoscroll({interval:3000});
 					$('.ticker-slider .slider-nav').tabs('.slide', {tabs: 'li', current: 'active', effect: 'fade', fadeInSpeed: 1000, fadeOutSpeed: 1000, rotate: true}).slideshow({autoplay:true});
@@ -162,7 +171,7 @@ $(document).ready(function(){
 				//Cufon.replace('h1', { fontFamily: 'Share-Bold' });
 				Cufon.replace('.b-numbers li, .b-numbers h4, .b-numbers p, .b-numbers h3, .b-communities-text, .b-social-closed', { fontFamily: 'Share-Italic' });
 				Cufon.replace('h1, .d h2, .d h3, .d h4, .d h5, .user-welcome h5, form legend, .con-data', { fontFamily: 'Share-Regular' });
-				
+
 				// Social block on homepage
 				$('.b-social').socialBox();
 });
