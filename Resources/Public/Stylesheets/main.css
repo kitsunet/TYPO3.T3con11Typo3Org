@@ -549,6 +549,13 @@ form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 
 #page .avatar-teaser	{ margin: 0 15px 10px 0; padding: 8px 11px; float: left; background: url(../Images/avatar-teaser.gif) no-repeat; }
 
+/* Photo list
+--------------------------------------- */
+
+#page .photo-list		{ overflow: hidden; margin: 0 0 0 -8px; }
+#page .photo-list li { margin: 0 0 9px 6px; padding: 0; float: left; background: url(../Images/photo-list-li.png) no-repeat; }
+#page .photo-list li a	{ display: block; padding: 3px 3px;}
+
 /* User welcome
 --------------------------------------- */
 .user-welcome span 		{ margin: 0 7px 0 0; }
@@ -954,3 +961,12 @@ table.sponsors th,
 table.sponsors td,
 table.sponsors td img {border:none;}
 table.sponsors th {background-color:inherit;}
+
+/* vimeo badge
+------------------------------ */
+.vimeoBadge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
+.vimeoBadge #vimeo_badge_logo { margin-top:10px; width: 57px; height: 16px; }
+.vimeoBadge .credit { font: normal 11px verdana,sans-serif; }
+.vimeoBadge .clip { padding:0; float:left; margin:0 10px 10px 0; width:160px; }
+.vimeoBadge .caption { overflow:hidden; width:160px; height: 40px; }
+.vimeoBadge .clear { display: block; clear: both; visibility: hidden; }

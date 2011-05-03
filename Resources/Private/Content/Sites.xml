@@ -121,9 +121,22 @@
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
-								will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
-								and to connect with other managers, developers and designers from all over the world. Many
-								internationally known leaders of the TYPO3 community will be attending and presenting.</p>
+							will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
+							and to connect with other managers, developers and designers from all over the world. Many
+							internationally known leaders of the TYPO3 community will be attending and presenting.</p>
+
+							<h3>Photos of last year's conference</h3>
+							<ul class="photo-list">
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-1.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-2.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-3.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-4.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-5.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-6.png" width="76" height="56" alt="pic" /></a></li>
+								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-8.png" width="76" height="56" alt="pic" /></a></li>
+							</ul>
+
+							<p>More <a href="http://www.flickr.com/search/?q=t3con10+OR+t3con">photos and videos about T3CON10</a> on Flickr</p>
 						]]></text>
 					</properties>
 				</node>
@@ -184,15 +197,24 @@
 				<node identifier="bd98b3e6-09e0-4ad4-9ebc-c1ef1d115996" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Location</headline>
-						<text><![CDATA[<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
-						Frankfurt International Airport. No road passes by the Congress Park Hanau (CPH) – it is central
-						in every regard: at the centre of Germany and at the heart of Hessen.</p>
+						<text><![CDATA[
+						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-region.jpg" width="250" height="216" alt="" class="intext right" />
+						<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
+						Frankfurt International Airport. No road misses the Congress Park Hanau (CPH) – it is central
+						in every regard: at the center of Germany and at the heart of Hessen.</p>
 
 						<p>Hanau is situated just 34 kilometres from Frankfurt Airport and 20 kilometres from Messe Frankfurt,
 						with an ICE high-speed train link and direct connections to the A3, A45 and A66 highways.</p>
 
-						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
-						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
+						<p>Birthplace of the Brothers Grimm, the town's location on the rivers Main and Kinzig makes it
+						the economic and cultural centre of the eastern Rhine-Main region. Along with leading material
+						technology companies, Hanau also has much to offer by way of culture and scenery, giving the CPH
+						unique appeal throughout Germany.</p>
+
+						<div class="cc">
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
+							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
+						</div>
 						]]></text>
 					</properties>
 				</node>
@@ -231,10 +253,10 @@
 							<headline>Getting there by public transport</headline>
 							<text><![CDATA[<p>The Congress Park Hanau can be reached with public transport easily.</p>
 
-							<p>Using buses number 2 or 10 go to stop &nbsp;Nordstraße&nbsp;, close to &nbsp;Schlosspark&nbsp;
-							Taking bus number 3 leave at stop &nbsp;Schlossplatz&nbsp;.</p>
+							<p>Using buses number 2 or 10 go to stop &quot;Nordstraße&quot;, close to &quot;Schlosspark&quot;
+							Taking bus number 3 leave at stop &quot;Schlossplatz&quot;.</p>
 
-							<p>From the &nbsp;Freiheitsplatz&nbsp; (about 600 meters walking distance) connections into
+							<p>From the &quot;Freiheitsplatz&quot; (about 600 meters walking distance) connections into
 							all of Hanau and to the central train station (lines number 2 and 7) are available until late
 							in the night.</p>
 							]]></text>
@@ -243,7 +265,7 @@
 					<node identifier="cf88585e-78a0-4ccd-bd72-98b085ded82b" type="TYPO3:Text" nodeName="text4" locale="">
 						<properties>
 							<headline>Getting there by car</headline>
-							<text><![CDATA[<p>General: Follow the signs for &nbsp;Congress Park Hanau&nbsp; or &nbsp;CPH&nbsp;.
+							<text><![CDATA[<p>General: Follow the signs for &quot;Congress Park Hanau&quot; or &quot;CPH&quot;.
 							Detailed information on
 							<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Getting there by car.pdf">
 							how to get there by car</a> is available in PDF form.</p>
@@ -313,14 +335,6 @@
 					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3:Html" nodeName="html1" locale="">
 						<properties>
 							<source><![CDATA[
-								<style type="text/css">
-								.vimeoBadge { margin: 0; padding: 0; font: normal 11px verdana,sans-serif; }
-								.vimeoBadge #vimeo_badge_logo { margin-top:10px; width: 57px; height: 16px; }
-								.vimeoBadge .credit { font: normal 11px verdana,sans-serif; }
-								.vimeoBadge .clip { padding:0; float:left; margin:0 10px 10px 0; width:160px; }
-								.vimeoBadge .caption { overflow:hidden; width:160px; height: 40px; }
-								.vimeoBadge .clear { display: block; clear: both; visibility: hidden; }
-								</style>
 								<div class="vimeoBadge">
 									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=channel&amp;stream_id=145371&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
 								</div>
@@ -346,11 +360,11 @@
 						<p>The TYPO3 Conference T3CON11 offers you as a company the opportunity to contribute to the
 						TYPO3 project in many different ways. Sponsor the event with money to place your company logo in
 						prominent positions or donate stuff or services your company offers. Find out more in the
-						&nbsp;Become a sponsor&nbsp; section.</p>
+						&quot;Become a sponsor&quot; section.</p>
 
 						<h3>Individual support</h3>
 						<p>Your support as an individual is also greatly appreciated. Why not help with all the small
-						things during the conference as a &nbsp;helping hand&nbsp;? Or just donate 10 Euro to do your
+						things during the conference as a &quot;helping hand&quot;? Or just donate 10 Euro to do your
 						tiny bit for TYPO3?</p>
 						]]></text>
 					</properties>
@@ -588,7 +602,7 @@
 								customers and professionals. For agencies and resellers there is a product line available
 								enabling companies to offer webhosting services in their own name.</p>
 
-								<p>With &nbsp;JiffyBox&nbsp; domainFACTORY recently launched an innovative cloud hosting
+								<p>With &quot;JiffyBox&quot; domainFACTORY recently launched an innovative cloud hosting
 								service. The flexible on-demand virtual servers come with many interesting features and
 								full remote control using the RESTful API. For cloud servers from JiffyBox you only pay
 								what you use without any minimum contract commitments.</p>
@@ -606,7 +620,7 @@
 									<li>High quality provider with excellent price-performance ratio</li>
 									<li>Webhosting services from domain registration to dedicated servers</li>
 									<li>Product line for agencies and resellers</li>
-									<li>Innovative cloud hosting service &nbsp;JiffyBox&nbsp</li>
+									<li>Innovative cloud hosting service &quot;JiffyBox&quot;</li>
 								</ul>
 
 								<h3>Contact</h3>
