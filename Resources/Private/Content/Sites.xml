@@ -429,7 +429,7 @@
 					<node identifier="f020cd55-e065-4feb-9bb8-fb2047b07617" type="TYPO3:Text" nodeName="text5" locale="">
 						<properties>
 							<headline>Great response to T3CON10!</headline>
-							<text><![CDATA[<p>T3CON09 was a real success! Have a look at the <a href="contribute/become-a-sponsor/survey-results-2010.html">
+							<text><![CDATA[<p>T3CON10 was a real success! Have a look at the <a href="contribute/become-a-sponsor/survey-results-2010.html">
 							survey results</a> about last years conference T3CON10 and expect T3CON11 to get even better!
 							</p>]]></text>
 						</properties>
@@ -692,14 +692,14 @@
 							<text><![CDATA[
 								<h3>Sponsoring Questions?</h3>
 								<p>If you have any questions about your sponsoring, please contact Sandra Krieg at punkt.de:<br />
-								krieg(at)punkt.de<br />
+								sandra(at)typo3.org<br />
 								Phone: +49 721 9109-125<br />
 								(Mo-Fr 08:00 - 12:00)</p>
 
 								<h3>Conference organisation</h3>
 								<p>If you have general questions or remarks about the conferenc, please contact Jürgen Egeling at punkt.de:<br />
 								Jürgen Egeling<br />
-								egeling(at)punkt.de</p>
+								t3con11-han(at)egeling.de</p>
 
 								<h3>Website</h3>
 								<p>This website runs on TYPO3 Phoenix and is maintained by the Phoenix core team. You can reach us at:<br />
