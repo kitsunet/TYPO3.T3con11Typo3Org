@@ -142,7 +142,7 @@
 				</node>
 			</node>
 			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale="">
-				<node identifier="" type="TYPO3:Html" nodeName="html1" locale="">
+				<node identifier="ebafd0be-7e95-4606-a2f5-3ef668ec9dd8" type="TYPO3:Html" nodeName="html1" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="gc">
@@ -435,8 +435,10 @@
 						<properties>
 							<headline>Become a Sponsor Now!</headline>
 							<text><![CDATA[
-								<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf" class="bu">
-								<strong>All details, options, prices andorder form for sponsoring.</strong></a></p>
+							<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf" class="bu">
+							<strong>Options, prices and order form</strong></a>
+							<a href="mailto:sandra@typo3.org?subject=[T3CON11] I want to sponsor" class="bu">
+							<strong>Contact now for sponsoring</strong></a></p>
 							]]></text>
 						</properties>
 					</node>
@@ -786,7 +788,7 @@
 							<p>Facsimile: +41 (0)41 511 00 39<br />
 							Email: <a href="mailto:info@typo3.org">info@typo3.org</a></p>
 
-							<h2>Registry entry:</h2>
+							<h2>Registry entry</h2>
 
 							<p>Handelsregister des Kantons Zug, CH-170.6.000.178-2</p>
 
