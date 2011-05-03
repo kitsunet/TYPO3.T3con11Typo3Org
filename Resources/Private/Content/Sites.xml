@@ -125,18 +125,18 @@
 							and to connect with other managers, developers and designers from all over the world. Many
 							internationally known leaders of the TYPO3 community will be attending and presenting.</p>
 
-							<h2>Photos of last year's conference</h2>
-							<ul class="photo-list">
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-1.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-2.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-3.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-4.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-5.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-6.png" width="76" height="56" alt="pic" /></a></li>
-								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-8.png" width="76" height="56" alt="pic" /></a></li>
-							</ul>
-
-							<p>More <a href="http://www.flickr.com/search/?q=t3con10+OR+t3con">photos and videos about T3CON10</a> on Flickr</p>
+							<div class="b-flickr">
+								<div class="b-flickr-head">
+									<h4>Photostream T3CON10</h4>
+									<p><a class="bu bu-mini" href="http://www.flickr.com/search/?q=t3con10+OR+t3con" target="_blank">More</a></p>
+								</div><!-- b-flickr-head -->
+								<div id="flickr-slider" class="b-flickr-body">
+									<div class="slides">
+										<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&display=random&size=s&layout=h&source=all_tag&tag=t3con10"></script>
+									</div>
+									<div class="flickr-overlay"></div>
+								</div><!-- b-flickr-body -->
+							</div><!-- b-flickr -->
 						]]></text>
 					</properties>
 				</node>
@@ -150,11 +150,12 @@
 								<div class="general-box">
 									<div class="d">
 										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">20.05</span> <span class="y">2011</span>
+											<div class="b-event-item-date b-event-item-date-big dtstart">
+												<span class="d">20</span><span class="m">May</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
 												<h6>Call for Papers opens</h6>
+												<p>Don't miss the opportunity to present at the T3CON11</p>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-news-item -->
 										<div class="b-event-item">

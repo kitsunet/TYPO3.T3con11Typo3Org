@@ -634,6 +634,21 @@ form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 
 .get-involved .b-communities-links	{ float: left; width: 100%; }
 
+/* Flickr block
+--------------------------------------- */
+.b-flickr			{ position: relative; margin: 0 0 17px 0; width: 738px; height: 128px; background: url(../Images/b-flickr.png) no-repeat; }
+.b-flickr-head		{ float: left; padding: 58px 0 0 0; width: 85px; }
+.b-flickr-head h4	{ font-size: 12px; color: #7f7f7f; }
+
+#flickr-slider				{ position: relative; float: left; margin-top: 24px; margin-left: 8px; width: 645px; height: 89px; overflow: hidden; }
+#flickr-slider .slides 		{ position: absolute; right: 35px; margin: 0; height: 89px; }
+#flickr-slider .slides > a	{ background: url(../Images/b-flickr-img.png); padding: 6px 7px 8px; width: 75px; height: 75px; margin: 0 0 0 14px; float: right; }
+#flickr-slider .slides img	{ display: block; width: 75px; height: 75px; background: url(../Images/ajax-preloader.gif) no-repeat 50% 50%; }
+.flickr-overlay				{ position: absolute; top: 0; right: 0; width: 35px; height: 89px; }
+.g-6 .b-flickr				{ width: 615px; background-image: url(../Images/b-flickr-small.gif); }
+.g-6 #flickr-slider			{ width: 522px; }
+.g-6 #flickr-slider .slides	{ right: 15px; }
+
 /* General box
 --------------------------------------- */
 .general-box			{ border: 1px solid #ddd; padding: 20px 25px 10px 25px; margin: 0 0 28px 0; }
@@ -954,8 +969,8 @@ form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 /* contribute section
 ------------------------------ */
 h2.survey.question {clear:both;}
-img.intext.right {float:right; margin-bottom:1em;}
-img.intext.left {float:left; margin-bottom:1em;}
+img.intext.right {float:right; margin-bottom:1em; margin-left:1em;}
+img.intext.left {float:left; margin-bottom:1em; margin-right:1em;}
 
 table.sponsors th,
 table.sponsors td,
