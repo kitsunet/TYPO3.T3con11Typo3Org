@@ -421,8 +421,8 @@
 						<properties>
 							<headline>Become a Sponsor Now!</headline>
 							<text><![CDATA[
-								<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf">
-								<strong>All details, options, prices andorder form for sponsoring.</strong></a>
+								<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf" class="bu">
+								<strong>All details, options, prices andorder form for sponsoring.</strong></a></p>
 							]]></text>
 						</properties>
 					</node>
@@ -499,7 +499,7 @@
 				<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
-							<headline>Website</headline>
+							<headline>Indiviudal support</headline>
 							<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
 							Every single Euro of yours is appreciated! Just donate any amount you see fit for your
 							personal situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
@@ -727,7 +727,7 @@
 								<li>Free entry to the conference</li>
 								<li>First hand press information about the conference</li>
 								<li>Priority contact for important questions regarding T3CON11 and TYPO3</li>
-								<li>Exclusive invitation and free entry to TYPO3 annual "press get together"</li>
+								<li>Exclusive invitation and free entry to TYPO3 annual &quot;press get together&quot;</li>
 							</ul>
 							]]></text>
 						</properties>
@@ -764,7 +764,7 @@
 							Sihlbruggstraße 105<br />
 							6340 Baar</p>
 
-							<p>Represented by the <a href="http://association.typo3.org/about/board/">board</a></p>
+							<p>Represented by the <a href="http://association.typo3.org/about/board/">board of the TYPO3 Association</a></p>
 
 							<h2>Contact</h2>
 
