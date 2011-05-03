@@ -642,19 +642,20 @@
 			<node identifier="87048ff2-f59d-42e0-a5f5-5161aab18a23" type="TYPO3:Section" nodeName="main" locale="">
 				<node identifier="12c2569f-a4ce-4705-a5fc-6e0c9df1a2ee" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
-						<headline>Contact</headline>
+						<headline>Get in touch</headline>
 						<text><![CDATA[
 
-							<p>Get in touch with us</p>
+							<p>Get in touch with us using the form below or check the follwing pages for matching
+							contact persons:
 							<ul>
 								<li><a href="contact/team.html">Team</a></li>
 								<li><a href="contact/press.html">Press</a></li>
-								<li><a href="contact/imprint.html">Imprint</a></li>
 							</ul>
-
+							</p>
 						]]></text>
 					</properties>
 				</node>
+				<node identifier="163256f8-6bcd-4c89-bb3a-940c2315165c" type="MailForm:Plugin" nodeName="mailform" locale=""/>
 			</node>
 			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3:Page" nodeName="faq" locale="" hidden="true">
 				<properties>
