@@ -9,6 +9,12 @@ page.body {
 	sectionName = "body"
 }
 
+page.head.title = BreadcrumbMenu
+page.head.title {
+	maximumLevels = 2
+	template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/TitleMenu.html'
+}
+
 page.head {
 	stylesheets {
 		fromTemplate = Template
