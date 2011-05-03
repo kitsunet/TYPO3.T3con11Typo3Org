@@ -125,7 +125,7 @@
 							and to connect with other managers, developers and designers from all over the world. Many
 							internationally known leaders of the TYPO3 community will be attending and presenting.</p>
 
-							<h3>Photos of last year's conference</h3>
+							<h2>Photos of last year's conference</h2>
 							<ul class="photo-list">
 								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-1.png" width="76" height="56" alt="pic" /></a></li>
 								<li><a href="http://www.flickr.com/search/?q=t3con10+OR+t3con"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Photos%202010/photo-2.png" width="76" height="56" alt="pic" /></a></li>
@@ -356,13 +356,13 @@
 						But having some money available for development, travel expenses, motivation and loads of other
 						stuff helps TYPO3 a lot.</p>
 
-						<h3>Company support</h3>
+						<h2>Company support</h2>
 						<p>The TYPO3 Conference T3CON11 offers you as a company the opportunity to contribute to the
 						TYPO3 project in many different ways. Sponsor the event with money to place your company logo in
 						prominent positions or donate stuff or services your company offers. Find out more in the
 						&quot;Become a sponsor&quot; section.</p>
 
-						<h3>Individual support</h3>
+						<h2>Individual support</h2>
 						<p>Your support as an individual is also greatly appreciated. Why not help with all the small
 						things during the conference as a &quot;helping hand&quot;? Or just donate 10 Euro to do your
 						tiny bit for TYPO3?</p>
@@ -379,62 +379,44 @@
 						<properties>
 							<headline>Sponsoring T3CON11</headline>
 							<text><![CDATA[<p>There are many ways you can support the biggest conference of the TYPO3 community and at the
-							same time get some real benefits for your company.</p>]]></text>
-						</properties>
-					</node>
-					<node identifier="1999344f-a3e5-401a-98c7-f26f5b4383e8" type="TYPO3:Text" nodeName="text2" locale="">
-						<properties>
-							<headline>Advantages for your company</headline>
-							<text><![CDATA[
+							same time get some real benefits for your company.</p>
 
-								<ul>
-									<li>You position yourself within a unique surrounding without any divergence loss in a
-										top-class target group of decision makers and visionaries
-									</li>
-									<li>You profit of the exclusive image of an innovative conference
-									</li>
-									<li>You can demonstrate the leading position of your corporation on the market and present
-										your products in an optimized way
-									</li>
-									<li>You can use T3CON11 as platform for networking in order to intensify your business
-										relationships: Why not invite selected customers and partners?
-									</li>
-								</ul>
-								<p>There are various possibilities to get integrated in the event and to get in touch with your
-									target group. Of course we will consider your individual ideas as well.
-								</p>
-								<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
+							<h2>Advantages for your company</h2>
+							<ul>
+								<li>You position yourself within a unique surrounding without any divergence loss in a
+									top-class target group of decision makers and visionaries
+								</li>
+								<li>You profit of the exclusive image of an innovative conference
+								</li>
+								<li>You can demonstrate the leading position of your corporation on the market and present
+									your products in an optimized way
+								</li>
+								<li>You can use T3CON11 as platform for networking in order to intensify your business
+									relationships: Why not invite selected customers and partners?
+								</li>
+							</ul>
+							<p>There are various possibilities to get integrated in the event and to get in touch with your
+								target group. Of course we will consider your individual ideas as well.
+							</p>
+							<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
 
-							]]></text>
-						</properties>
-					</node>
-					<node identifier="1a7c9908-18f0-46f0-a936-9d39fd1ff03b" type="TYPO3:Text" nodeName="text3" locale="">
-						<properties>
-							<headline>The Target Group</headline>
-							<text><![CDATA[
+							<h2>The Target Group</h2>
+							<p>At T3CON11 the movers and shakers of the internet meet each other: entrepreneurs, managers,
+							marketing decision makers, consultants, and investors. You will reach a unique collection of
+							decision makers, executive managers, opinion leaders, early adopters, replicators,
+							visionaries
+							and trendsetters.</p>
+							<p>The participants of T3CON10 were</p>
+							<ul>
+								<li>predominantly male</li>
+								<li>20-49 years old</li>
+								<li>executive managers and decision makers</li>
+							</ul>
+							<p>
+							The intimate atmosphere offers enough space for information exchange, networking and the
+							possibility to discuss topics which are a trend today and mass market tomorrow.</p>
 
-								<p>At T3CON11 the movers and shakers of the internet meet each other: entrepreneurs, managers,
-									marketing decision makers, consultants, and investors. You will reach a unique collection of
-									decision makers, executive managers, opinion leaders, early adopters, replicators,
-									visionaries
-									and trendsetters.</p>
-								<p>The participants of T3CON10 were</p>
-								<ul>
-									<li>predominantly male</li>
-									<li>20-49 years old</li>
-									<li>executive managers and decision makers</li>
-								</ul>
-								<p>
-									The intimate atmosphere offers enough space for information exchange, networking and the
-									possibility to discuss topics which are a trend today and mass market tomorrow.</p>
-
-							]]></text>
-						</properties>
-					</node>
-					<node identifier="b4fa1254-1d3a-46a3-a9ed-46ad5f3ee80f" type="TYPO3:Text" nodeName="text4" locale="">
-						<properties>
-							<headline>Become a Sponsor Now!</headline>
-							<text><![CDATA[
+							<h2>Become a Sponsor Now!</h2>
 							<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf" class="bu">
 							<strong>Options, prices and order form</strong></a>
 							<a href="mailto:sandra@typo3.org?subject=[T3CON11] I want to sponsor" class="bu">
@@ -459,43 +441,43 @@
 						<node identifier="e1f827ae-0087-4cec-bbea-91aeb420ee8f" type="TYPO3:Text" nodeName="text1" locale="">
 							<properties>
 								<headline>Results of the T3CON10 visitor survey</headline>
-								<text><![CDATA[<h3 class="survey question">What category do you fit in best?</h3>
+								<text><![CDATA[<h2 class="survey question">What category do you fit in best?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Visitors_Jobs.png" width="407" height="350" alt="Visitortype" class="intext right"/>
 								<p>It was interesting to see that there are lots of developers present
 								at the conference. Since T3CON10 was targeted at business people, we see
 								lots of potential here and will invite more business oriented people for
 								2011.</p>
 
-								<h3 class="survey question">How do you rate the ticket fees for attending the conference?</h3>
+								<h2 class="survey question">How do you rate the ticket fees for attending the conference?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Pricing.png" width="294" height="309" alt="Conference Pricing" class="intext left"/>
 								<p>We are happy to see that most people thought that tickets were fairly
 								priced. So it is most likely that ticket prices will stay that way for
 								T3CON11.</p>
 
-								<h3 class="survey question">How do you rate the overall quality of the talks you attended?</h3>
+								<h2 class="survey question">How do you rate the overall quality of the talks you attended?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Talk_Quality.png" width="227" height="290" alt="Talk Quality" class="intext right"/>
 								<p>Great, that people really liked the quality of the talks. We will of
 								course try to get even better talks and more interesting speakers from
 								TYPO3 related areas... But results like these make us happy.</p>
 
-								<h3 class="survey question">What do you think about the hotel the conference took place in?</h3>
+								<h2 class="survey question">What do you think about the hotel the conference took place in?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Hotel.png" width="231" height="298" alt="Conference Hotel" class="intext left"/>
 								<p>Most people liked the hotel and only a few had complaints which we
 								already investigate. A general remark was, that having two different
 								floors for the conference was a bit irritating. We'll see into it how we
 								can improve that...</p>
 
-								<h3 class="survey question">What is your opinion of the conference being in Frankfurt, Germany?</h3>
+								<h2 class="survey question">What is your opinion of the conference being in Frankfurt, Germany?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Location_Frankfurt.png" width="250" height="276" alt="Conference Location Frankfurt" class="intext right"/>
 								<p>Not much to say but T3CON11 will again be in Frankfurt, Germany.</p>
 
-								<h3 class="survey question">How likely is it that you attend the next TYPO3 conference T3CON11?</h3>
+								<h2 class="survey question">How likely is it that you attend the next TYPO3 conference T3CON11?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Attend_next_year.png" width="348" height="296" alt="Attend Next Year" class="intext left"/>
 								<p>Nearly 50% of the conference visitors will definitely be back in
 								2010. That's great, especially since only very few are probably not
 								coming.</p>
 
-								<h3 class="survey question">What is your overall rating for T3CON10?</h3>
+								<h2 class="survey question">What is your overall rating for T3CON10?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Overall_Rating.png" width="303" height="294" alt="Overall Rating" class="intext right"/>
 								<p>This is somehow one of the most rewarding facts about T3CON10: Seeing
 								that nearly everybody liked the conference and it was a great success.
@@ -614,7 +596,7 @@
 								from small private up to big enterprise websites. The company's own website has also been
 								running on TYPO3 for many years.</p>
 
-								<h3>Facts</h3>
+								<h2>Facts</h2>
 
 								<ul>
 									<li>One of the leading webhosting companies in Germany</li>
@@ -625,7 +607,7 @@
 									<li>Innovative cloud hosting service &quot;JiffyBox&quot;</li>
 								</ul>
 
-								<h3>Contact</h3>
+								<h2>Contact</h2>
 
 								<p>Website: <a href="http://www.df.eu">http://www.df.eu</a><br />
 								E-mail: support(at)df.eu<br />
@@ -707,18 +689,18 @@
 						<properties>
 							<headline>Team</headline>
 							<text><![CDATA[
-								<h3>Sponsoring Questions?</h3>
+								<h2>Sponsoring Questions?</h2>
 								<p>If you have any questions about your sponsoring, please contact Sandra Krieg at punkt.de:<br />
 								sandra(at)typo3.org<br />
 								Phone: +49 721 9109-125<br />
 								(Mo-Fr 08:00 - 12:00)</p>
 
-								<h3>Conference organisation</h3>
+								<h2>Conference organisation</h2>
 								<p>If you have general questions or remarks about the conferenc, please contact Jürgen Egeling at punkt.de:<br />
 								Jürgen Egeling<br />
 								t3con11-han(at)egeling.de</p>
 
-								<h3>Website</h3>
+								<h2>Website</h2>
 								<p>This website runs on TYPO3 Phoenix and is maintained by the Phoenix core team. You can reach us at:<br />
 								typo3-team-core-v5(at)lists.typo3.org</p>
 							]]></text>
@@ -738,7 +720,7 @@
 							journalist. You will be able to accredit online for T3CON11 at this website and we will try
 							to assist you by all means possible.</p>
 
-							<h3>What you get as an accredited journalist</h3>
+							<h2>What you get as an accredited journalist</h2>
 
 							<ul>
 								<li>Free entry to the conference</li>
