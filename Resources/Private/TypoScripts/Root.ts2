@@ -46,4 +46,7 @@ page.parts {
 	}
 
 	breadcrumb = BreadcrumbMenu
+	breadcrumb {
+		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/BreadcrumbMenu.html'
+	}
 }
