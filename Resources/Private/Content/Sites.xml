@@ -493,12 +493,12 @@
 			</node>
 			<node identifier="521fbb09-48d8-4bef-8dcd-1f5d5e88bf07" type="TYPO3:Page" nodeName="individual-support" locale="">
 				<properties>
-					<title>Indiviudal support</title>
+					<title>Individual support</title>
 				</properties>
 				<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
-							<headline>Indiviudal support</headline>
+							<headline>Individual support</headline>
 							<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
 							Every single Euro of yours is appreciated! Just donate any amount you see fit for your
 							personal situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
