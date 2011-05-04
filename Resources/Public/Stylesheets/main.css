@@ -294,7 +294,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .d .b-foot-nav li	{ color: #000; background: none; padding: 0px; }
 .b-foot-nav a		{ text-decoration: none; color: #000; }
 
-#footer .sponsor-list		{ float: left; width: 65%; margin-right: 5%; }
+#footer .sponsor-list		{ float: left; width: 60%; margin-right: 5%; }
 #footer .organizers			{ float: left; width: 30%; text-align: right; }
 #footer .sponsor-list a		{ float:left; margin: 15px 10px 0 0; }
 #footer .organizers a		{ float:right; margin: 15px 0 0 10px; }
