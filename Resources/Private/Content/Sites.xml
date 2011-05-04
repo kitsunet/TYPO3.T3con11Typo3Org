@@ -611,7 +611,7 @@
 								<h2>Contact</h2>
 
 								<p>Website: <a href="http://www.df.eu">http://www.df.eu</a><br />
-								E-mail: <a href="mailto:support@df.eu">support@df.eu<a/><br />
+								E-mail: <a href="mailto:support@df.eu">support@df.eu</a><br />
 								<br />Hotline: 0800 323 98 00 (outside Germany: +49 89 552660)</p>
 								]]></text>
 							</properties>
@@ -745,7 +745,7 @@
 				<node identifier="a7c7818e-8dc7-4551-8ac0-79b075e61855" type="TYPO3:Section" nodeName="main" locale="">
 					<node identifier="1113d0e7-96f2-47f1-a869-ae892dcdddae" type="TYPO3:Text" nodeName="4db6f2f239013" locale="">
 						<properties>
-							<headline>Impressum</headline>
+							<headline>Imprint</headline>
 							<text><![CDATA[<p>TYPO3 Association<br />
 							Sihlbruggstraße 105<br />
 							6340 Baar</p>
