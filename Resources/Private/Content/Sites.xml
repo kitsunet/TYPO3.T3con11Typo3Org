@@ -121,9 +121,9 @@
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
-							will be a great time to learn more about the powerful TYPO3 CMS, the FLOW3 framework
+							will be a great opportunity to learn more about the powerful TYPO3 CMS, the FLOW3 framework
 							and to connect with other managers, developers and designers from all over the world. Many
-							internationally known leaders of the TYPO3 community will be attending and presenting.</p>
+							internationally known leaders of the TYPO3 community will attend and present.</p>
 
 							<div class="b-flickr">
 								<div class="b-flickr-head">
@@ -200,15 +200,17 @@
 						<headline>Location</headline>
 						<text><![CDATA[
 						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-region.jpg" width="250" height="216" alt="" class="intext right" />
-						<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau, just a 30 minutes ride from
-						Frankfurt International Airport. No road misses the Congress Park Hanau (CPH) – it is central
-						in every regard: at the center of Germany and at the heart of Hessen.</p>
 
-						<p>Hanau is situated just 34 kilometres from Frankfurt Airport and 20 kilometres from Messe Frankfurt,
-						with an ICE high-speed train link and direct connections to the A3, A45 and A66 highways.</p>
+						<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau (CPH), just a 30-minute ride
+						from Frankfurt International Airport. CPH is central in every regard: At the center of Germany, in
+						the heart of Hessen, CPH can be easily accessed by train, car, or public transportation.</p>
+
+						<p>Hanau is situated just 34 kilometers from the Frankfurt Airport and 20 kilometers from Messe
+						Frankfurt, with an ICE high-speed train link and direct connections to the A3, A45 and A66
+						highways.</p>
 
 						<p>Birthplace of the Brothers Grimm, the town's location on the rivers Main and Kinzig makes it
-						the economic and cultural centre of the eastern Rhine-Main region. Along with leading material
+						the economic and cultural center of the eastern Rhine-Main region. Along with its leading material
 						technology companies, Hanau also has much to offer by way of culture and scenery, giving the CPH
 						unique appeal throughout Germany.</p>
 
@@ -252,14 +254,14 @@
 					<node identifier="830f7b96-bda4-49c7-9561-4ba8c08ccfc2" type="TYPO3:Text" nodeName="text3" locale="">
 						<properties>
 							<headline>Getting there by public transport</headline>
-							<text><![CDATA[<p>The Congress Park Hanau can be reached with public transport easily.</p>
+							<text><![CDATA[<p>The Congress Park Hanau can be reached by public transport easily.</p>
 
-							<p>Using buses number 2 or 10 go to stop &quot;Nordstraße&quot;, close to &quot;Schlosspark&quot;
-							Taking bus number 3 leave at stop &quot;Schlossplatz&quot;.</p>
+							<p>Take buses number 2 or 10 to stop &quot;Nordstraße,&quot; close to &quot;Schlosspark.&quot;
+							When taking bus number 3 leave at stop &quot;Schlossplatz.&quot;</p>
 
-							<p>From the &quot;Freiheitsplatz&quot; (about 600 meters walking distance) connections into
-							all of Hanau and to the central train station (lines number 2 and 7) are available until late
-							in the night.</p>
+							<p>From the &quot;Freiheitsplatz&quot; (&quot;Freedom Square,&quot; about 600 meters walking
+							distance) connections into all of Hanau and to the central train station (lines number 2 and
+							7) are available until late in the night.</p>
 							]]></text>
 						</properties>
 					</node>
@@ -353,15 +355,17 @@
 				<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Contribute to make TYPO3 even better!</headline>
-						<text><![CDATA[<p>TYPO3 is Open Source Software and therefore of course free to use and download.
-						But having some money available for development, travel expenses, motivation and loads of other
-						stuff helps TYPO3 a lot.</p>
+						<text><![CDATA[<p>TYPO3 is open source software and therefore free to use and download. However,
+						having some money available for development, travel expenses, motivation and other needs helps
+						TYPO3 a lot.</p>
 
 						<h2>Company support</h2>
-						<p>The TYPO3 Conference T3CON11 offers you as a company the opportunity to contribute to the
-						TYPO3 project in many different ways. Sponsor the event with money to place your company logo in
-						prominent positions or donate stuff or services your company offers. Find out more in the
-						&quot;Become a sponsor&quot; section.</p>
+
+						<p>The TYPO3 Conference T3CON11 offers companies the opportunity to contribute to the TYPO3
+						project in many different ways. Sponsoring the event with a monetary donation allows companies to
+						place their company logo in prominent positions on event publications. Sponsoring companies can
+						also donate their own product or services to the event, which will give companies added exposure
+						at the event. Find out more in the &quot;Become a sponsor&quot; section.</p>
 
 						<h2>Individual support</h2>
 						<p>Your support as an individual is also greatly appreciated. Why not help with all the small
@@ -379,43 +383,41 @@
 					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Sponsoring T3CON11</headline>
-							<text><![CDATA[<p>There are many ways you can support the biggest conference of the TYPO3 community and at the
-							same time get some real benefits for your company.</p>
+							<text><![CDATA[<p>There are many ways you can support the TYPO3 community’s largest conference,
+							and at the same time benefit your company.</p>
 
 							<h2>Advantages for your company</h2>
 							<ul>
-								<li>You position yourself within a unique surrounding without any divergence loss in a
-									top-class target group of decision makers and visionaries
-								</li>
-								<li>You profit of the exclusive image of an innovative conference
-								</li>
-								<li>You can demonstrate the leading position of your corporation on the market and present
-									your products in an optimized way
-								</li>
-								<li>You can use T3CON11 as platform for networking in order to intensify your business
-									relationships: Why not invite selected customers and partners?
-								</li>
+								<li>You will make your company visible at a gathering of top-class decision makers and
+									visionaries</li>
+								<li>Your company will be advertised in relation to the exclusive image of an innovative
+									conference</li>
+								<li>You’ll have the opportunity to present your corporation’s products and services in an
+									optimized environment</li>
+								<li>You can use T3CON11 as a platform for networking: Why not invite selected customers
+									and partners?</li>
 							</ul>
-							<p>There are various possibilities to get integrated in the event and to get in touch with your
-								target group. Of course we will consider your individual ideas as well.
-							</p>
+							<p>There are various opportunities to integrate your company into the event and to get in
+							touch with your target group. Of course we will consider your individual ideas as well. </p>
+
 							<p>We are looking forward to welcome you as a partner or sponsor of the conference!</p>
 
 							<h2>The Target Group</h2>
-							<p>At T3CON11 the movers and shakers of the internet meet each other: entrepreneurs, managers,
-							marketing decision makers, consultants, and investors. You will reach a unique collection of
-							decision makers, executive managers, opinion leaders, early adopters, replicators,
-							visionaries
-							and trendsetters.</p>
+
+							<p>At T3CON11, entrepreneurs, managers, marketing decision makers, consultants, and
+							investors—the movers and shakers of the Internet—all come together to share ideas and
+							information. As a sponsor, you will reach a unique collection of opinion leaders, early
+							adopters, replicators, visionaries and trendsetters.</p>
+
 							<p>The participants of T3CON10 were</p>
 							<ul>
-								<li>predominantly male</li>
+								<li>Predominantly male</li>
 								<li>20-49 years old</li>
-								<li>executive managers and decision makers</li>
+								<li>Executive managers and decision makers</li>
 							</ul>
-							<p>
-							The intimate atmosphere offers enough space for information exchange, networking and the
-							possibility to discuss topics which are a trend today and mass market tomorrow.</p>
+
+							<p>The conference’s intimate atmosphere offers enough space for information exchange,
+							networking and the possibility to discuss topics and trends.</p>
 
 							<h2>Become a Sponsor Now!</h2>
 							<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110414_Sponsoring T3CON11_engl.pdf" class="bu">
@@ -429,8 +431,7 @@
 						<properties>
 							<headline>Great response to T3CON10!</headline>
 							<text><![CDATA[<p>T3CON10 was a real success! Have a look at the <a href="contribute/become-a-sponsor/survey-results-2010.html">
-							survey results</a> about last years conference T3CON10 and expect T3CON11 to get even better!
-							</p>]]></text>
+							survey results</a> from last year’s T3CON10 and expect T3CON11 to be even better!</p>]]></text>
 						</properties>
 					</node>
 				</node>
@@ -444,33 +445,23 @@
 								<headline>Results of the T3CON10 visitor survey</headline>
 								<text><![CDATA[<h2 class="survey question">What category do you fit in best?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Visitors_Jobs.png" width="407" height="350" alt="Visitortype" class="intext right"/>
-								<p>It was interesting to see that there are lots of developers present
-								at the conference. Since T3CON10 was targeted at business people, we see
-								lots of potential here and will invite more business oriented people for
-								2011.</p>
+								<p>It was interesting to see that a lot of developers attended the conference. Since T3CON10 was targeted at business people, we see lots of potential here and will invite more business-oriented people in 2011.</p>
 
 								<h2 class="survey question">How do you rate the ticket fees for attending the conference?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Pricing.png" width="294" height="309" alt="Conference Pricing" class="intext left"/>
-								<p>We are happy to see that most people thought that tickets were fairly
-								priced. So it is most likely that ticket prices will stay that way for
-								T3CON11.</p>
+								<p>We are happy to discover that most people thought the tickets were fairly priced. It is most likely that ticket prices will stay the same for T3CON11.</p>
 
 								<h2 class="survey question">How do you rate the overall quality of the talks you attended?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Talk_Quality.png" width="227" height="290" alt="Talk Quality" class="intext right"/>
-								<p>Great, that people really liked the quality of the talks. We will of
-								course try to get even better talks and more interesting speakers from
-								TYPO3 related areas... But results like these make us happy.</p>
+								<p>It’s encouraging that people really liked the quality of the talks. We will, of course, try to organize even better talks and more interesting speakers from TYPO3 related areas, but results like these make us happy.</p>
 
 								<h2 class="survey question">What do you think about the hotel the conference took place in?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Hotel.png" width="231" height="298" alt="Conference Hotel" class="intext left"/>
-								<p>Most people liked the hotel and only a few had complaints which we
-								already investigate. A general remark was, that having two different
-								floors for the conference was a bit irritating. We'll see into it how we
-								can improve that...</p>
+								<p>Most people liked the hotel and only a few had complaints, which we’ve already investigated. A general remark was that having two different floors for the conference was a bit irritating. We'll look into it how we can improve that this year.</p>
 
 								<h2 class="survey question">What is your opinion of the conference being in Frankfurt, Germany?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Location_Frankfurt.png" width="250" height="276" alt="Conference Location Frankfurt" class="intext right"/>
-								<p>Not much to say but T3CON11 will again be in Frankfurt, Germany.</p>
+								<p>T3CON11 will again take place in Frankfurt, Germany.</p>
 
 								<h2 class="survey question">How likely is it that you attend the next TYPO3 conference T3CON11?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Attend_next_year.png" width="348" height="296" alt="Attend Next Year" class="intext left"/>
@@ -480,10 +471,7 @@
 
 								<h2 class="survey question">What is your overall rating for T3CON10?</h2>
 								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Overall_Rating.png" width="303" height="294" alt="Overall Rating" class="intext right"/>
-								<p>This is somehow one of the most rewarding facts about T3CON10: Seeing
-								that nearly everybody liked the conference and it was a great success.
-								This gives us fuel for all the thousands of hours of work necessary for
-								T3CON10!</p>
+								<p>This is somehow one of the most rewarding facts about T3CON10: Seeing that nearly everybody liked the conference and it was a great success. This gives us fuel for all the thousands of hours of work necessary for T3CON11!</p>
 								<p>Thank you!</p>
 							]]></text>
 							</properties>
@@ -500,10 +488,10 @@
 						<properties>
 							<headline>Individual support</headline>
 							<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
-							Every single Euro of yours is appreciated! Just donate any amount you see fit for your
-							personal situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
+							Every single Euro is appreciated! Just donate any amount you see fit for your personal
+							situation using the <a href="http://typo3.org/donate/">TYPO3 donation form</a>.</p>
 
-							<p>If you like to donate but things seem unclear for you, just get in contact!</p>
+							<p>If you have questions or concerns about donating, contact us!</p>
 							]]></text>
 						</properties>
 					</node>
@@ -576,26 +564,26 @@
 							<properties>
 								<headline>domainFACTORY GmbH</headline>
 								<text><![CDATA[<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH" class="intext right"/>
-								<p>In the year of its 10th anniversary Munich based domainFACTORY GmbH is
+								<p>In it's 10th year Munich-based domainFACTORY GmbH is
 								one of the leading webhosting companies in Germany, serving more than 100,000 customers
 								and managing well over 700,000 domain names. Following its claim "Premium Hosting. Premium
-								Service." the company managed to establish itself as a high quality provider with an
+								Service." the company managed to establish itself as a high-quality provider with an
 								excellent price-performance ratio.</p>
 
 								<p>Due to the combination of high-end server systems, extensive feature sets and outstanding
-								customer service domainFACTORY is capable of satisfying the high requirements of business
+								customer service, domainFACTORY is capable of satisfying the high requirements of business
 								customers and professionals. For agencies and resellers there is a product line available
 								enabling companies to offer webhosting services in their own name.</p>
 
-								<p>With &quot;JiffyBox&quot; domainFACTORY recently launched an innovative cloud hosting
+								<p>With &quot;JiffyBox,&quot; domainFACTORY recently launched an innovative cloud hosting
 								service. The flexible on-demand virtual servers come with many interesting features and
 								full remote control using the RESTful API. For cloud servers from JiffyBox you only pay
 								what you use without any minimum contract commitments.</p>
 
-								<p>Offering a full range of webhosting services starting from domain registration to
-								dedicated and cloud servers, domainFACTORY currently also hosts many TYPO3 based projects
-								from small private up to big enterprise websites. The company's own website has also been
-								running on TYPO3 for many years.</p>
+								<p>Offering a full range of webhosting services, from domain registration to dedicated and
+								cloud servers, domainFACTORY also hosts many TYPO3-based projects for small private firms
+								as well as big enterprise websites. The company's own website has also been running on
+								TYPO3 for many years.</p>
 
 								<h2>Facts</h2>
 
@@ -630,17 +618,17 @@
 						<headline>Team Contacts</headline>
 						<text><![CDATA[
 							<h2>Sponsoring Questions?</h2>
-							<p>If you have any questions about your sponsoring, please contact Sandra Krieg:<br />
+							<p>If you have any questions about sponsorship, please contact Sandra Krieg:<br />
 							<a href="mailto:sandra@typo3.org">sandra@typo3.org</a><br />
 							Phone: +49 721 9109-125<br />
 							(Mo-Fr 08:00 - 12:00)</p>
 
-							<h2>Conference organisation</h2>
+							<h2>Conference Organization</h2>
 							<p>If you have general questions or remarks about the conference, please contact Jürgen Egeling:<br />
 							<a href="mailto:t3con11-han@egeling.de">t3con11-han@egeling.de</a></p>
 
 							<h2>Website</h2>
-							<p>This website runs on a alpha version of TYPO3 5.0 and is maintained by the TYPO3 core team. You can reach us at:<br />
+							<p>This website runs on an alpha version of TYPO3 5.0 and is maintained by the TYPO3 core team. You can reach us at:<br />
 							<a href="mailto:typo3-team-core-v5@lists.typo3.org">typo3-team-core-v5@lists.typo3.org</a></p>
 						]]></text>
 					</properties>
@@ -711,7 +699,7 @@
 
 							<ul>
 								<li>Free entry to the conference</li>
-								<li>First hand press information about the conference</li>
+								<li>First-hand press information about the conference</li>
 								<li>Priority contact for important questions regarding T3CON11 and TYPO3</li>
 								<li>Exclusive invitation and free entry to TYPO3 annual &quot;press get together&quot;</li>
 							</ul>
@@ -771,22 +759,22 @@
 							email), that data will be used only for the indicated purpose. It will
 							not be given to third parties.</p>
 
-							<p>A cookie is a little textfile, that is stored from your browser on
+							<p>A cookie is a little textfile that is stored from your browser on
 							your system. We use cookies to keep your session activated. We do not
 							use cookies for personal data recognition, but only to collect anonymous
 							statistical data. If you choose to disable cookies, you may still use
 							this website, but some functionality will not be available.</p>
 
 							<p>For statistical reasons we collect the following technical data:<ul>
-							<li>requested file</li>
-							<li>type of browser</li>
-							<li>type of operating system</li>
-							<li>referrer URL</li>
-							<li>time and date of the use of the website</li>
-							<li>your IP address</li>
+							<li>Requested file</li>
+							<li>Type of browser</li>
+							<li>Type of operating system</li>
+							<li>Referrer URL</li>
+							<li>Time and date of the use of the website</li>
+							<li>Your IP address</li>
 							</ul>
 							This data is collected anonymously and will be kept separately from
-							private user data, you might have given to us. It will not be given to
+							private user data that you might have given to us. It will not be given to
 							third parties.</p>
 							]]></text>
 						</properties>
