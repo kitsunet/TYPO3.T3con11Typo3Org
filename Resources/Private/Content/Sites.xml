@@ -608,6 +608,39 @@
 						</node>
 					</node>
 				</node>
+				<node identifier="177abc62-daaa-4858-b46f-fbdaf5b4f2f5" type="TYPO3:Page" nodeName="drecomm" locale="">
+					<properties>
+						<title>Drecomm BV</title>
+					</properties>
+					<node identifier="07dd3e74-c1f5-4bf3-9e0a-492e082d67c3" type="TYPO3:Section" nodeName="main" locale="">
+						<node identifier="af88905a-1526-46fb-a26b-b65784a69c70" type="TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>Drecomm Internet Intelligence</headline>
+								<text><![CDATA[<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Drecomm BV" class="intext right"/>
+								<p>With a true Open Source footprint Drecomm is one of the leading TYPO3 implementers in
+								the Netherlands. With a team of over 30 motivated developers we work on challenging
+								projects based on TYPO3, Magento and Alfresco.</p>
+
+								<p>We are happy to be able to be Platinum Sponsor of the TYPO3 Conference for the 4th
+								year now.</p>
+
+								<h2>Who we work for?</h2>
+								<p>We work for midsize and larger organizations. Among our clients are: SIDN, Nuon,
+								Governments, <a href="http://www.drecomm.nl/Portfolio/case/ppg-wiki-software-productbank/cHash/ab33347487.htm">PPG</a>,
+								<a href="http://www.drecomm.nl/Portfolio/case/intranet-portal-20/cHash/5b67cf6c4f.htm">Cendris</a>,
+								<a href="http://www.drecomm.nl/Portfolio/case/intranet-1/cHash/eec82aa1f6.htm">Rabobank</a>
+								and many other appealing clients.</p>
+
+								<h2>Contact</h2>
+								<p>Rotterdam: +31 (0)10 466 86 38 Dennis Reurings<br />
+								Amersfoort: +31 (0)33 887 05 52 Greco Steenmetz<br />
+								Groningen: +31 (0)50 577 58 22 Rogier Hosman<br />
+								Website: <a href="http://www.drecomm.nl/typo3-cms-en-website-ontwikkeling.htm">http://www.drecomm.nl/</a></p>
+								]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
 			</node>
 		</node>
 		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3:Page" nodeName="contact" locale="">
