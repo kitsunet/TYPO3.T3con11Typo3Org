@@ -519,7 +519,8 @@
 								<tbody>
 									<tr>
 										<td>
-											<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/>
+											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
+											<a href="http://www.drecomm.nl/typo3-cms-en-website-ontwikkeling.htm"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Internet Intelligence"/></a>
 										</td>
 										<td>
 										</td>
@@ -542,6 +543,7 @@
 								<tbody>
 									<tr>
 										<td>
+											<a href="http://www.moeller-horcher.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/moeller-horcher.png" height="35" width="170" alt="Möller Horcher Public Relations GmbH"/></a>
 										</td>
 										<td>
 											<a href="http://www.netzpepper.de/">netzpepper</a>

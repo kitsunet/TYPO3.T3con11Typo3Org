@@ -429,12 +429,6 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 	padding: 3px 0 5px 0;
 }
 
-/* Sponsors block
---------------------------------------- */
-.sponsors									{ overflow: hidden; margin: 0 0 17px -7px; }
-.sponsors img								{ float: left; margin: 0 0 7px 7px; border: 1px solid #d9d9d9; }
-
-
 /* Section (content)
 ------------------------------ */
 
@@ -972,9 +966,11 @@ h2.survey.question {clear:both;}
 img.intext.right {float:right; margin-bottom:1em; margin-left:1em;}
 img.intext.left {float:left; margin-bottom:1em; margin-right:1em;}
 
+/* Sponsors list
+------------------------------ */
 table.sponsors th,
 table.sponsors td,
-table.sponsors td img {border:none;}
+table.sponsors td img {border:none; margin-bottom:20px; }
 table.sponsors th {background-color:inherit;}
 
 /* vimeo badge
