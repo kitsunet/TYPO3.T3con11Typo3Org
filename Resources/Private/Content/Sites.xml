@@ -817,21 +817,92 @@
 				</node>
 			</node>
 		</node>
+		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="" hiddenInIndex="true">
+			<properties>
+				<title>Login</title>
+			</properties>
+			<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="857e1323-31a4-4813-bd74-bdb404038ad5" type="Conference:Plugin" nodeName="login" locale="">
+					<properties>
+						<controller>Account\Login</controller>
+					</properties>
+				</node>
+			</node>
+		</node>
 		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="" hiddenInIndex="true">
 			<properties>
 				<title>My</title>
 			</properties>
-			<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="">
+			<accessRoles>
+				<role>Conference_Visitor</role>
+			</accessRoles>
+			<node identifier="c1d20729-8a8b-455c-8172-6192a85200e5" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="7aab3508-0028-4284-abe2-bc97480c123d" type="Conference:Plugin" nodeName="overview" locale="">
+					<properties>
+						<controller>Account\Overview</controller>
+					</properties>
+				</node>
+			</node>
+			<node identifier="2e652996-c366-4dcc-85f2-52830d17ea9c" type="TYPO3:Page" nodeName="speaker-profile" locale="">
 				<properties>
-					<title>Login</title>
+					<title>Speaker Profile</title>
 				</properties>
+				<accessRoles>
+					<role>Conference_Visitor</role>
+				</accessRoles>
 				<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="d9f48a84-4446-431d-83a0-740cfe04a29f" type="TYPO3:Text" nodeName="text1" locale="">
+					<node identifier="bf041e2c-98eb-40f1-b3f6-c90590c8ae5a" type="Conference:Plugin" nodeName="speakerProfile" locale="">
 						<properties>
-							<headline>Foo</headline>
-							<text><![CDATA[<p>foo.</p>
-							]]></text>
+							<controller>Account\SpeakerProfile</controller>
 						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="e45fcffb-5cee-4a64-b9dd-8790096a203c" type="TYPO3:Page" nodeName="papers" locale="">
+				<properties>
+					<title>Papers</title>
+				</properties>
+				<accessRoles>
+					<role>Speaker</role>
+				</accessRoles>
+				<node identifier="75af7ca0-1122-4734-90f1-62a180a3356b" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="5cade2e2-c418-4a82-b221-a15bbf4158c0" type="Conference:Plugin" nodeName="myPapers" locale="">
+						<properties>
+							<controller>Conference\Paper</controller>
+							<action>myPapers</action>
+						</properties>
+					</node>
+				</node>
+				<node identifier="1091be4c-c7be-45b3-8583-2a21f85e402a" type="TYPO3:Page" nodeName="new" locale="">
+					<properties>
+						<title>New paper</title>
+					</properties>
+					<accessRoles>
+						<role>Speaker</role>
+					</accessRoles>
+					<node identifier="6633aa4b-471b-4640-b60c-891f2c7b0e9d" type="TYPO3:Section" nodeName="main" locale="">
+						<node identifier="422182e2-6cb7-43bc-b305-b883747a60fd" type="Conference:Plugin" nodeName="newPaper" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>new</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="f206445e-f184-4f51-80f8-c54c794f6103" type="TYPO3:Page" nodeName="edit" locale="" hiddenInIndex="true">
+					<properties>
+						<title>Edit paper</title>
+					</properties>
+					<accessRoles>
+						<role>Speaker</role>
+					</accessRoles>
+					<node identifier="3b4982f4-4845-4f72-bd03-6078f44eb0a7" type="TYPO3:Section" nodeName="main" locale="">
+						<node identifier="f897f432-68b2-4a77-b515-956ee38effc6" type="Conference:Plugin" nodeName="editPaper" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>edit</action>
+							</properties>
+						</node>
 					</node>
 				</node>
 			</node>
