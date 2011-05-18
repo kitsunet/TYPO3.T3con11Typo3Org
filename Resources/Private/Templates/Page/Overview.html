@@ -1,4 +1,5 @@
 {namespace typo3=F3\TYPO3\ViewHelpers}
+{namespace c=F3\Conference\ViewHelpers}
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -46,7 +47,8 @@
 
 			<!-- ### section ### -->
 			<div class="s d" id="section">
-				<f:flashMessages />
+
+				<c:flashMessages class="b-message" />
 				{content.teaser}
 				<div class="g">
 					<div class="g-6">{content.main}</div>

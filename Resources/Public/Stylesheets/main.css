@@ -466,9 +466,14 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-message .icon			{ content: ''; width: 50px; height: 50px; position: absolute; left: 14px; top: 18px; display: none; }
 .b-message p				{ margin: 0; }
 .b-message-icon				{  }
-.warning.b-message			{ padding-left: 74px; min-height: 50px; }
+.error.b-message			{ background-color: #fcf2f2; border-color: #e8b0b1;}
+.warning.b-message, .error.b-message			{ padding-left: 74px; min-height: 50px; }
 .warning.b-message:before,
-.warning .b-message-icon	{ background: url(../Images/s-icons.png) no-repeat 0 -37px; display: block; }
+.warning .b-message-icon,
+.error.b-message:before,
+.error .b-message-icon	{ background: url(../Images/s-icons.png) no-repeat 0 -37px; display: block; }
+
+.flashMessages {background: #fffbf3; border: 1px solid #eee5d9; padding: 17px; margin: 0 0 17px 0; position: relative;}
 
 /* Comments block
 --------------------------------------- */
@@ -485,6 +490,8 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 --------------------------------------- */
 .b-form				{ margin: 20px 0 30px 0; }
 .b-form-row			{ overflow: hidden; margin: 0 0 12px 0; }
+.b-form ol li.b-form-row
+                    { padding-left:0; }
 .b-form-row label	{ float: left; width: 150px; margin-right: 10px; }
 .b-form-row label small
 					{ display: block; font-size: 10px; color: #8c8c8c; }
@@ -496,11 +503,16 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-form-delete		{ float: left; width: 25px; height: 22px; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-delete.gif) no-repeat #FFFFFF; }
 .b-form-edit		{ float: left; width: 25px; height: 22px; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-edit.png) no-repeat transparent; }
 
+.d ol li .b-form-inputs span { position: static; }
+
 .b-form-inputs input[type=text],
+.b-form-inputs input[type=email],
+.b-form-inputs input[type=password],
 .b-form-inputs textarea
 					{ border: 1px solid #dbdbdb; background: #fff url(../Images/i-text.png) repeat-x top left; padding: 2px 4px 3px; width: 200px; height: 18px; }
 .b-form-inputs textarea
 					{ width: 330px; height: 120px; }
+
 .b-form .b-form-inputs .small-input
 					{ width:187px; }
 .b-form table		{ margin-top: 10px;}
@@ -508,7 +520,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 
 input.f3-form-error, textarea.f3-form-error, select.f3-form-error {
-	background: #FBA44D;
+	border-color: #e8b0b1;
 }
 
 /* Archive navigation
