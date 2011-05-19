@@ -9,5 +9,5 @@ page.body {
 
 page.head {
 	stylesheets.fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
-	javascripts.fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+	javascripts.fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Overview.html'
 }
