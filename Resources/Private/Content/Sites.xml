@@ -928,7 +928,7 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="" hiddenInIndex="true">
+		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="">
 			<accessRoles>
 				<role>Conference_Visitor</role>
 			</accessRoles>
