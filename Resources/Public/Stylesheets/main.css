@@ -461,12 +461,12 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 
 /* Message block
 --------------------------------------- */
-.b-message					{ background: #fffbf3; border: 1px solid #eee5d9; padding: 17px; margin: 0 0 17px 0; position: relative; }
+.b-message					{ background: #f5fff4; border: 1px solid #eee5d9; padding: 17px 17px 17px 74px; margin: 0 0 17px 0; min-height: 50px; position: relative; }
 .b-message:before,
-.b-message .icon			{ content: ''; width: 50px; height: 50px; position: absolute; left: 14px; top: 18px; display: none; }
+.b-message .icon			{ content: ''; width: 50px; height: 50px; position: absolute; left: 14px; top: 18px; background: url(../Images/checked.png) no-repeat; }
 .b-message p				{ margin: 0; }
 .b-message-icon				{  }
-.error.b-message			{ background-color: #fcf2f2; border-color: #e8b0b1;}
+.error.b-message			{ background-color: #fcf2f2; border-color: #e8b0b1; color: #dd5957; }
 .warning.b-message, .error.b-message			{ padding-left: 74px; min-height: 50px; }
 .warning.b-message:before,
 .warning .b-message-icon,
@@ -496,12 +496,13 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-form-row label small
 					{ display: block; font-size: 10px; color: #8c8c8c; }
 .b-form-inputs		{ margin: 0 0 0 160px; }
-.b-form-select		{ background: url(../Images/i-text.png) repeat-x scroll left top #FFFFFF; border: 1px solid #DBDBDB; padding: 2px 3px 3px; width: 209px; color: #8c8c8c; }
+.b-form-select		{ background: url(../Images/i-text.png) repeat-x scroll left top #FFFFFF; border: 1px solid #DBDBDB; padding: 2px 3px 3px; width: 209px; }
 .b-form-actions		{ margin-top: 15px; }
 .b-form-cancel		{ margin: 0 0 0 15px; text-decoration: underline; cursor: pointer; }
 .b-form-help		{ float: right; width: 25px; height: 22px; margin: 2px 11px 0 0; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-help.gif) no-repeat #FFFFFF; }
 .b-form-delete		{ float: left; width: 25px; height: 22px; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-delete.gif) no-repeat #FFFFFF; }
 .b-form-edit		{ float: left; width: 25px; height: 22px; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-edit.png) no-repeat transparent; }
+.b-form-submit		{ float: left; width: 25px; height: 22px; text-indent: -9999px; cursor: pointer; background: url(../Images/b-form-submit.png) no-repeat transparent; }
 
 .d ol li .b-form-inputs span { position: static; }
 
@@ -520,7 +521,11 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 form legend 		{ font-size: 16px; margin: 15px 0 7px; }
 
 input.f3-form-error, textarea.f3-form-error, select.f3-form-error {
-	border-color: #e8b0b1;
+	border-color: #e3a5a6 !important;
+}
+.error {
+	margin-top: 5px;
+	color: #e90100;
 }
 
 /* Archive navigation
