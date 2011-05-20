@@ -1022,7 +1022,7 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="e18f184e-964b-4275-b95f-103c5425016d" type="TYPO3:Page" nodeName="logout" locale="">
+		<node identifier="e18f184e-964b-4275-b95f-103c5425016d" type="TYPO3:Page" nodeName="logout" locale="" hiddenInIndex="true">
 			<properties>
 				<title>Logout</title>
 			</properties>
