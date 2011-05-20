@@ -68,10 +68,11 @@
 							<div class="d slide-content">
 							<div class="hgroup">
 							<h2>Call for Papers</h2>
-							<h3>The Call for Papers starts soon!</h3>
+							<h3>The Call for Papers is running!</h3>
 							</div>
-							<p>Within May the Call for papers will start. Don't miss the opportunity to present at the
+							<p>The Call for Papers runs until July 31st. Don't miss the opportunity to present at the
 							T3CON11 in Hanau!</p>
+							<p><a href="/sessions.html" class="bu">Details</a></p>
 							</div>
 
 							</li>
@@ -101,7 +102,7 @@
 							<li>
 							<div class="d">
 							<h6>Call for Papers</h6>
-							<p>The Call for Papers starts soon!</p>
+							<p>The Call for Papers is running!</p>
 							</div>
 							</li>
 							</ul>
@@ -150,19 +151,18 @@
 									<div class="d">
 										<div class="b-event-item">
 											<div class="b-event-item-date b-event-item-date-big dtstart">
-												<span class="d">20</span><span class="m">May</span> <span class="y">2011</span>
+												<span class="d">15</span><span class="m">June</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Call for Papers opens</h6>
-												<p>Don't miss the opportunity to present at the T3CON11</p>
+												<h6>Early Bird tickets available</h6>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-news-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">15.06</span> <span class="y">2011</span>
+												<span class="m">04.07</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Early Bird tickets available</h6>
+												<h6>Program Highlights Announced</h6>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-news-item -->
 										<div class="b-event-item">
@@ -175,10 +175,10 @@
 										</div><!-- b-news-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">04.07</span> <span class="y">2011</span>
+												<span class="m">15.08</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Program Announced</h6>
+												<h6>Full Program is Announced</h6>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-news-item -->
 									</div>
@@ -291,7 +291,7 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale="" hidden="true">
+		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale="">
 			<properties>
 				<title>Sessions</title>
 			</properties>
@@ -364,6 +364,14 @@
 						<p>To T3CON11, the now seventh edition of the world's largest
 						TYPO3 event, the TYPO3 community expects about 500 participants from more
 						than 30 countries to discuss and learn about the current state of TYPO3.</p>
+
+						<h2>What you need to do</h2>
+
+						<p>After logging in, create your speaker profile to be able to submit papers.
+						During the paper submission process we'll ask you about the title and abstract
+						of your session. Also you need to decide on a session type and a track your
+						presentation will fit. Until you actually submit the paper it will be in draft
+						mode and can be fine-tuned as much as you like.</p>
 						]]></text>
 					</properties>
 				</node>
@@ -399,6 +407,14 @@
 						<p>To T3CON11, the now seventh edition of the world's largest
 						TYPO3 event, the TYPO3 community expects about 500 participants from more
 						than 30 countries to discuss and learn about the current state of TYPO3.</p>
+
+						<h2>What you need to do</h2>
+
+						<p>After logging in, create your speaker profile to be able to submit papers.
+						During the paper submission process we'll ask you about the title and abstract
+						of your session. Also you need to decide on a session type and a track your
+						presentation will fit. Until you actually submit the paper it will be in draft
+						mode and can be fine-tuned as much as you like.</p>
 						]]></text>
 					</properties>
 				</node>
@@ -916,24 +932,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="" hiddenInIndex="true">
-			<properties>
-				<title>Login</title>
-			</properties>
-			<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="857e1323-31a4-4813-bd74-bdb404038ad5" type="Conference:Plugin" nodeName="login" locale="">
-					<properties>
-						<controller>Account\Login</controller>
-					</properties>
-				</node>
-			</node>
-		</node>
 		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="">
 			<accessRoles>
 				<role>Conference_Visitor</role>
 			</accessRoles>
 			<properties>
-				<title>My</title>
+				<title>My T3CON11</title>
 			</properties>
 			<node identifier="c1d20729-8a8b-455c-8172-6192a85200e5" type="TYPO3:Section" nodeName="main" locale="">
 				<node identifier="7aab3508-0028-4284-abe2-bc97480c123d" type="Conference:Plugin" nodeName="overview" locale="">
@@ -1003,6 +1007,18 @@
 							</properties>
 						</node>
 					</node>
+				</node>
+			</node>
+		</node>
+		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="">
+			<properties>
+				<title>Login</title>
+			</properties>
+			<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="857e1323-31a4-4813-bd74-bdb404038ad5" type="Conference:Plugin" nodeName="login" locale="">
+					<properties>
+						<controller>Account\Login</controller>
+					</properties>
 				</node>
 			</node>
 		</node>
