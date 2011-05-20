@@ -1022,5 +1022,18 @@
 				</node>
 			</node>
 		</node>
+		<node identifier="e18f184e-964b-4275-b95f-103c5425016d" type="TYPO3:Page" nodeName="logout" locale="">
+			<properties>
+				<title>Logout</title>
+			</properties>
+			<node identifier="d4f3da51-e714-472c-9e3a-18c554951f17" type="TYPO3:Section" nodeName="main" locale="">
+				<node identifier="baab702d-7414-4362-b0d2-ca6189a7a9bb" type="Conference:Plugin" nodeName="logout" locale="">
+					<properties>
+						<controller>Account\Login</controller>
+						<action>logout</action>
+					</properties>
+				</node>
+			</node>
+		</node>
 	</site>
 </root>
