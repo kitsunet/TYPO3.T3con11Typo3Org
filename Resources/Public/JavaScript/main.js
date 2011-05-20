@@ -174,4 +174,17 @@ $(document).ready(function(){
 
 				// Social block on homepage
 				$('.b-social').socialBox();
+
+				// character counter
+				$('.character-counter').each(function(){
+					var data = $.metadata.get(this);
+					$(this).jqEasyCounter({
+						maxChars: data.maxCharacters,
+						maxCharsWarning: data.maxCharacters - 10,
+						msgFontColor: '',
+						msgFontFamily: '',
+						msgFontSize: '',
+						msgWarningColor: '#e90100'
+					});
+				});
 });

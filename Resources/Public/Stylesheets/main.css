@@ -783,7 +783,7 @@ input.f3-form-error, textarea.f3-form-error, select.f3-form-error {
 --------------------------------------- */
 
 .i-text-mini	{ border: 1px solid #e2e2e2; background: url(../Images/s-buttons.png) 0 -115px no-repeat; padding: 2px 5px; }
-
+.jqEasyCounterMsg	{ font-size: 11px; color: #8c8c8c; }
 
 /* Tabs Container
 ------------------------------ */
