@@ -99,6 +99,61 @@
 							<div class="b-drop-body-r"></div>
 						</div><!-- b-drop-body -->
 					</li>
+					<li>
+						<a href="#"><span class="b-drop-h">
+							<span id="login-status">
+								<f:security.ifAuthenticated>
+									<f:then>
+										Logout
+									</f:then>
+									<f:else>
+										Login
+									</f:else>
+								</f:security.ifAuthenticated>
+							</span><span class="i-arr-down-or ico"></span><span class="b-drop-h-l"></span><span class="b-drop-h-r"></span></span>
+						</a>
+						<div class="b-drop-body b-drop-r"><div id="ajaxlogin">
+							<f:security.ifAuthenticated>
+								<f:then>
+									<p>You are currently logged in.</p>
+									<p><typo3:link.node node="/sites/t3con11typo3org/logout" class="bu bu-mini">Logout</typo3:link.node></p>
+								</f:then>
+								<f:else>
+									<form method="post" action="https://typo3.org/community/your-account/t3con11/?no_cache=1" id="drop-loginform">
+										<div class="b-form-row">
+											<label for="drop-user">Username:</label>
+											<div class="b-form-inputs">
+												<input type="text" value="" name="username" id="drop-user">
+											</div>
+										</div>
+										<div class="b-form-row">
+											<label for="drop-pass">Password:</label>
+											<div class="b-form-inputs">
+												<input type="password" value="" name="password" id="drop-pass">
+											</div>
+										</div>
+										<div id="tx-ajaxlogin-notice"></div>
+
+										<div class="b-form-row">
+											<button class="bu bu-mini" value="Login" name="submit" type="submit">Login</button>
+										</div>
+										<div class="login-action-links">Don't have an typo3.org account yet?
+											<a href="https://typo3.org/community/your-account/">
+												Sign Up
+											</a>
+										</div>
+										<div class="tx-ajaxlogin-hidden">
+											<input type="hidden" value="login" name="logintype">
+											<input type="hidden" value="1320" name="pid">
+											<input type="hidden" value="" name="redirect_url">
+										</div>
+
+									</form>
+								</f:else>
+							</f:security.ifAuthenticated>
+						</div>
+						<div class="b-drop-body-l"><div></div></div><div class="b-drop-body-b"><div></div></div><div class="b-drop-body-r"><div></div></div></div>
+					</li>
 				</ul>
 			</div><!-- h-bar -->
 			{parts.mainMenu}

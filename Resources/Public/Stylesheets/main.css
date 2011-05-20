@@ -180,7 +180,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .extensions							{ float: right; }
 .extensions .h-bar-search-submit	{ background-image: url(../Images/dark-grey.png); border-color: #8b8b8b; }
 
-.h-bar-nav					{ position: absolute; right: 0px; top: -2px; width: 200px; text-align: right; }
+.h-bar-nav					{ position: absolute; right: 0px; top: -2px; width: 400px; text-align: right; }
 .h-bar-nav > li				{ display: inline-block; position: relative; background: url(../Images/h-bar-nav-li.png) no-repeat 0 9px; text-align: left; margin-left: -1px; }
 .h-bar-nav > li:first-child	{ background: #ffffff; }
 .h-bar-nav > li > a			{ text-decoration: none; display: block; }
@@ -227,11 +227,25 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-drop-body .f-row label	{ padding: 0 10px 0 0; }
 .b-drop-body .f-row input	{  }
 
+.b-drop-body .b-form-row label {width: 70px; padding: 2px 0 0 0; }
+.b-drop-body .b-form-inputs {float: right;  margin: 0; }
+
+.b-drop-body .b-form-inputs input[type="text"],
+.b-drop-body .b-form-inputs input[type="email"],
+.b-drop-body .b-form-inputs input[type="password"],
+.b-drop-body .b-form-inputs textarea	{width: 140px;}
+
+.b-drop-body button[type="submit"] { float: right; }
+.b-drop-body .login-action-links { clear: both; }
+
 .my-account					{ min-width: 190px; padding: 4px 12px 0;}
 .my-account .b-wi-pic		{ margin-right: 15px; }
 .my-account .b-wi-pic img	{ border: 1px solid #e4e4e4; margin-top: 4px; }
 .my-account .m-outline		{ color: #000; font-weight: bold; margin-bottom: 4px; line-height: 12px; }
 .my-account .m-action		{ margin-top: 10px }
+
+#ajaxlogin						{ width: 240px;}
+
 
 .nav .b-drop-h							{ display: inline; padding: 0px; }
 .nav .b-drop-body						{ width: 242px; padding: 30px 40px 30px 35px; left: -243px; top:33px; color: #ffffff; border: 2px solid #e87c0c; background: url(../Images/login-box-bg.png) repeat-x; }
