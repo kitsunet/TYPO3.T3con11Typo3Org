@@ -199,6 +199,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .h-bar-nav > li:hover .b-drop-h-l,
 .nav > li:hover .b-drop-body 	{ display: block; }
 .b-drop-body				{ position: absolute; z-index: 10; border: 1px solid #e3e3e3; background: #fff; padding: 13px 10px; top: 31px; left: 0; font-size: 11px; color: #8c8c8c; display: none; min-width: 150px; }
+.b-drop-body p				{ margin-bottom: 15px; }
 .b-drop-body-l,
 .b-drop-body-l div,
 .b-drop-body-b,
@@ -236,7 +237,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .b-drop-body .b-form-inputs textarea	{width: 140px;}
 
 .b-drop-body button[type="submit"] { float: right; }
-.b-drop-body .login-action-links { clear: both; }
+.b-drop-body .login-action-links { float: left; }
 
 .my-account					{ min-width: 190px; padding: 4px 12px 0;}
 .my-account .b-wi-pic		{ margin-right: 15px; }
@@ -244,7 +245,9 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 .my-account .m-outline		{ color: #000; font-weight: bold; margin-bottom: 4px; line-height: 12px; }
 .my-account .m-action		{ margin-top: 10px }
 
-#ajaxlogin						{ width: 240px;}
+#ajaxlogin										{ width: 240px;}
+#ajaxlogin .login-action-links a 				{ margin-left: 5px; }
+#ajaxlogin .login-action-links a:first-child	{ margin-left: 0; margin-right: 5px; }
 
 
 .nav .b-drop-h							{ display: inline; padding: 0px; }
