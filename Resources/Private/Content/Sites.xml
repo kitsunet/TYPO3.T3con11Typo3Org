@@ -276,6 +276,69 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="be58690f-7071-4109-8a26-f2674897c38d" type="TYPO3:Page" nodeName="accommodation" locale="">
+				<properties>
+					<title>Staying there</title>
+				</properties>
+				<node identifier="e1298dba-b270-4abb-82ec-7ba5146e872c" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="aa6108cb-54e0-4a4b-901a-1eae8943731a" type="TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Hotels</headline>
+							<text><![CDATA[<p>The following hotels have special prices available for attendes of the T3CON11.</p>
+
+							<p>Unless otherwise noted, mention the keywords &quot;TYPO3&quot;, &quot;T3CON&quot; or &quot;
+							Conference CPH&quot; when booking to get the discounted rate.</p>
+
+							<h2>Arcadia Hotel Hanau</h2>
+							<p>Kurt-Blaum-Platz 6<br />
+							63450 Hanau<br />
+							Phone: (+49) 6181 3055 0<br />
+							Facsimile: (+49) 6181 3055 444<br />
+							<a href="http://www.arcadia-hotel.de/hanau/das-hotel.html">http://www.arcadia-hotel.de/hanau/das-hotel.html</a></p>
+
+							<p>From October 4th to 9th special rate of 89,- € in single and 104,- € in double rooms,
+							breakfast included. Cancellation up to 4 weeks before the stay is free. Free Parking.
+							<strong><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Booking_Arcadia_Hotel.pdf">
+							Use this form for booking!</a></strong></p>
+
+							<h2>Best Western Premier Hotel Villa Stokkum ****</h2>
+							<p>Steinheimer Vorstadt 70<br />
+							63456 Hanau<br />
+							Phone: +49 (0) 6181-6640<br />
+							Facsimile: +49 (0) 6181-661580<br />
+							<a href="http://villastokkum.bestwestern.de/">http://villastokkum.bestwestern.de/</a></p>
+
+							<p>From October 4th to 9th special rate of 118,- € in single and 144,- € in double rooms,
+							breakfast included. Free Parking. Free WLAN with 3MBit downstream and 512 kBit upstream.
+							<strong><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Booking_Villa_Stokkum.pdf">
+							Use this form for booking!</a></strong> Cancellation only possible upon request and after
+							the hotel confirmed.</p>
+
+							<h2>Hotel Residence Ltd.</h2>
+							<p>Krämerstrasse 30 - 34<br />
+							63450 Hanau<br />
+							Phone: +49 (0)6181 428 78 - 0<br />
+							Facsimile: +49 (0)6181 428 78 - 200<br />
+							<a href="http://www.hotelgruppe-residence.de">http://www.hotelgruppe-residence.de</a></p>
+
+							<p>From October 4th to 9th special rate of 65,- € in single rooms, parking lot 5,- € per day,
+							parking garage 10,- € per day.</p>
+
+							<h2>Hotel Zum Riesen</h2>
+							<p>Heumarkt 8<br />
+							63450 Hanau<br />
+							Phone: +49 (0) 6181 250 250<br />
+							Facsimile: +49 (0) 6181 250 259<br />
+							<a href="http://www.hanauhotel.de">http://www.hanauhotel.de</a><br />
+							<a href="mailto:info@hanauhotel.de">info@hanauhotel.de</a></p>
+
+							<p>From October 4th to 9th special rate of 99,- € in single rooms in the main house, single rooms in &quot;
+							Riesen Junior&quot; or &quot; Römerhof&quot; 61,- €. Breakfast included. Parking 5,- € per day.</p>
+							]]></text>
+						</properties>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale="" hidden="true">
 			<properties>
