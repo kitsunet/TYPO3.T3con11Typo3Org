@@ -668,6 +668,28 @@
 									</tr>
 								</tbody>
 							</table>
+
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>Media Partners</h3></th><th></th><th></th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="http://www.heiseopen.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/heiseopen.png" height="56" width="170" alt="heise Open Source"/></a>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						]]></text>
 						</properties>
 					</node>
