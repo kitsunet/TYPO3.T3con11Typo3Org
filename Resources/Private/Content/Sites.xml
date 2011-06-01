@@ -739,7 +739,7 @@
 									<col width="230">
 								</colgroup>
 								<thead>
-									<tr><th><h3>Media Partners</h3></th><th></th><th></th></tr>
+									<tr><th colspan="3"><h3>Media Partners</h3></th></tr>
 								</thead>
 								<tbody>
 									<tr>
@@ -747,12 +747,14 @@
 											<a href="http://www.heiseopen.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/heiseopen.png" height="56" width="170" alt="heise Open Source"/></a>
 											<a href="http://www.oreilly.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/oreilly.png" height="50" width="170" alt="O'Reilly Verlag"/></a>
 											<a href="http://www.contentmanager.de/itguide/special_typo3_open_source_content_management.html"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/contentmanager.png" height="50" width="170" alt="contentmanager.de"/></a>
+										</td>
+										<td>
 											<a href="http://www.bit-news.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/bit.png" height="75" width="170" alt="heise Open Source"/></a>
 											<a href="http://www.shopanbieter.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/shopanbieter.png" height="61" width="170" alt="shopanbieter.de"/></a>
+											<a href="http://t3n.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/t3n.png" height="43" width="170" alt="t3n Magazin"/></a>
 										</td>
 										<td>
-										</td>
-										<td>
+											<a href="http://www.bdoa.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/bdoa.png" height="55" width="170" alt="Bundesverband der Dienstleister für Online Anbieter BDOA e.V."/></a>
 										</td>
 									</tr>
 								</tbody>
