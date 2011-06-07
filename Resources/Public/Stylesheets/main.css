@@ -676,7 +676,7 @@ input.f3-form-error, textarea.f3-form-error, select.f3-form-error {
 
 #flickr-slider				{ position: relative; float: left; margin-top: 24px; margin-left: 8px; width: 645px; height: 89px; overflow: hidden; }
 #flickr-slider .slides 		{ position: absolute; right: 35px; margin: 0; height: 89px; }
-#flickr-slider .slides > a	{ background: url(../Images/b-flickr-img.png); padding: 6px 7px 8px; width: 75px; height: 75px; margin: 0 0 0 14px; float: right; }
+#flickr-slider .slides .flickr_badge_image > a	{ background: url(../Images/b-flickr-img.png); padding: 6px 7px 8px; width: 75px; height: 75px; margin: 0 0 0 14px; float: right; }
 #flickr-slider .slides img	{ display: block; width: 75px; height: 75px; background: url(../Images/ajax-preloader.gif) no-repeat 50% 50%; }
 .flickr-overlay				{ position: absolute; top: 0; right: 0; width: 35px; height: 89px; }
 .g-6 .b-flickr				{ width: 615px; background-image: url(../Images/b-flickr-small.gif); }
