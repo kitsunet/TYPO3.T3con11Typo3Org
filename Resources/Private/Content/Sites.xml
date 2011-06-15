@@ -1103,6 +1103,21 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="4279c1be-2bed-4bf2-a414-f77f3168bb20" type="TYPO3:Page" nodeName="conference" locale="">
+				<accessRoles>
+					<role>Administrator</role>
+				</accessRoles>
+				<properties>
+					<title>Edit Conference Data</title>
+				</properties>
+				<node identifier="88703a57-157f-4e14-975c-c8e1725f8ab2" type="TYPO3:Section" nodeName="main" locale="">
+					<node identifier="6d6c386f-bf2d-4f57-bc01-136acb6af8cf" type="Conference:Plugin" nodeName="conference" locale="">
+						<properties>
+							<controller>Conference</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="" hidden="true">
 			<properties>
