@@ -1322,7 +1322,7 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3.TYPO3:Page" nodeName="login" locale="" hidden="true">
+		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3.TYPO3:Page" nodeName="login" locale="" hiddenInIndex="true">
 			<properties>
 				<title>Login</title>
 			</properties>
