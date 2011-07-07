@@ -764,6 +764,27 @@
 									</tr>
 								</tbody>
 							</table>
+
+							<table class="sponsors">
+								<colgroup>
+									<col width="230">
+									<col width="230">
+									<col width="230">
+								</colgroup>
+								<thead>
+									<tr><th><h3>T-Shirt Sponsors</h3></th><th colspan="2"></th></tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="http://www.netlogix.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/netlogix.png" height="53" width="170" alt="netlogix: Ihr Partner für IT-Services, IT-Training &amp; Weblösungen in Nürnberg"/></a>
+											<a href="http://www.world-of-textiles.com/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/world-of-textiles.png" height="52" width="170" alt="World of Textiles - Special Textiles for Special People"/></a>
+										</td>
+										<td>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						]]></text>
 						</properties>
 					</node>
