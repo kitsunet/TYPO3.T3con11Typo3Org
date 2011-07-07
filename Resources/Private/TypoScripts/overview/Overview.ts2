@@ -4,10 +4,10 @@
  */
 
 page.body {
-	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Overview.html'
+	source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Overview.html'
 }
 
 page.head {
-	stylesheets.fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
-	javascripts.fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Overview.html'
+	stylesheets.fromTemplate.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Default.html'
+	javascripts.fromTemplate.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Overview.html'
 }

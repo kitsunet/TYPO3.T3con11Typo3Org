@@ -1,8 +1,8 @@
 <?php
-namespace F3\T3con11Typo3Org;
+namespace TYPO3\T3con11Typo3Org;
 
 /*                                                                        *
- * This script belongs to the FLOW3 framework.                            *
+ * This script belongs to the FLOW3 package "T3con11Typo3Org".            *
  *                                                                        *
  * It is free software; you can redistribute it and/or modify it under    *
  * the terms of the GNU Lesser General Public License as published by the *
@@ -21,7 +21,7 @@ namespace F3\T3con11Typo3Org;
  * The TYPO3 project - inspiring people to share!                         *
  *                                                                        */
 
-use \F3\FLOW3\Package\Package as BasePackage;
+use \TYPO3\FLOW3\Package\Package as BasePackage;
 
 /**
  * The PhoenixDemoTypo3Org Package

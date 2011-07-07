@@ -4,21 +4,21 @@
 		<properties>
 			<name>T3CON11 Site</name>
 			<state>1</state>
-			<siteResourcesPackageKey>T3con11Typo3Org</siteResourcesPackageKey>
+			<siteResourcesPackageKey>TYPO3.T3con11Typo3Org</siteResourcesPackageKey>
 		</properties>
-		<node identifier="5fee5645-e059-4e9e-aa1f-94915dfdda92" type="TYPO3:Page" nodeName="overview" locale="">
+		<node identifier="5fee5645-e059-4e9e-aa1f-94915dfdda92" type="TYPO3.TYPO3:Page" nodeName="overview" locale="">
 			<properties>
 				<title>Overview</title>
 			</properties>
-			<node identifier="f30d82ab-4275-48c7-914c-724ddf6b536d" type="TYPO3:Section" nodeName="teaser" locale="">
-				<node identifier="e9a1c2d2-525e-4257-b4d9-273493db2921" type="TYPO3:Html" nodeName="topslider" locale="">
+			<node identifier="f30d82ab-4275-48c7-914c-724ddf6b536d" type="TYPO3.TYPO3:Section" nodeName="teaser" locale="">
+				<node identifier="e9a1c2d2-525e-4257-b4d9-273493db2921" type="TYPO3.TYPO3:Html" nodeName="topslider" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="slider" id="top-slider">
 							<div class="slider-content">
 							<ul class="slides">
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-01.jpg"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-01.jpg"
 							width="982" height="282" alt="Slider 03" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -32,7 +32,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-02.jpg"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-02.jpg"
 							width="982" height="282" alt="T3CON10 Video Team" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -47,7 +47,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-03.jpg"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-03.jpg"
 							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -62,7 +62,7 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Slider/slider-04.jpg"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-04.jpg"
 							width="982" height="282" alt="Packed session at T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
@@ -113,8 +113,8 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="6ebb2dd9-5924-4bbc-8602-e52495ad2451" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="eca65e3d-3442-4c72-93c2-9bdc332b186d" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="6ebb2dd9-5924-4bbc-8602-e52495ad2451" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="eca65e3d-3442-4c72-93c2-9bdc332b186d" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>T3CON11 - Frankfurt</headline>
 						<text><![CDATA[
@@ -141,8 +141,8 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3:Section" nodeName="sidebar" locale="">
-				<node identifier="ebafd0be-7e95-4606-a2f5-3ef668ec9dd8" type="TYPO3:Html" nodeName="html1" locale="">
+			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3.TYPO3:Section" nodeName="sidebar" locale="">
+				<node identifier="ebafd0be-7e95-4606-a2f5-3ef668ec9dd8" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="gc">
@@ -190,16 +190,16 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3:Page" nodeName="location" locale="">
+		<node identifier="73ac9f08-8978-4b7c-b684-e637e6a17475" type="TYPO3.TYPO3:Page" nodeName="location" locale="">
 			<properties>
 				<title>Location</title>
 			</properties>
-			<node identifier="248c86d8-93c6-461d-a793-2b26ed4f0877" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="bd98b3e6-09e0-4ad4-9ebc-c1ef1d115996" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="248c86d8-93c6-461d-a793-2b26ed4f0877" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="bd98b3e6-09e0-4ad4-9ebc-c1ef1d115996" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Location</headline>
 						<text><![CDATA[
-						<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-region.jpg" width="250" height="216" alt="" class="intext right" />
+						<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/location-region.jpg" width="250" height="216" alt="" class="intext right" />
 
 						<p>The T3CON11 Frankfurt will take place in the Congress Park Hanau (CPH), just a 30-minute ride
 						from Frankfurt International Airport. CPH is central in every regard: At the center of Germany, in
@@ -215,24 +215,24 @@
 						unique appeal throughout Germany.</p>
 
 						<div class="cc">
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
-							<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/location-dreiecksdach.jpg" width="320" height="208" alt="Pointed roof at CPH" />
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/location-suedfoyer.jpg" width="320" height="208" alt="Southern foyer at CPH" />
 						</div>
 						]]></text>
 					</properties>
 				</node>
 			</node>
-			<node identifier="64ba26b4-b102-45c2-be62-eac9c0877d6b" type="TYPO3:Page" nodeName="getting-there" locale="">
+			<node identifier="64ba26b4-b102-45c2-be62-eac9c0877d6b" type="TYPO3.TYPO3:Page" nodeName="getting-there" locale="">
 				<properties>
 					<title>Getting there</title>
 				</properties>
-				<node identifier="a6589165-e53f-4698-8ed1-f4238d314188" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="e499cf64-b940-4a49-858b-01a6dc00fe67" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="a6589165-e53f-4698-8ed1-f4238d314188" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="e499cf64-b940-4a49-858b-01a6dc00fe67" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Getting there by train</headline>
 							<text><![CDATA[<p>The Congress Park Hanau and Deutsche Bahn offer a specially priced package
 							for getting to Hanau and back home. Detailed information on the
-							<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Trainticket Congress Hanau.pdf">
+							<a href="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Trainticket Congress Hanau.pdf">
 							special train ticket package</a> is available in PDF form.</p>
 
 							<p>To get to the conference location from the train station you can take a cab or use public
@@ -240,7 +240,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="9c6daf37-d208-4b26-bf6c-01932eec6541" type="TYPO3:Text" nodeName="text2" locale="">
+					<node identifier="9c6daf37-d208-4b26-bf6c-01932eec6541" type="TYPO3.TYPO3:Text" nodeName="text2" locale="">
 						<properties>
 							<headline>Getting there by plane</headline>
 							<text><![CDATA[<p>The Congress Park Hanau is located just 30 minutes from the airport in
@@ -251,7 +251,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="830f7b96-bda4-49c7-9561-4ba8c08ccfc2" type="TYPO3:Text" nodeName="text3" locale="">
+					<node identifier="830f7b96-bda4-49c7-9561-4ba8c08ccfc2" type="TYPO3.TYPO3:Text" nodeName="text3" locale="">
 						<properties>
 							<headline>Getting there by public transport</headline>
 							<text><![CDATA[<p>The Congress Park Hanau can be reached by public transport easily.</p>
@@ -265,24 +265,24 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="cf88585e-78a0-4ccd-bd72-98b085ded82b" type="TYPO3:Text" nodeName="text4" locale="">
+					<node identifier="cf88585e-78a0-4ccd-bd72-98b085ded82b" type="TYPO3.TYPO3:Text" nodeName="text4" locale="">
 						<properties>
 							<headline>Getting there by car</headline>
 							<text><![CDATA[<p>General: Follow the signs for &quot;Congress Park Hanau&quot; or &quot;CPH&quot;.
 							Detailed information on
-							<a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Getting there by car.pdf">
+							<a href="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Getting there by car.pdf">
 							how to get there by car</a> is available in PDF form.</p>
 							]]></text>
 						</properties>
 					</node>
 				</node>
 			</node>
-			<node identifier="be58690f-7071-4109-8a26-f2674897c38d" type="TYPO3:Page" nodeName="accommodation" locale="">
+			<node identifier="be58690f-7071-4109-8a26-f2674897c38d" type="TYPO3.TYPO3:Page" nodeName="accommodation" locale="">
 				<properties>
 					<title>Staying there</title>
 				</properties>
-				<node identifier="e1298dba-b270-4abb-82ec-7ba5146e872c" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="aa6108cb-54e0-4a4b-901a-1eae8943731a" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="e1298dba-b270-4abb-82ec-7ba5146e872c" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="aa6108cb-54e0-4a4b-901a-1eae8943731a" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Hotels</headline>
 							<text><![CDATA[<p>The following hotels have special prices available for attendes of the T3CON11.</p>
@@ -299,7 +299,7 @@
 
 							<p>From October 4th to 9th special rate of 89,- € in single and 104,- € in double rooms,
 							breakfast included. Cancellation up to 4 weeks before the stay is free. Free Parking.
-							<strong><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Booking_Arcadia_Hotel.pdf">
+							<strong><a href="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Booking_Arcadia_Hotel.pdf">
 							Use this form for booking!</a></strong></p>
 
 							<h2>Best Western Premier Hotel Villa Stokkum ****</h2>
@@ -311,7 +311,7 @@
 
 							<p>From October 4th to 9th special rate of 118,- € in single and 144,- € in double rooms,
 							breakfast included. Free Parking. Free WLAN with 3MBit downstream and 512 kBit upstream.
-							<strong><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/Booking_Villa_Stokkum.pdf">
+							<strong><a href="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Booking_Villa_Stokkum.pdf">
 							Use this form for booking!</a></strong> Cancellation only possible upon request and after
 							the hotel confirmed.</p>
 
@@ -341,12 +341,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3:Page" nodeName="speakers" locale="" hidden="true">
+		<node identifier="b77f162a-db28-452d-b34e-87f725f3c2ea" type="TYPO3.TYPO3:Page" nodeName="speakers" locale="" hidden="true">
 			<properties>
 				<title>Speakers</title>
 			</properties>
-			<node identifier="623d8c8d-bb22-428f-ab4a-c66935574eb7" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="fc5fb65c-dee5-46a8-926c-5c4a925079e5" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="623d8c8d-bb22-428f-ab4a-c66935574eb7" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="fc5fb65c-dee5-46a8-926c-5c4a925079e5" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Foo</headline>
 						<text><![CDATA[<p>foo.</p>
@@ -355,12 +355,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3:Page" nodeName="sessions" locale="">
+		<node identifier="0e9a17bd-9c57-4c99-a0bb-3970856f366c" type="TYPO3.TYPO3:Page" nodeName="sessions" locale="">
 			<properties>
 				<title>Sessions</title>
 			</properties>
-			<node identifier="3a7f15f9-8392-43fa-b197-a90b756f1cd7" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="f8ba0504-6570-4866-84a8-cf3a544a0057" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="3a7f15f9-8392-43fa-b197-a90b756f1cd7" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="f8ba0504-6570-4866-84a8-cf3a544a0057" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Become a T3CON11 speaker!</headline>
 						<text><![CDATA[
@@ -398,12 +398,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="6ee4e5a7-8ba9-4188-8bc0-15d01c218752" type="TYPO3:Page" nodeName="cfp" locale="" hiddenInIndex="true">
+		<node identifier="6ee4e5a7-8ba9-4188-8bc0-15d01c218752" type="TYPO3.TYPO3:Page" nodeName="cfp" locale="" hiddenInIndex="true">
 			<properties>
 				<title>Call for Papers</title>
 			</properties>
-			<node identifier="294ee3c2-5163-4a2d-b56a-5832c54e9e0a" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="adc98744-d735-4064-8779-4e082ec6345e" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="294ee3c2-5163-4a2d-b56a-5832c54e9e0a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="adc98744-d735-4064-8779-4e082ec6345e" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Become a T3CON11 speaker!</headline>
 						<text><![CDATA[
@@ -441,12 +441,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="4c87068f-73ee-4fd4-95a8-58db97d346d9" type="TYPO3:Page" nodeName="callforpapers" locale="" hiddenInIndex="true">
+		<node identifier="4c87068f-73ee-4fd4-95a8-58db97d346d9" type="TYPO3.TYPO3:Page" nodeName="callforpapers" locale="" hiddenInIndex="true">
 			<properties>
 				<title>Call for Papers</title>
 			</properties>
-			<node identifier="05695557-e57a-462c-81dc-96572e98a04e" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="cd902733-4f17-46dc-9af2-41d32c818b8b" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="05695557-e57a-462c-81dc-96572e98a04e" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="cd902733-4f17-46dc-9af2-41d32c818b8b" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Become a T3CON11 speaker!</headline>
 						<text><![CDATA[
@@ -484,12 +484,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="32cb5163-05ad-4dac-8887-ad38769bb213" type="TYPO3:Page" nodeName="community" locale="" hidden="true">
+		<node identifier="32cb5163-05ad-4dac-8887-ad38769bb213" type="TYPO3.TYPO3:Page" nodeName="community" locale="" hidden="true">
 			<properties>
 				<title>Community</title>
 			</properties>
-			<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="d7b2c335-5a6e-4aaf-bfdb-eb78640ddf46" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="d7b2c335-5a6e-4aaf-bfdb-eb78640ddf46" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Website banners</headline>
 						<text><![CDATA[<p>Help spread the word! Pick the banner of your choice and place it on your webserver.</p>
@@ -498,12 +498,12 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3:Page" nodeName="t3con10-videos" locale="">
+			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3.TYPO3:Page" nodeName="t3con10-videos" locale="">
 				<properties>
 					<title>TYPO3 Conference Videos</title>
 				</properties>
-				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Videos of past TYPO3 conferences</headline>
 							<text><![CDATA[
@@ -514,7 +514,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3:Html" nodeName="html1" locale="">
+					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
 						<properties>
 							<source><![CDATA[
 								<div class="vimeoBadge">
@@ -526,12 +526,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3:Page" nodeName="contribute" locale="">
+		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3.TYPO3:Page" nodeName="contribute" locale="">
 			<properties>
 				<title>Contribute</title>
 			</properties>
-			<node identifier="34021530-ad3c-43ee-8552-66b952e2cf76" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3:Text" nodeName="text1" locale="">
+			<node identifier="34021530-ad3c-43ee-8552-66b952e2cf76" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="c02d01b8-33e3-42bf-839f-66f1ed5e4386" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Contribute to make TYPO3 even better!</headline>
 						<text><![CDATA[<p>TYPO3 is open source software and therefore free to use and download. However,
@@ -554,12 +554,12 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3:Page" nodeName="become-a-sponsor" locale="">
+			<node identifier="0f50c55b-5010-4525-b820-1b21c44cb4f3" type="TYPO3.TYPO3:Page" nodeName="become-a-sponsor" locale="">
 				<properties>
 					<title>Become a sponsor</title>
 				</properties>
-				<node identifier="a98dbd8a-19ac-4ca9-8a62-e0d8279b50ae" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="a98dbd8a-19ac-4ca9-8a62-e0d8279b50ae" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1c5e3d52-ca55-4ff2-b62d-3d59209f12c0" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Sponsoring T3CON11</headline>
 							<text><![CDATA[<p>There are many ways you can support the TYPO3 community’s largest conference,
@@ -599,14 +599,14 @@
 							networking and the possibility to discuss topics and trends.</p>
 
 							<h2>Become a Sponsor Now!</h2>
-							<p><a href="_Resources/Static/Packages/T3con11Typo3Org/Assets/110510_Sponsoring_T3CON11.pdf" class="bu">
+							<p><a href="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/110510_Sponsoring_T3CON11.pdf" class="bu">
 							<strong>Options, prices and order form</strong></a>
 							<a href="mailto:sandra@typo3.org?subject=[T3CON11] I want to sponsor" class="bu">
 							<strong>Contact now for sponsoring</strong></a></p>
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="f020cd55-e065-4feb-9bb8-fb2047b07617" type="TYPO3:Text" nodeName="text5" locale="">
+					<node identifier="f020cd55-e065-4feb-9bb8-fb2047b07617" type="TYPO3.TYPO3:Text" nodeName="text5" locale="">
 						<properties>
 							<headline>Great response to T3CON10!</headline>
 							<text><![CDATA[<p>T3CON10 was a real success! Have a look at the <a href="contribute/become-a-sponsor/survey-results-2010.html">
@@ -614,42 +614,42 @@
 						</properties>
 					</node>
 				</node>
-				<node identifier="8d9b37ed-2213-405b-b7aa-e3d3274cbee2" type="TYPO3:Page" nodeName="survey-results-2010" locale="" hiddenInIndex="true">
+				<node identifier="8d9b37ed-2213-405b-b7aa-e3d3274cbee2" type="TYPO3.TYPO3:Page" nodeName="survey-results-2010" locale="" hiddenInIndex="true">
 					<properties>
 						<title>T3CON10 visitor survey results</title>
 					</properties>
-					<node identifier="a371b574-40d3-4a13-b5a9-ebf95154bf80" type="TYPO3:Section" nodeName="main" locale="">
-						<node identifier="e1f827ae-0087-4cec-bbea-91aeb420ee8f" type="TYPO3:Text" nodeName="text1" locale="">
+					<node identifier="a371b574-40d3-4a13-b5a9-ebf95154bf80" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="e1f827ae-0087-4cec-bbea-91aeb420ee8f" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 							<properties>
 								<headline>Results of the T3CON10 visitor survey</headline>
 								<text><![CDATA[<h2 class="survey question">What category do you fit in best?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Visitors_Jobs.png" width="407" height="350" alt="Visitortype" class="intext right"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Visitors_Jobs.png" width="407" height="350" alt="Visitortype" class="intext right"/>
 								<p>It was interesting to see that a lot of developers attended the conference. Since T3CON10 was targeted at business people, we see lots of potential here and will invite more business-oriented people in 2011.</p>
 
 								<h2 class="survey question">How do you rate the ticket fees for attending the conference?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Pricing.png" width="294" height="309" alt="Conference Pricing" class="intext left"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Conference_Pricing.png" width="294" height="309" alt="Conference Pricing" class="intext left"/>
 								<p>We are happy to discover that most people thought the tickets were fairly priced. It is most likely that ticket prices will stay the same for T3CON11.</p>
 
 								<h2 class="survey question">How do you rate the overall quality of the talks you attended?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Talk_Quality.png" width="227" height="290" alt="Talk Quality" class="intext right"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Talk_Quality.png" width="227" height="290" alt="Talk Quality" class="intext right"/>
 								<p>It’s encouraging that people really liked the quality of the talks. We will, of course, try to organize even better talks and more interesting speakers from TYPO3 related areas, but results like these make us happy.</p>
 
 								<h2 class="survey question">What do you think about the hotel the conference took place in?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Hotel.png" width="231" height="298" alt="Conference Hotel" class="intext left"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Conference_Hotel.png" width="231" height="298" alt="Conference Hotel" class="intext left"/>
 								<p>Most people liked the hotel and only a few had complaints, which we’ve already investigated. A general remark was that having two different floors for the conference was a bit irritating. We'll look into it how we can improve that this year.</p>
 
 								<h2 class="survey question">What is your opinion of the conference being in Frankfurt, Germany?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Conference_Location_Frankfurt.png" width="250" height="276" alt="Conference Location Frankfurt" class="intext right"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Conference_Location_Frankfurt.png" width="250" height="276" alt="Conference Location Frankfurt" class="intext right"/>
 								<p>T3CON11 will again take place in Frankfurt, Germany.</p>
 
 								<h2 class="survey question">How likely is it that you attend the next TYPO3 conference T3CON11?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Attend_next_year.png" width="348" height="296" alt="Attend Next Year" class="intext left"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Attend_next_year.png" width="348" height="296" alt="Attend Next Year" class="intext left"/>
 								<p>Nearly 50% of the conference visitors will definitely be back in
 								2010. That's great, especially since only very few are probably not
 								coming.</p>
 
 								<h2 class="survey question">What is your overall rating for T3CON10?</h2>
-								<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Survey 2010/Overall_Rating.png" width="303" height="294" alt="Overall Rating" class="intext right"/>
+								<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Survey 2010/Overall_Rating.png" width="303" height="294" alt="Overall Rating" class="intext right"/>
 								<p>This is somehow one of the most rewarding facts about T3CON10: Seeing that nearly everybody liked the conference and it was a great success. This gives us fuel for all the thousands of hours of work necessary for T3CON11!</p>
 								<p>Thank you!</p>
 							]]></text>
@@ -658,12 +658,12 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="521fbb09-48d8-4bef-8dcd-1f5d5e88bf07" type="TYPO3:Page" nodeName="individual-support" locale="">
+			<node identifier="521fbb09-48d8-4bef-8dcd-1f5d5e88bf07" type="TYPO3.TYPO3:Page" nodeName="individual-support" locale="">
 				<properties>
 					<title>Individual support</title>
 				</properties>
-				<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="9f46d7e8-94f3-4188-a686-5486d42cd891" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="bb543c99-97ad-4454-ba5d-dc94f2cb2ee9" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Individual support</headline>
 							<text><![CDATA[<p>If you want to support the TYPO3 conference as an individual, just do it!
@@ -676,12 +676,12 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3:Page" nodeName="list-of-sponsors" locale="">
+			<node identifier="4b990105-b032-451b-9ccd-01dcc8cbcc9f" type="TYPO3.TYPO3:Page" nodeName="list-of-sponsors" locale="">
 				<properties>
 					<title>List of sponsors</title>
 				</properties>
-				<node identifier="332db998-97dc-4c59-ad4d-b820785de7f2" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="332db998-97dc-4c59-ad4d-b820785de7f2" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="f5c4b66a-0ce7-49ab-8162-b80fdfd361d4" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>List of Sponsors</headline>
 							<text><![CDATA[
@@ -698,9 +698,9 @@
 								<tbody>
 									<tr>
 										<td>
-											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
-											<a href="http://www.drecomm.nl/typo3-cms-en-website-ontwikkeling.htm"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Internet Intelligence"/></a>
-											<a href="http://www.mittwald.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/mittwald.png" height="27" width="170" alt="Mittwald CM Service"/></a>
+											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
+											<a href="http://www.drecomm.nl/typo3-cms-en-website-ontwikkeling.htm"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Internet Intelligence"/></a>
+											<a href="http://www.mittwald.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/mittwald.png" height="27" width="170" alt="Mittwald CM Service"/></a>
 										</td>
 										<td>
 										</td>
@@ -723,7 +723,7 @@
 								<tbody>
 									<tr>
 										<td>
-											<a href="http://www.moeller-horcher.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/moeller-horcher.png" height="35" width="170" alt="Möller Horcher Public Relations GmbH"/></a>
+											<a href="http://www.moeller-horcher.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/moeller-horcher.png" height="35" width="170" alt="Möller Horcher Public Relations GmbH"/></a>
 										</td>
 										<td>
 											<a href="http://www.netzpepper.de/">netzpepper</a>
@@ -747,19 +747,19 @@
 								<tbody>
 									<tr>
 										<td>
-											<a href="http://www.heiseopen.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/heiseopen.png" height="56" width="170" alt="heise Open Source"/></a>
-											<a href="http://www.oreilly.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/oreilly.png" height="50" width="170" alt="O'Reilly Verlag"/></a>
-											<a href="http://www.contentmanager.de/itguide/special_typo3_open_source_content_management.html"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/contentmanager.png" height="50" width="170" alt="contentmanager.de"/></a>
+											<a href="http://www.heiseopen.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/heiseopen.png" height="56" width="170" alt="heise Open Source"/></a>
+											<a href="http://www.oreilly.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/oreilly.png" height="50" width="170" alt="O'Reilly Verlag"/></a>
+											<a href="http://www.contentmanager.de/itguide/special_typo3_open_source_content_management.html"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/contentmanager.png" height="50" width="170" alt="contentmanager.de"/></a>
 										</td>
 										<td>
-											<a href="http://www.bit-news.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/bit.png" height="75" width="170" alt="heise Open Source"/></a>
-											<a href="http://www.shopanbieter.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/shopanbieter.png" height="61" width="170" alt="shopanbieter.de"/></a>
-											<a href="http://t3n.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/t3n.png" height="43" width="170" alt="t3n Magazin"/></a>
+											<a href="http://www.bit-news.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/bit.png" height="75" width="170" alt="heise Open Source"/></a>
+											<a href="http://www.shopanbieter.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/shopanbieter.png" height="61" width="170" alt="shopanbieter.de"/></a>
+											<a href="http://t3n.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/t3n.png" height="43" width="170" alt="t3n Magazin"/></a>
 										</td>
 										<td>
-											<a href="http://www.bdoa.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/bdoa.png" height="55" width="170" alt="Bundesverband der Dienstleister für Online Anbieter BDOA e.V."/></a>
-											<a href="http://www.galileocomputing.de/php"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/galileo.png" height="57" width="170" alt="Galileo Press"/></a>
-											<a href="http://www.admin-magazin.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/admin-magazin.png" height="68" width="170" alt="ADMIN | Das plattformübergreifende Magazin für alle IT-Administratoren"/></a>
+											<a href="http://www.bdoa.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/bdoa.png" height="55" width="170" alt="Bundesverband der Dienstleister für Online Anbieter BDOA e.V."/></a>
+											<a href="http://www.galileocomputing.de/php"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/galileo.png" height="57" width="170" alt="Galileo Press"/></a>
+											<a href="http://www.admin-magazin.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/admin-magazin.png" height="68" width="170" alt="ADMIN | Das plattformübergreifende Magazin für alle IT-Administratoren"/></a>
 										</td>
 									</tr>
 								</tbody>
@@ -777,8 +777,8 @@
 								<tbody>
 									<tr>
 										<td>
-											<a href="http://www.netlogix.de/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/netlogix.png" height="53" width="170" alt="netlogix: Ihr Partner für IT-Services, IT-Training &amp; Weblösungen in Nürnberg"/></a>
-											<a href="http://www.world-of-textiles.com/"><img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/world-of-textiles.png" height="52" width="170" alt="World of Textiles - Special Textiles for Special People"/></a>
+											<a href="http://www.netlogix.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/netlogix.png" height="53" width="170" alt="netlogix: Ihr Partner für IT-Services, IT-Training &amp; Weblösungen in Nürnberg"/></a>
+											<a href="http://www.world-of-textiles.com/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/world-of-textiles.png" height="52" width="170" alt="World of Textiles - Special Textiles for Special People"/></a>
 										</td>
 										<td>
 										</td>
@@ -789,15 +789,15 @@
 						</properties>
 					</node>
 				</node>
-				<node identifier="7f1f47af-0cb5-47d6-9f99-febdff614d9b" type="TYPO3:Page" nodeName="domainfactory" locale="">
+				<node identifier="7f1f47af-0cb5-47d6-9f99-febdff614d9b" type="TYPO3.TYPO3:Page" nodeName="domainfactory" locale="">
 					<properties>
 						<title>domainFACTORY GmbH</title>
 					</properties>
-					<node identifier="542812ba-bf3d-42f8-a373-b2ccb299473a" type="TYPO3:Section" nodeName="main" locale="">
-						<node identifier="3d9cacf9-0f25-45e9-b821-84046721bece" type="TYPO3:Text" nodeName="text1" locale="">
+					<node identifier="542812ba-bf3d-42f8-a373-b2ccb299473a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="3d9cacf9-0f25-45e9-b821-84046721bece" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 							<properties>
 								<headline>domainFACTORY GmbH</headline>
-								<text><![CDATA[<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH" class="intext right"/>
+								<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH" class="intext right"/>
 								<p>In it's 10th year Munich-based domainFACTORY GmbH is
 								one of the leading webhosting companies in Germany, serving more than 100,000 customers
 								and managing well over 700,000 domain names. Following its claim "Premium Hosting. Premium
@@ -840,15 +840,15 @@
 						</node>
 					</node>
 				</node>
-				<node identifier="177abc62-daaa-4858-b46f-fbdaf5b4f2f5" type="TYPO3:Page" nodeName="drecomm" locale="">
+				<node identifier="177abc62-daaa-4858-b46f-fbdaf5b4f2f5" type="TYPO3.TYPO3:Page" nodeName="drecomm" locale="">
 					<properties>
 						<title>Drecomm BV</title>
 					</properties>
-					<node identifier="07dd3e74-c1f5-4bf3-9e0a-492e082d67c3" type="TYPO3:Section" nodeName="main" locale="">
-						<node identifier="af88905a-1526-46fb-a26b-b65784a69c70" type="TYPO3:Text" nodeName="text1" locale="">
+					<node identifier="07dd3e74-c1f5-4bf3-9e0a-492e082d67c3" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="af88905a-1526-46fb-a26b-b65784a69c70" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 							<properties>
 								<headline>Drecomm Internet Intelligence</headline>
-								<text><![CDATA[<img src="_Resources/Static/Packages/T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Drecomm BV" class="intext right"/>
+								<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Drecomm BV" class="intext right"/>
 								<p>With a true Open Source footprint Drecomm is one of the leading TYPO3 implementers in
 								the Netherlands. With a team of over 30 motivated developers we work on challenging
 								projects based on TYPO3, Magento and Alfresco.</p>
@@ -875,12 +875,12 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3:Page" nodeName="contact" locale="">
+		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3.TYPO3:Page" nodeName="contact" locale="">
 			<properties>
 				<title>Contact</title>
 			</properties>
-			<node identifier="87048ff2-f59d-42e0-a5f5-5161aab18a23" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="f138bca9-b458-4012-81ab-8256df0fb9ef" type="TYPO3:Text" nodeName="text2" locale="">
+			<node identifier="87048ff2-f59d-42e0-a5f5-5161aab18a23" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="f138bca9-b458-4012-81ab-8256df0fb9ef" type="TYPO3.TYPO3:Text" nodeName="text2" locale="">
 					<properties>
 						<headline>Team Contacts</headline>
 						<text><![CDATA[
@@ -900,7 +900,7 @@
 						]]></text>
 					</properties>
 				</node>
-				<node identifier="12c2569f-a4ce-4705-a5fc-6e0c9df1a2ee" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="12c2569f-a4ce-4705-a5fc-6e0c9df1a2ee" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
 						<headline>Post your question</headline>
 						<text><![CDATA[
@@ -909,14 +909,14 @@
 						]]></text>
 					</properties>
 				</node>
-				<node identifier="163256f8-6bcd-4c89-bb3a-940c2315165c" type="MailForm:Plugin" nodeName="mailform" locale=""/>
+				<node identifier="163256f8-6bcd-4c89-bb3a-940c2315165c" type="TYPO3.MailForm:Plugin" nodeName="mailform" locale=""/>
 			</node>
-			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3:Page" nodeName="faq" locale="" hidden="true">
+			<node identifier="fa14661d-3c3a-4b42-8f9e-c4233ad6db4b" type="TYPO3.TYPO3:Page" nodeName="faq" locale="" hidden="true">
 				<properties>
 					<title>FAQ</title>
 				</properties>
-				<node identifier="0989e7be-708c-43ad-abac-a98635d15913" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="2f993441-4201-4d23-ba19-7a21df317133" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="0989e7be-708c-43ad-abac-a98635d15913" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="2f993441-4201-4d23-ba19-7a21df317133" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Frequently Asked Questions</headline>
 							<text><![CDATA[<h2>Why do I have to pay German VAT?</h2>
@@ -950,12 +950,12 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3:Page" nodeName="press" locale="">
+			<node identifier="6ec9f024-efc8-4c8e-8252-7795d2d05f18" type="TYPO3.TYPO3:Page" nodeName="press" locale="">
 				<properties>
 					<title>Press</title>
 				</properties>
-				<node identifier="3ef93463-eec3-4913-8ef7-e1aeaf007e01" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="9384cf4a-acc9-4e94-ac27-3db21bfe9b82" type="TYPO3:Text" nodeName="text1" locale="">
+				<node identifier="3ef93463-eec3-4913-8ef7-e1aeaf007e01" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="9384cf4a-acc9-4e94-ac27-3db21bfe9b82" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 						<properties>
 							<headline>Press</headline>
 							<text><![CDATA[<p>This press section is intended to help you with your work as an active
@@ -973,7 +973,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="19ac10d3-6b16-42e3-ad5a-debbdb01fe4f" type="TYPO3:Text" nodeName="text2" locale="">
+					<node identifier="19ac10d3-6b16-42e3-ad5a-debbdb01fe4f" type="TYPO3.TYPO3:Text" nodeName="text2" locale="">
 						<properties>
 							<headline>Press contact</headline>
 							<text><![CDATA[<p><strong>Søren Schaffstein</strong><br />
@@ -993,12 +993,12 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="d9c54154-c290-4a33-98d2-8e81b1ae0de5" type="TYPO3:Page" nodeName="imprint" locale="">
+			<node identifier="d9c54154-c290-4a33-98d2-8e81b1ae0de5" type="TYPO3.TYPO3:Page" nodeName="imprint" locale="">
 				<properties>
 					<title>Imprint</title>
 				</properties>
-				<node identifier="a7c7818e-8dc7-4551-8ac0-79b075e61855" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="1113d0e7-96f2-47f1-a869-ae892dcdddae" type="TYPO3:Text" nodeName="4db6f2f239013" locale="">
+				<node identifier="a7c7818e-8dc7-4551-8ac0-79b075e61855" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1113d0e7-96f2-47f1-a869-ae892dcdddae" type="TYPO3.TYPO3:Text" nodeName="4db6f2f239013" locale="">
 						<properties>
 							<headline>Imprint</headline>
 							<text><![CDATA[<p>TYPO3 Association<br />
@@ -1049,59 +1049,59 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3:Page" nodeName="my" locale="">
+		<node identifier="f677ed5a-f3b7-41c2-9677-65f2d2e8c51c" type="TYPO3.TYPO3:Page" nodeName="my" locale="">
 			<accessRoles>
 				<role>Conference_Visitor</role>
 			</accessRoles>
 			<properties>
 				<title>My T3CON11</title>
 			</properties>
-			<node identifier="c1d20729-8a8b-455c-8172-6192a85200e5" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="7aab3508-0028-4284-abe2-bc97480c123d" type="Conference:Plugin" nodeName="overview" locale="">
+			<node identifier="c1d20729-8a8b-455c-8172-6192a85200e5" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="7aab3508-0028-4284-abe2-bc97480c123d" type="TYPO3.Conference:Plugin" nodeName="overview" locale="">
 					<properties>
 						<controller>Account\Overview</controller>
 					</properties>
 				</node>
 			</node>
-			<node identifier="2e652996-c366-4dcc-85f2-52830d17ea9c" type="TYPO3:Page" nodeName="speaker-profile" locale="">
+			<node identifier="2e652996-c366-4dcc-85f2-52830d17ea9c" type="TYPO3.TYPO3:Page" nodeName="speaker-profile" locale="">
 				<accessRoles>
 					<role>Conference_Visitor</role>
 				</accessRoles>
 				<properties>
 					<title>Speaker Profile</title>
 				</properties>
-				<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="bf041e2c-98eb-40f1-b3f6-c90590c8ae5a" type="Conference:Plugin" nodeName="speakerProfile" locale="">
+				<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="bf041e2c-98eb-40f1-b3f6-c90590c8ae5a" type="TYPO3.Conference:Plugin" nodeName="speakerProfile" locale="">
 						<properties>
 							<controller>Account\SpeakerProfile</controller>
 						</properties>
 					</node>
 				</node>
 			</node>
-			<node identifier="e45fcffb-5cee-4a64-b9dd-8790096a203c" type="TYPO3:Page" nodeName="papers" locale="">
+			<node identifier="e45fcffb-5cee-4a64-b9dd-8790096a203c" type="TYPO3.TYPO3:Page" nodeName="papers" locale="">
 				<accessRoles>
 					<role>Speaker</role>
 				</accessRoles>
 				<properties>
 					<title>Papers</title>
 				</properties>
-				<node identifier="75af7ca0-1122-4734-90f1-62a180a3356b" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="5cade2e2-c418-4a82-b221-a15bbf4158c0" type="Conference:Plugin" nodeName="myPapers" locale="">
+				<node identifier="75af7ca0-1122-4734-90f1-62a180a3356b" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="5cade2e2-c418-4a82-b221-a15bbf4158c0" type="TYPO3.Conference:Plugin" nodeName="myPapers" locale="">
 						<properties>
 							<controller>Conference\Paper</controller>
 							<action>myPapers</action>
 						</properties>
 					</node>
 				</node>
-				<node identifier="1091be4c-c7be-45b3-8583-2a21f85e402a" type="TYPO3:Page" nodeName="new" locale="">
+				<node identifier="1091be4c-c7be-45b3-8583-2a21f85e402a" type="TYPO3.TYPO3:Page" nodeName="new" locale="">
 					<accessRoles>
 						<role>Speaker</role>
 					</accessRoles>
 					<properties>
 						<title>New paper</title>
 					</properties>
-					<node identifier="6633aa4b-471b-4640-b60c-891f2c7b0e9d" type="TYPO3:Section" nodeName="main" locale="">
-						<node identifier="422182e2-6cb7-43bc-b305-b883747a60fd" type="Conference:Plugin" nodeName="newPaper" locale="">
+					<node identifier="6633aa4b-471b-4640-b60c-891f2c7b0e9d" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="422182e2-6cb7-43bc-b305-b883747a60fd" type="TYPO3.Conference:Plugin" nodeName="newPaper" locale="">
 							<properties>
 								<controller>Conference\Paper</controller>
 								<action>new</action>
@@ -1109,15 +1109,15 @@
 						</node>
 					</node>
 				</node>
-				<node identifier="f206445e-f184-4f51-80f8-c54c794f6103" type="TYPO3:Page" nodeName="edit" locale="" hiddenInIndex="true">
+				<node identifier="f206445e-f184-4f51-80f8-c54c794f6103" type="TYPO3.TYPO3:Page" nodeName="edit" locale="" hiddenInIndex="true">
 					<accessRoles>
 						<role>Speaker</role>
 					</accessRoles>
 					<properties>
 						<title>Edit paper</title>
 					</properties>
-					<node identifier="3b4982f4-4845-4f72-bd03-6078f44eb0a7" type="TYPO3:Section" nodeName="main" locale="">
-						<node identifier="f897f432-68b2-4a77-b515-956ee38effc6" type="Conference:Plugin" nodeName="editPaper" locale="">
+					<node identifier="3b4982f4-4845-4f72-bd03-6078f44eb0a7" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="f897f432-68b2-4a77-b515-956ee38effc6" type="TYPO3.Conference:Plugin" nodeName="editPaper" locale="">
 							<properties>
 								<controller>Conference\Paper</controller>
 								<action>edit</action>
@@ -1126,15 +1126,15 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="4279c1be-2bed-4bf2-a414-f77f3168bb20" type="TYPO3:Page" nodeName="conference" locale="">
+			<node identifier="4279c1be-2bed-4bf2-a414-f77f3168bb20" type="TYPO3.TYPO3:Page" nodeName="conference" locale="">
 				<accessRoles>
 					<role>Administrator</role>
 				</accessRoles>
 				<properties>
 					<title>Edit Conference Data</title>
 				</properties>
-				<node identifier="88703a57-157f-4e14-975c-c8e1725f8ab2" type="TYPO3:Section" nodeName="main" locale="">
-					<node identifier="6d6c386f-bf2d-4f57-bc01-136acb6af8cf" type="Conference:Plugin" nodeName="conference" locale="">
+				<node identifier="88703a57-157f-4e14-975c-c8e1725f8ab2" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="6d6c386f-bf2d-4f57-bc01-136acb6af8cf" type="TYPO3.Conference:Plugin" nodeName="conference" locale="">
 						<properties>
 							<controller>Conference</controller>
 						</properties>
@@ -1142,24 +1142,24 @@
 				</node>
 			</node>
 		</node>
-		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3:Page" nodeName="login" locale="" hidden="true">
+		<node identifier="7fa70ead-817f-4b5b-bcb8-f96d1af433e4" type="TYPO3.TYPO3:Page" nodeName="login" locale="" hidden="true">
 			<properties>
 				<title>Login</title>
 			</properties>
-			<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="857e1323-31a4-4813-bd74-bdb404038ad5" type="Conference:Plugin" nodeName="login" locale="">
+			<node identifier="115d53b8-5a3f-44ab-b8c2-4aedd52a9af4" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="857e1323-31a4-4813-bd74-bdb404038ad5" type="TYPO3.Conference:Plugin" nodeName="login" locale="">
 					<properties>
 						<controller>Account\Login</controller>
 					</properties>
 				</node>
 			</node>
 		</node>
-		<node identifier="e18f184e-964b-4275-b95f-103c5425016d" type="TYPO3:Page" nodeName="logout" locale="" hiddenInIndex="true">
+		<node identifier="e18f184e-964b-4275-b95f-103c5425016d" type="TYPO3.TYPO3:Page" nodeName="logout" locale="" hiddenInIndex="true">
 			<properties>
 				<title>Logout</title>
 			</properties>
-			<node identifier="d4f3da51-e714-472c-9e3a-18c554951f17" type="TYPO3:Section" nodeName="main" locale="">
-				<node identifier="baab702d-7414-4362-b0d2-ca6189a7a9bb" type="Conference:Plugin" nodeName="logout" locale="">
+			<node identifier="d4f3da51-e714-472c-9e3a-18c554951f17" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+				<node identifier="baab702d-7414-4362-b0d2-ca6189a7a9bb" type="TYPO3.Conference:Plugin" nodeName="logout" locale="">
 					<properties>
 						<controller>Account\Login</controller>
 						<action>logout</action>

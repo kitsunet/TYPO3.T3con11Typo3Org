@@ -5,26 +5,26 @@
 page = Page
 page.body = Template
 page.body {
-	source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+	source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Default.html'
 	sectionName = "body"
 }
 
 page.head.title = BreadcrumbMenu
 page.head.title {
 	maximumLevels = 2
-	template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/TitleMenu.html'
+	template.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/TypoScriptObjects/TitleMenu.html'
 }
 
 page.head {
 	stylesheets {
 		fromTemplate = Template
-		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+		fromTemplate.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Default.html'
 		fromTemplate.sectionName = 'stylesheets'
 	}
 
 	javascripts {
 		fromTemplate = Template
-		fromTemplate.source = 'resource://T3con11Typo3Org/Private/Templates/Page/Default.html'
+		fromTemplate.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/Page/Default.html'
 		fromTemplate.sectionName = 'javascripts'
 	}
 }
@@ -34,19 +34,19 @@ page.parts {
 	mainMenu = Menu
 	mainMenu {
 		entryLevel = 1
-		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/MainMenu.html'
+		template.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/TypoScriptObjects/MainMenu.html'
 		maximumLevels = 2
 	}
 
 	subMenu = Menu
 	subMenu {
 		entryLevel = 2
-		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/SubMenu.html'
+		template.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/TypoScriptObjects/SubMenu.html'
 		maximumLevels = 3
 	}
 
 	breadcrumb = BreadcrumbMenu
 	breadcrumb {
-		template.source = 'resource://T3con11Typo3Org/Private/Templates/TypoScriptObjects/BreadcrumbMenu.html'
+		template.source = 'resource://TYPO3.T3con11Typo3Org/Private/Templates/TypoScriptObjects/BreadcrumbMenu.html'
 	}
 }
