@@ -841,6 +841,185 @@
 						</node>
 					</node>
 				</node>
+				<node identifier="d4d530a9-2da5-4ab3-bebc-a4dbf0d43baf" type="TYPO3.TYPO3:Page" nodeName="meteos" locale="">
+					<properties>
+						<title>METEOS Deutschland</title>
+					</properties>
+					<node identifier="dffb8f31-f9ab-42bc-bbbd-e15fbb0987d3" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="a728cfe8-5a1d-473d-a961-681f91ad32ce" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>METEOS Deutschland</headline>
+								<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/meteos-page-header.jpg" width="744" height="198" border="0" alt="" />
+
+								<p style="text-align:right">(english version below)</p>
+
+								<p>METEOS Deutschland mit Sitz in Mannheim ist eine inhabergeführte
+								<b>Full-Service-Internetagentur</b>. Wir verfügen über <b>mehr als 12
+								Jahre Erfahrung</b> in der Entwicklung, Planung und Umsetzung von
+								kundenspezifischen <b>Internetanwendungen</b> bestehend aus
+								Internetpräsenz, Datenbanken und Geschäftsprozessen. Mit unseren
+								<b>funktionalen und sicheren Lösungen</b> tragen wir dazu bei, die
+								Geschäftsabläufe unserer Kunden zu vereinheitlichen und sie effizienter
+								zu gestalten.</p>
+
+								<p>Gegründet im Jahr 1998, betreuen wir heute branchenübergreifend mehr
+								als 150 Unternehmen und Organisationen bei der Realisierung ihres
+								Internetauftritts. Seit 2005 ist METEOS auf den Einsatz von <a
+								href="http://www.meteos.de/referenzen/technik-handel.html"
+								target="_blank">TYPO3</a> spezialisiert. Seitdem haben wir über 100
+								TYPO3-Projekte erfolgreich umgesetzt. Als <b>Technikpartner</b> arbeiten
+								wir darüber hinaus mit Werbeagenturen bei der Planung und Umsetzung von
+								komplexen Internetanwendungen, z. B. im Bereich Database Publishing,
+								sowie wie bei Internetauftritten in TYPO3 zusammen. </p>
+
+								<h2>METEOS im Überblick</h2>
+								<div class="g">
+									<div class="g-3">
+										<h3>Unternehmen</h3>
+										<table class="no-borders">
+											<tr>
+												<td>Inhaber:</td>
+												<td>Dipl.-Ing. (FH)<br />Jörg Oswald, M.Sc.</td>
+											</tr>
+											<tr>
+												<td>Standort:</td>
+												<td>Mannheim</td>
+											</tr>
+											<tr>
+												<td>Gründung:</td>
+												<td>01.01.1998</td>
+											</tr>
+											<tr>
+												<td>Mitarbeiter:</td>
+												<td>8</td>
+											</tr>
+											<tr>
+												<td>Kunden:</td>
+												<td>&gt;150</td>
+											</tr>
+											<tr>
+												<td>TYPO3-Projekte:</td>
+												<td>&gt;100</td>
+											</tr>
+										</table>
+									</div>
+									<div class="g-3">
+										<h3>Kompetenzen</h3>
+										<ul>
+											<li>Internetpräsenzen in TYPO3</li>
+											<li>Individuelle Internetanwendungen </li>
+											<li>PHP und Zend</li>
+											<li>Datenbanken</li>
+											<li>Webdesign</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Leistungen</h3>
+										<ul>
+											<li>Beratung</li>
+											<li>Bedarfsanalyse</li>
+											<li>Konzeption</li>
+											<li>Entwicklung und kundenspezifische Anpassung von Software</li>
+											<li>Projektmanagement</li>
+											<li>Technische Umsetzung</li>
+											<li>Schulung</li>
+											<li>Managed Hosting (Webspace / Server)</li>
+											<li>Wartung / Pflege (Updateservice)</li>
+										</ul>
+									</div>
+								</div>
+
+								<h2>Kontakt</h2>
+								<p>METEOS Deutschland<br /><a href="http://www.meteos.de/typo3-cms.html" target="_blank">TYPO3 Mannheim</a></p>
+								<p>Tel: 0621 762121-99<br /><a href="mailto:info@meteos.de">info(at)meteos.de</a><br /><a href="http://www.meteos.de/" target="_blank">www.meteos.de</a></p>
+
+								<h1>METEOS Deutschland</h1>
+
+								<p class="b-wi-r"><img
+								src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/meteos.png"
+								width="170" height="64" alt="" class="b-wi-pic"/> METEOS Deutschland
+								based in Mannheim, Germany, is an owner-managed full service internet
+								agency. With <b>over 12 years professional experience</b> in developing,
+								planning and implementing of customer specific internet applications, we
+								create unique web presences integrating databases and business
+								processes. Our <b>functional and secure solutions</b> enable our
+								customers to streamline their business processes and make them more
+								efficient.</p>
+
+								<p>Since the foundation of METEOS in 1998 we have been servicing more
+								than 150 companies and organizations with the implementation of their
+								internet presence. For more than five years we have been focusing on
+								TYPO3 software and have carried out over 100 customer projects
+								successfully. As a <b>technology partner</b> we support advertising
+								agencies in the planning and realization of <b>complex internet
+								applications</b>, e. g. in the area of data base publishing, as well as
+								in the creation of internet presences based on TYPO3.</p>
+
+								<h2>METEOS at a glance</h2>
+
+								<div class="g">
+									<div class="g-3">
+										<h3>Company</h3>
+										<table class="no-borders">
+											<tr>
+												<td>Owner:</td>
+												<td>Dipl.-Ing. (FH)<br />Jörg Oswald, M.Sc.</td>
+											</tr>
+											<tr>
+												<td>Location:</td>
+												<td>Mannheim</td>
+											</tr>
+											<tr>
+												<td>Founded:</td>
+												<td>1998</td>
+											</tr>
+											<tr>
+												<td>Employees:</td>
+												<td>8</td>
+											</tr>
+											<tr>
+												<td>Customers:</td>
+												<td>150+ across<br />various industries</td>
+											</tr>
+											<tr>
+												<td>TYPO3 projects:</td>
+												<td>100+</td>
+											</tr>
+										</table>
+									</div>
+									<div class="g-3">
+										<h3>Competencies</h3>
+										<ul>
+											<li>TYPO3 based webpages</li>
+											<li>Individual internet applications</li>
+											<li>PHP and Zend framework</li>
+											<li>Databases</li>
+											<li>Web design</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Services</h3>
+										<ul>
+											<li>Consulting</li>
+											<li>Requirements analysis</li>
+											<li>Concepts</li>
+											<li>Software development and customer specific adaptation</li>
+											<li>Project management</li>
+											<li>Implementation services</li>
+											<li>Training</li>
+											<li>Managed Hosting (Webspace / Server)</li>
+											<li>Maintenance (Update services)</li>
+										</ul>
+									</div>
+								</div>
+
+								<h2>Contact</h2>
+								<p>Tel: +49 621 762121-99<br /><a href="mailto:info@meteos.de">info(at)meteos.de</a><br /><a href="http://www.meteos.de/" target="_blank">www.meteos.de</a></p>
+								]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
 				<node identifier="177abc62-daaa-4858-b46f-fbdaf5b4f2f5" type="TYPO3.TYPO3:Page" nodeName="drecomm" locale="">
 					<properties>
 						<title>Drecomm BV</title>

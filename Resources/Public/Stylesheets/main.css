@@ -83,6 +83,7 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 .d .featured th			{ background: #ff8700 url(../Images/featured.png) repeat-x 0 0; border-color: #e87c0c; color: #FFF; }
 
 .small-column			{ width: 25px; }
+table.no-borders td { border: none; }
 
 /* Helpers
 ------------------------------ */
