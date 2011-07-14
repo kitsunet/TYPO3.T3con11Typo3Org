@@ -1,0 +1,40 @@
+#                                                                        #
+# Default settings for the "T3con11Typo3Org" Site                        #
+#                                                                        #
+
+TYPO3:
+
+   # redirect to login page when trying to access a protected page:
+  FLOW3:
+    security:
+      authentication:
+        providers:
+          DefaultProvider:
+            entryPoint:
+              WebRedirect:
+                uri: login.html
+
+   # Conference plugin -> node mapping:
+  Conference:
+    targetNodeMappings:
+      conference:
+        - package: TYPO3.Conference
+          controller: Account\Login
+          targetNode: 7fa70ead-817f-4b5b-bcb8-f96d1af433e4
+        - package: TYPO3.Conference
+          controller: Account\Overview
+          targetNode: f677ed5a-f3b7-41c2-9677-65f2d2e8c51c
+        - package: TYPO3.Conference
+          controller: Account\SpeakerProfile
+          targetNode: 2e652996-c366-4dcc-85f2-52830d17ea9c
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: new
+          targetNode: 1091be4c-c7be-45b3-8583-2a21f85e402a
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: edit
+          targetNode: f206445e-f184-4f51-80f8-c54c794f6103
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c
