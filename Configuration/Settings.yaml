@@ -37,4 +37,12 @@ TYPO3:
           targetNode: f206445e-f184-4f51-80f8-c54c794f6103
         - package: TYPO3.Conference
           controller: Conference\Paper
+          action: update
+          targetNode: f206445e-f184-4f51-80f8-c54c794f6103
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: show
+          targetNode: 20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b
+        - package: TYPO3.Conference
+          controller: Conference\Paper
           targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c

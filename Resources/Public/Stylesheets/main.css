@@ -79,8 +79,11 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 .d table td				{ border: 1px solid #ccc; padding: 6px 10px 5px; vertical-align: top; }
 .d table th				{ background: #e6e6e6; font-weight: normal; text-align: left; font-weight: bold; }
 .d table td				{ }
+.featured td	{ background: #f0f0f0 }
 .featured .tr-even td	{ background: #f3f3f3 }
 .d .featured th			{ background: #ff8700 url(../Images/featured.png) repeat-x 0 0; border-color: #e87c0c; color: #FFF; }
+.clickable-rows tr td { cursor: pointer; }
+.clickable-rows tr:hover td { background: white; }
 
 .small-column			{ width: 25px; }
 table.no-borders td { border: none; }
