@@ -160,18 +160,18 @@
 										</div><!-- b-news-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">05.08</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Early Bird pricing ends!</h6>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-news-item -->
-										<div class="b-event-item">
-											<div class="b-event-item-date">
 												<span class="m">31.07</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
 												<h6>Call for Papers closes</h6>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-news-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">05.08</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Early Bird pricing ends!</h6>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-news-item -->
 										<div class="b-event-item">
