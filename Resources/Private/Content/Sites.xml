@@ -1053,6 +1053,70 @@
 						</node>
 					</node>
 				</node>
+				<node identifier="678a2190-ea65-4f95-99c2-1ac749e225f0" type="TYPO3.TYPO3:Page" nodeName="mittwald" locale="">
+					<properties>
+						<title>Mittwald CM Service</title>
+					</properties>
+					<node identifier="8f9ed61b-6563-4c8e-ba94-25d1b066b0d7" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="36631159-ef0f-4c4a-ac5c-360dec445234" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>Mittwald CM Service</headline>
+								<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/mittwald.png" height="23" width="170" alt="Mittwald CM Service" class="intext right"/>
+								<p>Mittwald CM Service ist einer der führenden Dienstleister im Bereich Webhosting von Content Management
+								Systemen und E-Commerce-Lösungen. Flexible <a href="https://www.mittwald.de/webhosting/">Hosting-Tarife</a>
+								für TYPO3, Magento sowie zahlreiche weitere Open-Source-Anwendungen bieten Unternehmen und Agenturen
+								ein Höchstmaß an Leistung sowie innovative Hosting-Vorteile. Managed-Server Lösungen bieten durch
+								den Einsatz hochwertiger Serverhardware sowie spezieller Optimierungsmaßnahmen maximale TYPO3-Leistung
+								für besonders anspruchsvolle Projekte.</p>
+
+								<p>Die <a href="https://www.mittwald.de/schulungen/typo3-schulung/">TYPO3-Schulungen</a> von
+								Mittwald CM Service ermöglichen Redakteuren und Webentwicklern zudem einen
+								geeigneten Einstieg in die Arbeit mit TYPO3. Für die Community ist außerdem das deutschsprachige Forum
+								<a href="http://typo3.net">typo3.net</a>, dass von Mittwald CM Service gepflegt und betrieben wird, eine informative Anlaufstelle
+								geworden. </p>
+
+								<h2>Mittwald im Überblick</h2>
+								<ul>
+									<li>Jahrelange Erfahrung im Bereich Content Management Systeme und E-Commerce</li>
+									<li>Exzellenter Service und Support rund um die Uhr</li>
+									<li>Optimierte Hostinglösungen für den Einsatz von über 20 Webanwendugen z. B. TYPO3, Magento, Joomla,
+										Contao, WordPress, webEdition, Drupal, OXID, etc.</li>
+									<li>Schulungen für TYPO3, Magento, Joomla, HTML, CSS und PHP</li>
+									<li>Pflege von <a href="http://www.mittwald.de/typo3-dokumentation/">Community-Projekten</a>: TYPO3-Forum, kostenlose TYPO3-, Magento- und Joomla-Broschüren,
+										Dokumentationen zum freien Download auf der Webseite, Sponsoring von Events wie der T3CON und
+										Meet Magento.</li>
+								</ul>
+
+								<p>Mehr Informationen zu den Leistungen von Mittwald CM Service finden Sie unter <a href="https://www.mittwald.de/">www.mittwald.de</a></p>
+
+								<h2>Kontakt</h2>
+
+								<p>Mittwald CM Service GmbH & Co. KG <br />
+									Königsberger Straße 6 <br />
+									32339 Espelkamp<br /><br />
+									Telefon: 0800/440-3000 <br />
+									Kostenlos erreichbar aus dem deutschen Festnetz, abweichende Kosten aus dem Mobilfunk von bis zu 42 ct/min möglich.<br /><br />
+									Telefon: +49-5772-293-100 <br />
+									Telefax: +49-5772-293-333<br />
+									E-Mail: <a href="mailto:support@mittwald.de">support@mittwald.de</a><br />
+								</p>
+
+								<h2>Mittwald CM Service</h2>
+
+								<p>Mittwald CM Service is a leading provider in webhosting of Content Management Systems and E-Commerce
+								solutions. Flexible hosting rates for TYPO3, Magento and numerous other open source applications
+								offer companies and agencies the highest level of performance and innovative hosting benefits.</p>
+
+								<h2>Contact</h2>
+
+								<p>Phone: +49-5772-293-100<br />
+									E-Mail: <a href="mailto:support@mittwald.de">support@mittwald.de</a><br />
+								</p>
+								]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
 			</node>
 		</node>
 		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3.TYPO3:Page" nodeName="contact" locale="">
@@ -1261,29 +1325,15 @@
 			<node identifier="e45fcffb-5cee-4a64-b9dd-8790096a203c" type="TYPO3.TYPO3:Page" nodeName="papers" locale="">
 				<accessRoles>
 					<role>Speaker</role>
-					<role>TrackChair</role>
 				</accessRoles>
 				<properties>
 					<title>Papers</title>
 				</properties>
 				<node identifier="75af7ca0-1122-4734-90f1-62a180a3356b" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
 					<node identifier="5cade2e2-c418-4a82-b221-a15bbf4158c0" type="TYPO3.Conference:Plugin" nodeName="myPapers" locale="">
-						<accessRoles>
-							<role>Speaker</role>
-						</accessRoles>
 						<properties>
 							<controller>Conference\Paper</controller>
 							<action>myPapers</action>
-						</properties>
-					</node>
-					<node identifier="d40a5aa9-765f-47a9-b125-2728774bad53" type="TYPO3.TYPO3:Text" nodeName="myPapersText" locale="">
-						<accessRoles>
-							<role>TrackChair</role>
-						</accessRoles>
-						<properties>
-							<headline>Review Papers</headline>
-							<text><![CDATA[<p>As TrackChair you can <a href="my/papers/review.html">Review submitted Papers</a>.</p>
-							]]></text>
 						</properties>
 					</node>
 				</node>
@@ -1306,7 +1356,6 @@
 				<node identifier="f206445e-f184-4f51-80f8-c54c794f6103" type="TYPO3.TYPO3:Page" nodeName="edit" locale="" hiddenInIndex="true">
 					<accessRoles>
 						<role>Speaker</role>
-						<role>TrackChair</role>
 					</accessRoles>
 					<properties>
 						<title>Edit paper</title>
@@ -1316,39 +1365,6 @@
 							<properties>
 								<controller>Conference\Paper</controller>
 								<action>edit</action>
-							</properties>
-						</node>
-					</node>
-				</node>
-				<node identifier="20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b" type="TYPO3.TYPO3:Page" nodeName="show" locale="" hiddenInIndex="true">
-					<accessRoles>
-						<role>Speaker</role>
-						<role>TrackChair</role>
-					</accessRoles>
-					<properties>
-						<title>Show paper</title>
-					</properties>
-					<node identifier="e08795ce-a244-460a-bd59-bd9cef3905cc" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-						<node identifier="fe5a60f2-f4d0-4b00-a19e-38306f3def31" type="TYPO3.Conference:Plugin" nodeName="showPaper" locale="">
-							<properties>
-								<controller>Conference\Paper</controller>
-								<action>show</action>
-							</properties>
-						</node>
-					</node>
-				</node>
-				<node identifier="b7611a2d-0b62-4d07-8d85-6c57bcb8a05e" type="TYPO3.TYPO3:Page" nodeName="review" locale="">
-					<accessRoles>
-						<role>TrackChair</role>
-					</accessRoles>
-					<properties>
-						<title>Review papers</title>
-					</properties>
-					<node identifier="928499ce-377f-47bd-966c-2e7a8c8e184d" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-						<node identifier="7d6e58d3-840a-409a-99b4-e7600c4ad74a" type="TYPO3.Conference:Plugin" nodeName="reviewPaper" locale="">
-							<properties>
-								<controller>Conference\Paper</controller>
-								<action>review</action>
 							</properties>
 						</node>
 					</node>
@@ -1365,22 +1381,6 @@
 					<node identifier="6d6c386f-bf2d-4f57-bc01-136acb6af8cf" type="TYPO3.Conference:Plugin" nodeName="conference" locale="">
 						<properties>
 							<controller>Conference</controller>
-						</properties>
-					</node>
-				</node>
-			</node>
-			<node identifier="9c6b6bc0-2417-4da2-85d9-b47233b17bf6" type="TYPO3.TYPO3:Page" nodeName="user-management" locale="">
-				<accessRoles>
-					<role>Administrator</role>
-				</accessRoles>
-				<properties>
-					<title>User management</title>
-				</properties>
-				<node identifier="ed0766fa-c0cc-4bd3-810e-b48c970f56f0" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-					<node identifier="569cf45e-74fa-412d-8ded-af90d7cf8820" type="TYPO3.Conference:Plugin" nodeName="user" locale="">
-						<properties>
-						<controller>Account\Manage</controller>
-						<action>find</action>
 						</properties>
 					</node>
 				</node>
