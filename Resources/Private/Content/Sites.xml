@@ -32,8 +32,8 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-02.jpg"
-							width="982" height="282" alt="T3CON10 Video Team" class="slide-img"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-07.jpg"
+							width="982" height="282" alt="T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
@@ -701,6 +701,7 @@
 											<a href="http://www.df.eu/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/domainFACTORY.png" height="95" width="170" alt="domainFactory GmbH"/></a>
 											<a href="http://www.drecomm.nl/typo3-cms-en-website-ontwikkeling.htm"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/drecomm.png" height="46" width="170" alt="Internet Intelligence"/></a>
 											<a href="http://www.mittwald.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/mittwald.png" height="27" width="170" alt="Mittwald CM Service"/></a>
+											<a href="http://www.dkd.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/dkd.png" height="106" width="170" alt="dkd"/></a>
 										</td>
 										<td>
 										</td>
@@ -730,7 +731,8 @@
 											<a href="http://www.netzpepper.de/">netzpepper</a>
 										</td>
 										<td>
-											<a href="https://alinbu.net/">Alinbu... alles in Butter</a>
+											<a href="https://alinbu.net/">Alinbu... alles in Butter</a><br />
+											<a href="http://www.comsolit.ch/">comsolit AG</a>
 										</td>
 									</tr>
 								</tbody>
