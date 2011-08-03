@@ -1119,6 +1119,143 @@
 						</node>
 					</node>
 				</node>
+				<node identifier="93b6edf5-f1e6-43e5-b41f-8f4e98eee206" type="TYPO3.TYPO3:Page" nodeName="dkd" locale="">
+					<properties>
+						<title>dkd Internet Service GmbH</title>
+					</properties>
+					<node identifier="1b38cdb7-a69c-40d5-be21-14d6caa82da0" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="07256e4b-132e-4949-894f-74e58212fee8" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
+							<properties>
+								<headline>dkd Internet Service GmbH</headline>
+								<text><![CDATA[<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/dkd.png" width="170" height="106" border="0" alt="dkd Internet Service GmbH" class="intext right" />
+
+								<p><a href="/contribute/list-of-sponsors/dkd.html#dkdgermanversion" title="dkd Internet Service GmbH auf deutsch">Die deutsche Version finden Sie weiter unten auf dieser Seite.</a></p>
+
+								<p><strong>dkd Internet Service GmbH</strong> is an owner-managed Full Service Internet Agency
+									located in Frankfurt, Germany. We are specialised in <strong>Development</strong>,
+									<strong>Communications</strong> and <strong>Design</strong> and live and love the ›Open Source‹
+									idea. Since our foundation in 1998 we have evolved to an exceedingly successful and sought-after
+									TYPO3 agency. We have demonstrated our expert knowledge in more than 350 projects working for
+									over 100 clients.</p>
+
+								<h2>Plan. Build. Run.</h2>
+								<p>We think of ourselves not only as <strong>TYPO3</strong> professionals. Our young team consisting
+									of 42 experts offers everything which can make a good website a perfect one: Starting with
+									conception, followed by development up to operations.</p>
+
+								<div class="g">
+									<div class="g-3">
+										<h3>We are dkd</h3>
+										<ul>
+											<li>42 salaried employees</li>
+											<li>12 Years of TYPO3 experience</li>
+											<li>More than 350 successful projects</li>
+											<li>Over 100 satisfied clients</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>We "are" TYPO3</h3>
+										<ul>
+											<li>12 certified TYPO3 Integrators</li>
+											<li>3 TYPO3 Core Developers</li>
+											<li>2 TYPO3 Extension Maintainers</li>
+											<li>1 TYPO3 Association Press Officer</li>
+											<li>1 TYPO3 Usability Team Leader</li>
+											<li>1 TYPO3 Design Team Member</li>
+											<li>1 TYPO3 book author</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>We are More</h3>
+										<ul>
+											<li>Multi disciplinary team consisting of developers, designers and marketing experts</li>
+											<li>Great teachers and great listeners (Broad training and support programmes)</li>
+											<li>›Enterprise Search‹-Experts<br />(<a href="http://www.typo3-solr.com/" title="Find out more about Apache Solr for TYPO3">Apache Solr for TYPO3</a>)</li>
+											<li>Developers with intuition (Sencha Touch)</li>
+										</ul>
+									</div>
+								</div>
+
+								<h2>Contact</h2>
+								<p><strong>dkd Internet Service GmbH</strong><br />
+								development // kommunikation // design<br />
+								Søren Schaffstein<br />
+								Kaiserstraße 73<br />
+								60329 Frankfurt<br />
+								Germany<br />
+								<br />
+								phone: +49 69 2475218-0<br />
+								fax: +49 69 2475218-99<br />
+								email: <a href="mailto" title="Send dkd an email">info@dkd.de</a><br />
+								twitter: <a href="http://twitter.com/dkd_de" title="Follow dkd on Twitter">http://twitter.com/dkd_de</a><br />
+								facebook: <a href="http://www.facebook.com/www.dkd.de" title="dkd on Facebook">http://www.facebook.com/www.dkd.de</a><br />
+								web: <a href="http://www.dkd.de" title="Visit dkd website">http://www.dkd.de</a></p>
+
+								<h1><a name="dkdgermanversion">dkd Internet Service GmbH - auf deutsch</a></h1>
+
+								<p>Die <strong>dkd Internet Service GmbH</strong> in Frankfurt am Main ist eine inhabergeführte
+									<strong>Full-Service-Internetagentur</strong> für <a href="http://www.dkd.de/de/agentur/dkd/development/"><strong>Development</strong></a>,
+									<a href="http://www.dkd.de/de/agentur/dkd/kommunikation/"><strong>Kommunikation</strong></a> und <a href="http://www.dkd.de/de/agentur/dkd/design/">
+										<strong>Design</strong></a>, die den ›Open Source‹-Gedanken liebt und lebt. Seit unserer
+									Gründung 1998 haben wir uns zu einer überaus erfolgreichen und gefragten TYPO3-Agentur
+									entwickelt. Unser Expertenwissen konnten wir seitdem in weit mehr als 350 Projekten und bei
+									der Zusammenarbeit mit über 100 Kunden unter Beweis stellen.</p>
+								<h2>Planen. Entwickeln. Betreiben.</h2>
+								<p>Wir verstehen uns aber keineswegs nur als Profis in Sachen <strong>TYPO3</strong>, vielmehr
+									können wir mit unserem jungen Team von 42 Mitarbeitern alles bieten, was aus einem guten
+									Webauftritt einen perfekten macht: von der Planung über die Entwicklung bis hin zum Betrieb.</p>
+
+								<div class="g">
+									<div class="g-3">
+										<h3>Wir sind dkd</h3>
+										<ul>
+											<li>42 festangestellte Mitarbeiter/-innen</li>
+											<li>12 Jahre Erfahrung mit TYPO3</li>
+											<li>Mehr als 350 erfolgreich abgeschlossene Projekte</li>
+											<li>Über 100 zufriedene Kunden</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Wir "sind" TYPO3</h3>
+										<ul>
+											<li>12 zertifizierte TYPO3 Integratoren</li>
+											<li>3 TYPO3 Core Developer</li>
+											<li>2 TYPO3 Extension Maintainer</li>
+											<li>1 TYPO3 Association Press Officer</li>
+											<li>1 TYPO3 Usability Team Leader</li>
+											<li>1 TYPO3 Design Team Member</li>
+											<li>1 TYPO3 Buchautor</li>
+										</ul>
+									</div>
+									<div class="g-3">
+										<h3>Wir sind mehr</h3>
+										<ul>
+											<li>Multidisziplinäres Team aus Entwicklern, Designern und Marketingexperten</li>
+											<li>Gute Lehrer und gute Zuhörer (Umfassende Schulungs- und Supportleistungen)</li>
+											<li>›Enterprise Search‹-Experten<br />(<a href="http://www.typo3-solr.com/" title="Erfahren Sie mehr über Apache Solr für TYPO3">Apache Solr für TYPO3</a>)</li>
+											<li>Entwickler mit Fingerspitzengefühl (Sencha Touch)</li>
+										</ul>
+									</div>
+								</div>
+
+								<p><strong>dkd Internet Service GmbH</strong><br />
+								development // kommunikation // design<br />
+								Søren Schaffstein<br />
+								Kaiserstraße 73<br />
+								60329 Frankfurt<br />
+							<br />
+								fon: +49 69 2475218-0<br />
+								fax: +49 69 2475218-99<br />
+								email: <a href="mailto" title="E-Mail an dkd senden">info@dkd.de</a><br />
+								twitter: <a href="http://twitter.com/dkd_de" title="dkd auf Twitter folgen">http://twitter.com/dkd_de</a><br />
+								facebook: <a href="http://www.facebook.com/www.dkd.de" title="dkd auf Facebook">http://www.facebook.com/www.dkd.de</a><br />
+								web: <a href="http://www.dkd.de" title="dkd Website besuchen">http://www.dkd.de</a></p>
+
+								]]></text>
+							</properties>
+						</node>
+					</node>
+				</node>
 			</node>
 		</node>
 		<node identifier="2f3312f0-aa3f-4838-b17a-c41b3b0f9f40" type="TYPO3.TYPO3:Page" nodeName="contact" locale="">
