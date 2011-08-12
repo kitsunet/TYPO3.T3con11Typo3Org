@@ -62,16 +62,15 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-04.jpg"
-							width="982" height="282" alt="Packed session at T3CON10" class="slide-img"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-07.jpg"
+							width="982" height="282" alt="Interaction during T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
-							<h2>Call for Papers</h2>
-							<h3>The Call for Papers is running!</h3>
+							<h2>Conference Schedule</h2>
+							<h3>The program is being finalized!</h3>
 							</div>
-							<p>The Call for Papers runs until August 7th. Don't miss the opportunity to present at the
-							T3CON11 in Hanau!</p>
+							<p>The Call for Papers is closed and the program is being worked on! Stay tuned for the full schedule.</p>
 							<p><a href="/sessions.html" class="bu">Details</a></p>
 							</div>
 
@@ -101,8 +100,8 @@
 							</li>
 							<li>
 							<div class="d">
-							<h6>Call for Papers</h6>
-							<p>The Call for Papers is running!</p>
+							<h6>Conference Schedule</h6>
+							<p>The Program is being finalized!</p>
 							</div>
 							</li>
 							</ul>
@@ -151,37 +150,29 @@
 									<div class="d">
 										<div class="b-event-item">
 											<div class="b-event-item-date b-event-item-date-big dtstart">
-												<span class="d">15</span><span class="m">June</span> <span class="y">2011</span>
+												<span class="d">15</span><span class="m">August</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Early Bird tickets available</h6>
-												<p>Head over to the <a href="http://shop.typo3.org/t3con11fra">TYPO3 shop</a> to get them!</p>
+												<h6>Conference program is announced</h6>
+												<p>Head over to the <a href="/sessions.html">schedule</a>!</p>
 											</div><!-- b-event-item-text -->
-										</div><!-- b-news-item -->
+										</div><!-- b-event-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">05.08</span> <span class="y">2011</span>
+												<span class="m">15.09</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Early Bird pricing ends!</h6>
+												<h6>Last-Minute tickets - prices rise!</h6>
 											</div><!-- b-event-item-text -->
-										</div><!-- b-news-item -->
+										</div><!-- b-event-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">07.08</span> <span class="y">2011</span>
+												<span class="m">06.10</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Call for Papers closes</h6>
+												<h6>T3CON11 finally starts</h6>
 											</div><!-- b-event-item-text -->
-										</div><!-- b-news-item -->
-										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">15.08</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Full Program is Announced</h6>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-news-item -->
+										</div><!-- b-event-item -->
 									</div>
 								</div><!-- general-box -->
 							</div><!-- gc -->
@@ -374,7 +365,7 @@
 			<node identifier="3a7f15f9-8392-43fa-b197-a90b756f1cd7" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
 				<node identifier="f8ba0504-6570-4866-84a8-cf3a544a0057" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
 					<properties>
-						<headline>Become a T3CON11 speaker!</headline>
+						<headline>Conference program</headline>
 						<text><![CDATA[
 						<p>Also this year the TYPO3 community invites users, developers and others
 						interested in the world's leading content management system TYPO3 to the
@@ -382,29 +373,12 @@
 						October 6th to 8th at the Congress Park Hanau (CPH) to Frankfurt, and has the
 						motto <em>Flow to Five</em>.</p>
 
-						<p>For the conference program, the organizers are looking for TYPO3 developers,
-						Open Source experts and decision makers, to share their knowledge of TYPO3 and
-						their experiences with the CMS with the participants. Until August 7th speakers
-						have time to submit their topic proposals. The Paper Committee will then vote
-						on the proposals and put together the program.</p>
-
-						<p>Desired, on one hand, are talks that are technically in-depth: Working
-						knowledge of TYPO3 4.x, 5.0 and FLOW3 as well as solutions for certain
-						technical problems through TYPO3 extensions. Complementing the technical
-						issues on the other hand, are contributions from innovative companies that
-						showcase particularly successful and exceptional use cases for TYPO3.</p>
-
 						<p>To T3CON11, the now seventh edition of the world's largest
 						TYPO3 event, the TYPO3 community expects about 500 participants from more
 						than 30 countries to discuss and learn about the current state of TYPO3.</p>
 
-						<h2>What you need to do</h2>
-
-						<p>After logging in, create your speaker profile to be able to submit papers.
-						During the paper submission process we'll ask you about the title and abstract
-						of your session. Also you need to decide on a session type and a track your
-						presentation will fit. Until you actually submit the paper it will be in draft
-						mode and can be fine-tuned as much as you like.</p>
+						<p><strong>The call for papers has ended and currently the submissions are reviewed and
+						a program is being worked out. It will be published here.</strong></p>
 						]]></text>
 					</properties>
 				</node>
@@ -425,29 +399,7 @@
 						October 6th to 8th at the Congress Park Hanau (CPH) to Frankfurt, and has the
 						motto <em>Flow to Five</em>.</p>
 
-						<p>For the conference program, the organizers are looking for TYPO3 developers,
-						Open Source experts and decision makers, to share their knowledge of TYPO3 and
-						their experiences with the CMS with the participants. Until August 7th speakers
-						have time to submit their topic proposals. The Paper Committee will then vote
-						on the proposals and put together the program.</p>
-
-						<p>Desired, on one hand, are talks that are technically in-depth: Working
-						knowledge of TYPO3 4.x, 5.0 and FLOW3 as well as solutions for certain
-						technical problems through TYPO3 extensions. Complementing the technical
-						issues on the other hand, are contributions from innovative companies that
-						showcase particularly successful and exceptional use cases for TYPO3.</p>
-
-						<p>To T3CON11, the now seventh edition of the world's largest
-						TYPO3 event, the TYPO3 community expects about 500 participants from more
-						than 30 countries to discuss and learn about the current state of TYPO3.</p>
-
-						<h2>What you need to do</h2>
-
-						<p>After logging in, create your speaker profile to be able to submit papers.
-						During the paper submission process we'll ask you about the title and abstract
-						of your session. Also you need to decide on a session type and a track your
-						presentation will fit. Until you actually submit the paper it will be in draft
-						mode and can be fine-tuned as much as you like.</p>
+						<p>The call for papers ended on August 7th.</p>
 						]]></text>
 					</properties>
 				</node>
@@ -468,29 +420,7 @@
 						October 6th to 8th at the Congress Park Hanau (CPH) to Frankfurt, and has the
 						motto <em>Flow to Five</em>.</p>
 
-						<p>For the conference program, the organizers are looking for TYPO3 developers,
-						Open Source experts and decision makers, to share their knowledge of TYPO3 and
-						their experiences with the CMS with the participants. Until August 7th speakers
-						have time to submit their topic proposals. The Paper Committee will then vote
-						on the proposals and put together the program.</p>
-
-						<p>Desired, on one hand, are talks that are technically in-depth: Working
-						knowledge of TYPO3 4.x, 5.0 and FLOW3 as well as solutions for certain
-						technical problems through TYPO3 extensions. Complementing the technical
-						issues on the other hand, are contributions from innovative companies that
-						showcase particularly successful and exceptional use cases for TYPO3.</p>
-
-						<p>To T3CON11, the now seventh edition of the world's largest
-						TYPO3 event, the TYPO3 community expects about 500 participants from more
-						than 30 countries to discuss and learn about the current state of TYPO3.</p>
-
-						<h2>What you need to do</h2>
-
-						<p>After logging in, create your speaker profile to be able to submit papers.
-						During the paper submission process we'll ask you about the title and abstract
-						of your session. Also you need to decide on a session type and a track your
-						presentation will fit. Until you actually submit the paper it will be in draft
-						mode and can be fine-tuned as much as you like.</p>
+						<p>The call for papers ended on August 7th.</p>
 						]]></text>
 					</properties>
 				</node>
