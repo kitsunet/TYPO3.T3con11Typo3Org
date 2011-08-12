@@ -19,7 +19,7 @@
 							<ul class="slides">
 							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-01.jpg"
-							width="982" height="282" alt="Slider 03" class="slide-img"
+							width="982" height="282" alt="T3CON10 welcome session" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
@@ -32,8 +32,8 @@
 
 							</li>
 							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-07.jpg"
-							width="982" height="282" alt="T3CON10" class="slide-img"
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-02.jpg"
+							width="982" height="282" alt="T3CON10 session recording" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
@@ -63,7 +63,7 @@
 							</li>
 							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-07.jpg"
-							width="982" height="282" alt="Interaction during T3CON10" class="slide-img"
+							width="982" height="282" alt="Audience interaction during T3CON10" class="slide-img"
 							/>
 							<div class="d slide-content">
 							<div class="hgroup">
