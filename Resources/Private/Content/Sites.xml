@@ -430,16 +430,6 @@
 			<properties>
 				<title>Community</title>
 			</properties>
-			<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-				<node identifier="d7b2c335-5a6e-4aaf-bfdb-eb78640ddf46" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
-					<properties>
-						<headline>Website banners</headline>
-						<text><![CDATA[<p>Help spread the word! Pick the banner of your choice and place it on your webserver.</p>
-						<p>The official T3CON11 link is <a href="http://t3con11-frankfurt.typo3.org">http://t3con11-frankfurt.typo3.org</a></p>
-						]]></text>
-					</properties>
-				</node>
-			</node>
 			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3.TYPO3:Page" nodeName="t3con10-videos" locale="">
 				<properties>
 					<title>TYPO3 Conference Videos</title>
@@ -1197,6 +1187,30 @@
 								]]></text>
 							</properties>
 						</node>
+					</node>
+				</node>
+			</node>
+			<node identifier="91a7a265-bac8-48fd-8a90-4e54d63f865d" type="TYPO3.TYPO3:Page" nodeName="banners" locale="">
+				<properties>
+					<title>Website banners</title>
+				</properties>
+				<node identifier="110d701b-0737-40f2-b9e0-fd4ee80fbc43" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="d7b2c335-5a6e-4aaf-bfdb-eb78640ddf46" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Website banners</headline>
+							<text><![CDATA[<p>Help spread the word! Pick a banner of your choice and place it on your webserver.</p>
+							<p>The official T3CON11 link is <a href="http://t3con11-frankfurt.typo3.org">http://t3con11-frankfurt.typo3.org</a></p>
+							<p>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/80x15-T3CON11.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/88x31-T3CON11.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/120x60-T3CON11.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/><br/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/120x90-T3CON11.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/125x125-T3CON11-A.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/125x125-T3CON11-B.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/><br/>
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Banners/468x60-T3CON11.png" title="T3CON11 Frankfurt, the biggest TYPO3 conference!"/>
+							</p>
+							]]></text>
+						</properties>
 					</node>
 				</node>
 			</node>
