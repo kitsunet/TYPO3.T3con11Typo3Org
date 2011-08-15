@@ -45,4 +45,16 @@ TYPO3:
           targetNode: 20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b
         - package: TYPO3.Conference
           controller: Conference\Paper
+          action: voting
+          targetNode: 3eb63884-1cc6-4572-8d77-7bd6b16e84b1
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: updateVote
+          targetNode: 3eb63884-1cc6-4572-8d77-7bd6b16e84b1
+        - package: TYPO3.Conference
+          controller: Conference\Paper
+          action: votingResults
+          targetNode: 93fe6b65-3ce0-4fda-a377-43c48b056c5b
+        - package: TYPO3.Conference
+          controller: Conference\Paper
           targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c

@@ -1422,6 +1422,7 @@
 				<accessRoles>
 					<role>Speaker</role>
 					<role>TrackChair</role>
+					<role>Administrator</role>
 				</accessRoles>
 				<properties>
 					<title>Papers</title>
@@ -1443,6 +1444,16 @@
 						<properties>
 							<headline>Review Papers</headline>
 							<text><![CDATA[<p>As TrackChair you can <a href="my/papers/review.html">Review submitted Papers</a>.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="a3b4ee60-9cd8-4f91-9cda-0ec7704a5a3a" type="TYPO3.TYPO3:Text" nodeName="myPapersText" locale="">
+						<accessRoles>
+							<role>Administrator</role>
+						</accessRoles>
+						<properties>
+							<headline>Paper voting results</headline>
+							<text><![CDATA[<p>As Administrator you have access to the <a href="my/papers/voting-results.html">paper voting results</a>.</p>
 							]]></text>
 						</properties>
 					</node>
@@ -1484,6 +1495,7 @@
 					<accessRoles>
 						<role>Speaker</role>
 						<role>TrackChair</role>
+						<role>Administrator</role>
 					</accessRoles>
 					<properties>
 						<title>Show paper</title>
@@ -1509,6 +1521,38 @@
 							<properties>
 								<controller>Conference\Paper</controller>
 								<action>review</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="3eb63884-1cc6-4572-8d77-7bd6b16e84b1" type="TYPO3.TYPO3:Page" nodeName="vote" locale="">
+					<accessRoles>
+						<role>TrackChair</role>
+					</accessRoles>
+					<properties>
+						<title>Vote papers</title>
+					</properties>
+					<node identifier="2ede1a6d-966b-4abf-8808-70f9e97ff6db" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="84f69296-8ce7-4a4e-b836-9442c2fe4bf5" type="TYPO3.Conference:Plugin" nodeName="votePaper" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>voting</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="93fe6b65-3ce0-4fda-a377-43c48b056c5b" type="TYPO3.TYPO3:Page" nodeName="voting-results" locale="">
+					<accessRoles>
+						<role>Administrator</role>
+					</accessRoles>
+					<properties>
+						<title>Voting results</title>
+					</properties>
+					<node identifier="0fb7008b-8a37-4d34-a493-7a1ad57c6d14" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="e7652517-8ca9-4284-9df9-c259c6e9e859" type="TYPO3.Conference:Plugin" nodeName="votingResults" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>votingResults</action>
 							</properties>
 						</node>
 					</node>
