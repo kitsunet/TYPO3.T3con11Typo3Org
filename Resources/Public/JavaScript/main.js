@@ -187,4 +187,7 @@ $(document).ready(function(){
 						msgWarningColor: '#e90100'
 					});
 				});
+
+				// table sorter
+				$('table.tablesorter').tablesorter();
 });
