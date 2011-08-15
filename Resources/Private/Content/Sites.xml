@@ -1421,15 +1421,29 @@
 			<node identifier="e45fcffb-5cee-4a64-b9dd-8790096a203c" type="TYPO3.TYPO3:Page" nodeName="papers" locale="">
 				<accessRoles>
 					<role>Speaker</role>
+					<role>TrackChair</role>
 				</accessRoles>
 				<properties>
 					<title>Papers</title>
 				</properties>
 				<node identifier="75af7ca0-1122-4734-90f1-62a180a3356b" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
 					<node identifier="5cade2e2-c418-4a82-b221-a15bbf4158c0" type="TYPO3.Conference:Plugin" nodeName="myPapers" locale="">
+						<accessRoles>
+							<role>Speaker</role>
+						</accessRoles>
 						<properties>
 							<controller>Conference\Paper</controller>
 							<action>myPapers</action>
+						</properties>
+					</node>
+					<node identifier="d40a5aa9-765f-47a9-b125-2728774bad53" type="TYPO3.TYPO3:Text" nodeName="myPapersText" locale="">
+						<accessRoles>
+							<role>TrackChair</role>
+						</accessRoles>
+						<properties>
+							<headline>Review Papers</headline>
+							<text><![CDATA[<p>As TrackChair you can <a href="my/papers/review.html">Review submitted Papers</a>.</p>
+							]]></text>
 						</properties>
 					</node>
 				</node>
@@ -1452,6 +1466,7 @@
 				<node identifier="f206445e-f184-4f51-80f8-c54c794f6103" type="TYPO3.TYPO3:Page" nodeName="edit" locale="" hiddenInIndex="true">
 					<accessRoles>
 						<role>Speaker</role>
+						<role>TrackChair</role>
 					</accessRoles>
 					<properties>
 						<title>Edit paper</title>
@@ -1461,6 +1476,39 @@
 							<properties>
 								<controller>Conference\Paper</controller>
 								<action>edit</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b" type="TYPO3.TYPO3:Page" nodeName="show" locale="" hiddenInIndex="true">
+					<accessRoles>
+						<role>Speaker</role>
+						<role>TrackChair</role>
+					</accessRoles>
+					<properties>
+						<title>Show paper</title>
+					</properties>
+					<node identifier="e08795ce-a244-460a-bd59-bd9cef3905cc" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="fe5a60f2-f4d0-4b00-a19e-38306f3def31" type="TYPO3.Conference:Plugin" nodeName="showPaper" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>show</action>
+							</properties>
+						</node>
+					</node>
+				</node>
+				<node identifier="b7611a2d-0b62-4d07-8d85-6c57bcb8a05e" type="TYPO3.TYPO3:Page" nodeName="review" locale="">
+					<accessRoles>
+						<role>TrackChair</role>
+					</accessRoles>
+					<properties>
+						<title>Review papers</title>
+					</properties>
+					<node identifier="928499ce-377f-47bd-966c-2e7a8c8e184d" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+						<node identifier="7d6e58d3-840a-409a-99b4-e7600c4ad74a" type="TYPO3.Conference:Plugin" nodeName="reviewPaper" locale="">
+							<properties>
+								<controller>Conference\Paper</controller>
+								<action>review</action>
 							</properties>
 						</node>
 					</node>
@@ -1477,6 +1525,22 @@
 					<node identifier="6d6c386f-bf2d-4f57-bc01-136acb6af8cf" type="TYPO3.Conference:Plugin" nodeName="conference" locale="">
 						<properties>
 							<controller>Conference</controller>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="9c6b6bc0-2417-4da2-85d9-b47233b17bf6" type="TYPO3.TYPO3:Page" nodeName="user-management" locale="">
+				<accessRoles>
+					<role>Administrator</role>
+				</accessRoles>
+				<properties>
+					<title>User management</title>
+				</properties>
+				<node identifier="ed0766fa-c0cc-4bd3-810e-b48c970f56f0" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="569cf45e-74fa-412d-8ded-af90d7cf8820" type="TYPO3.Conference:Plugin" nodeName="user" locale="">
+						<properties>
+						<controller>Account\Manage</controller>
+						<action>find</action>
 						</properties>
 					</node>
 				</node>

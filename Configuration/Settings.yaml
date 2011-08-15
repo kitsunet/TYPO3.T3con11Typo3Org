@@ -42,7 +42,7 @@ TYPO3:
         - package: TYPO3.Conference
           controller: Conference\Paper
           action: show
-          targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c
+          targetNode: 20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b
         - package: TYPO3.Conference
           controller: Conference\Paper
           targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c
