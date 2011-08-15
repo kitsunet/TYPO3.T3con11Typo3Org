@@ -82,8 +82,11 @@ hr, .hr					{ color: #dbdbdb; background-color: #dbdbdb; height: 1px; border: 0;
 .featured td	{ background: #f0f0f0 }
 .featured .tr-even td	{ background: #f3f3f3 }
 .d .featured th			{ background: #ff8700 url(../Images/featured.png) repeat-x 0 0; border-color: #e87c0c; color: #FFF; }
-.clickable-rows tr td { cursor: pointer; }
-.clickable-rows tr:hover td { background: white; }
+.clickable-rows tr td		{ cursor: pointer; }
+.clickable-rows tr:hover td	{ background: white; }
+table.tablesorter thead tr .header			{ padding-right: 20px; background-image: url('../Images/featured_sortable.png'); background-repeat: no-repeat; background-position: right top; cursor: pointer; }
+table.tablesorter thead tr .headerSortUp	{ background-image: url('../Images/featured_sortable_asc.png'); }
+table.tablesorter thead tr .headerSortDown	{ background-image: url('../Images/featured_sortable_desc.png'); }
 
 .small-column			{ width: 25px; }
 table.no-borders td { border: none; }
