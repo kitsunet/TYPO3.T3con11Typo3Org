@@ -118,7 +118,10 @@
 						<headline>T3CON11 - Frankfurt</headline>
 						<text><![CDATA[
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
-							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em></p>
+
+							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em>
+							<a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get your ticket now!</a></p>
+
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
 							will be a great opportunity to learn more about the powerful TYPO3 CMS, the FLOW3 framework
 							and to connect with other managers, developers and designers from all over the world. Many
@@ -162,7 +165,8 @@
 												<span class="m">15.09</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>Last-Minute tickets - prices rise!</h6>
+												<h6>Ticket prices rise!</h6>
+												<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get yours now!</a></p>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-event-item -->
 										<div class="b-event-item">
