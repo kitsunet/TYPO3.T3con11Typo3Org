@@ -1506,7 +1506,7 @@
 							]]></text>
 						</properties>
 					</node>
-					<node identifier="a3b4ee60-9cd8-4f91-9cda-0ec7704a5a3a" type="TYPO3.TYPO3:Text" nodeName="myPapersText" locale="">
+					<node identifier="a3b4ee60-9cd8-4f91-9cda-0ec7704a5a3a" type="TYPO3.TYPO3:Text" nodeName="votingResultsText" locale="">
 						<accessRoles>
 							<role>Administrator</role>
 						</accessRoles>
@@ -1642,8 +1642,8 @@
 				<node identifier="ed0766fa-c0cc-4bd3-810e-b48c970f56f0" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
 					<node identifier="569cf45e-74fa-412d-8ded-af90d7cf8820" type="TYPO3.Conference:Plugin" nodeName="user" locale="">
 						<properties>
-						<controller>Account\Manage</controller>
-						<action>find</action>
+							<controller>Account\Manage</controller>
+							<action>find</action>
 						</properties>
 					</node>
 				</node>
