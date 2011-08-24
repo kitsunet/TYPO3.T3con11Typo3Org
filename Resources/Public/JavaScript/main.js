@@ -190,4 +190,41 @@ $(document).ready(function(){
 
 				// table sorter
 				$('table.tablesorter').tablesorter();
+
+				$('tr.paper input[type=checkbox]').click(function() {
+					if ($(this).attr('checked')) {
+						$(this).parent().parent().addClass('accepted');
+					} else {
+						$(this).parent().parent().removeClass('accepted');
+					}
+					calculateScheduleDurations();
+				});
 });
+
+function calculateScheduleDurations() {
+	var totalDuration = 0;
+	var durations = {};
+	$('tr.paper').each(function() {
+		if ($(this).hasClass('accepted')) {
+			var data = $(this).metadata();
+			if (durations[data.type] == undefined) {
+				durations[data.type] = parseInt(data.duration);
+			} else {
+				durations[data.type] += parseInt(data.duration);
+			}
+			totalDuration += parseInt(data.duration);
+		}
+	});
+	if ($('#scheduleDurations').length == 0) {
+		$('#aside-end').replaceWith('<div id="scheduleDurations" class="d" style="clear: both"></div>');
+	}
+	var content = '<table>';
+	content += '<tr><th colspan="2">Schedule duration</th></tr>';
+	content += '<tr><th>Type</th><th>Duration</th></tr>';
+	for (type in durations) {
+		content += '<tr><td>' + type + '</td><td>' + durations[type] + ' minutes</td></tr>';
+	}
+	content += '<tr><th>TOTAL</th><th>' + totalDuration + ' minutes</th></tr>';
+	content += '</table>';
+	$('#scheduleDurations').html(content);
+}
