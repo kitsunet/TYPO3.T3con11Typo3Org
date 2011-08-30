@@ -18,6 +18,35 @@
 							<div class="slider-content">
 							<ul class="slides">
 							<li class="slide">
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-04.jpg"
+							width="982" height="282" alt="Audience interaction during T3CON10" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Conference Program</h2>
+							<h3>Stunning Talks and Inspiring Tutorials</h3>
+							</div>
+							<p>See who is speaking and which sessions you can join at T3CON11. The full list of accepted papers is now online.</p>
+							<p><a href="/sessions.html" class="bu">Details</a></p>
+							</div>
+
+							</li>
+							<li class="slide">
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-03.jpg"
+							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>Congress Park Hanau</h2>
+							<h3>An inspiring location</h3>
+							</div>
+							<p>The Congress Park Hanau offers a wonderful location for the T3CON11 and is close to the
+							Frankfurt international airport.</p>
+							<p><a href="/location.html" class="bu">Details</a></p>
+							</div>
+
+							</li>
+							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-01.jpg"
 							width="982" height="282" alt="T3CON10 welcome session" class="slide-img"
 							/>
@@ -46,64 +75,35 @@
 							</div>
 
 							</li>
-							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-03.jpg"
-							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
-							/>
-							<div class="d slide-content">
-							<div class="hgroup">
-							<h2>Congress Park Hanau</h2>
-							<h3>An inspiring location</h3>
-							</div>
-							<p>The Congress Park Hanau offers a wonderful location for the T3CON11 and is close to the
-							Frankfurt international airport.</p>
-							<p><a href="/location.html" class="bu">Details</a></p>
-							</div>
-
-							</li>
-							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-04.jpg"
-							width="982" height="282" alt="Audience interaction during T3CON10" class="slide-img"
-							/>
-							<div class="d slide-content">
-							<div class="hgroup">
-							<h2>Conference Schedule</h2>
-							<h3>The program is being finalized!</h3>
-							</div>
-							<p>The Call for Papers is closed and the program is being worked on! Stay tuned for the full schedule.</p>
-							<p><a href="/sessions.html" class="bu">Details</a></p>
-							</div>
-
-							</li>
 							</ul>
 
 							</div><!-- slider-content -->
 
 							<ul class="slider-nav">
-							<li class="active">
-							<div class="d">
-							<h6>Become a Sponsor</h6>
-							<p>Support the T3CON11 in Hanau</p>
-							</div>
-							</li>
-							<li>
-							<div class="d">
-							<h6>You missed T3CON10?</h6>
-							<p>Videos of the talks are online</p>
-							</div>
-							</li>
-							<li>
-							<div class="d">
-							<h6>Congress Park Hanau</h6>
-							<p>An inspiring location</p>
-							</div>
-							</li>
-							<li>
-							<div class="d">
-							<h6>Conference Schedule</h6>
-							<p>The Program is being finalized!</p>
-							</div>
-							</li>
+								<li class="active">
+									<div class="d">
+										<h6>Conference Program</h6>
+										<p>See the full list of sessions</p>
+									</div>
+								</li>
+								<li>
+									<div class="d">
+										<h6>Congress Park Hanau</h6>
+										<p>An inspiring location</p>
+									</div>
+								</li>
+								<li>
+									<div class="d">
+										<h6>Become a Sponsor</h6>
+										<p>Support the T3CON11 in Hanau</p>
+									</div>
+								</li>
+								<li>
+									<div class="d">
+										<h6>You missed T3CON10?</h6>
+										<p>Videos of the talks are online</p>
+									</div>
+								</li>
 							</ul>
 
 							</div><!-- top-slider -->
@@ -151,15 +151,6 @@
 								<h4>Dates to watch</h4>
 								<div class="general-box">
 									<div class="d">
-										<div class="b-event-item">
-											<div class="b-event-item-date b-event-item-date-big dtstart">
-												<span class="d">15</span><span class="m">August</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Conference program is being prepared</h6>
-												<p>Head over to the <a href="/sessions.html">schedule</a>!</p>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-event-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
 												<span class="m">15.09</span> <span class="y">2011</span>
@@ -380,11 +371,27 @@
 						<p>To T3CON11, the now seventh edition of the world's largest
 						TYPO3 event, the TYPO3 community expects about 500 participants from more
 						than 30 countries to discuss and learn about the current state of TYPO3.</p>
-
-						<p><strong>The call for papers has ended and currently the submissions are reviewed and
-						a program is being worked out. It will be published here.</strong></p>
 						]]></text>
 					</properties>
+				</node>
+				<node identifier="9d1bc355-f634-48a4-a38e-bf844adc23c6" type="TYPO3.Conference:Plugin" nodeName="allsessions" locale="">
+					<properties>
+						<controller>Conference\Paper</controller>
+						<action>listAccepted</action>
+					</properties>
+				</node>
+			</node>
+			<node identifier="7fd25f03-fb85-48a8-8c0b-e4da49d25cce" type="TYPO3.TYPO3:Page" nodeName="acceptedpapers" locale="" hiddenInIndex="true">
+				<properties>
+					<title>Accepted Papers</title>
+				</properties>
+				<node identifier="0395a08b-1ffc-4a0d-befe-866989f7bca3" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="e28a0de2-591a-42ab-a0ba-bf4e8bd81984" type="TYPO3.Conference:Plugin" nodeName="acceptedpaper" locale="">
+						<properties>
+							<controller>Conference\Paper</controller>
+							<action>showAccepted</action>
+						</properties>
+					</node>
 				</node>
 			</node>
 		</node>
