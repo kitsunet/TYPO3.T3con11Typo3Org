@@ -45,6 +45,10 @@ TYPO3:
           targetNode: 20cbd0e9-2931-4c3f-b587-dff1cbdf6d3b
         - package: TYPO3.Conference
           controller: Conference\Paper
+          action: review
+          targetNode: b7611a2d-0b62-4d07-8d85-6c57bcb8a05e
+        - package: TYPO3.Conference
+          controller: Conference\Paper
           action: voting
           targetNode: 3eb63884-1cc6-4572-8d77-7bd6b16e84b1
         - package: TYPO3.Conference
