@@ -663,7 +663,7 @@
 								</colgroup>
 								<thead>
 									<tr><th><h3>Bronze Sponsors</h3></th><th colspan="2"><h3>Donations</h3></th></tr>
-									<tr><th>2,500 € donation</th><th>200 € donation</th><th>100 € donation</th></tr>
+									<tr><th>2,500 € donation</th><th>&nbsp;</th><th>&nbsp;</th></tr>
 								</thead>
 								<tbody>
 									<tr>
@@ -672,11 +672,14 @@
 											<a href="http://www.meteos.de/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Sponsors/meteos.png" height="64" width="170" alt="METEOS - TYPO3 Agentur"/></a>
 										</td>
 										<td>
-											<a href="http://www.netzpepper.de/">netzpepper</a>
+											<a href="http://www.expeer.de">expeer GmbH</a> (300 €)<br />
+											<br />
+											<a href="http://www.netzpepper.de/">netzpepper</a> (200 €)<br />
+											<br />
+											<a href="https://alinbu.net/">Alinbu... alles in Butter</a> (100 €)<br />
+											<a href="http://www.comsolit.ch/">comsolit AG</a> (100 €)
 										</td>
 										<td>
-											<a href="https://alinbu.net/">Alinbu... alles in Butter</a><br />
-											<a href="http://www.comsolit.ch/">comsolit AG</a>
 										</td>
 									</tr>
 								</tbody>
