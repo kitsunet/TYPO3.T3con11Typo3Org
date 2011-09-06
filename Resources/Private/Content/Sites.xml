@@ -119,8 +119,10 @@
 						<text><![CDATA[
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 
-							<p><em>Thursday, October 6 - Saturday, October 8, 2011 in the Congress Park Hanau.</em>
-							<a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get your ticket now!</a></p>
+							<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/ticket-button-earlybird.png" width="138" height="38" alt="Early Bird Ticket" class="intext right" /></a>
+								<strong>Tutorial Day: Thursday, October 6 2011 (separate ticket required)</strong><br />
+								<strong>Main Conference: Friday, October 7 - Saturday, October 8 2011</strong>
+							</p>
 
 							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
 							will be a great opportunity to learn more about the powerful TYPO3 CMS, the FLOW3 framework
@@ -153,7 +155,7 @@
 									<div class="d">
 										<div class="b-event-item">
 											<div class="b-event-item-date">
-												<span class="m">15.09</span> <span class="y">2011</span>
+												<span class="m">07.09</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
 												<h6>Ticket prices rise!</h6>
@@ -165,7 +167,26 @@
 												<span class="m">06.10</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
-												<h6>T3CON11 finally starts</h6>
+												<h6>Tutorial Day</h6>
+												<p>Separate ticket required</p>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-event-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">07.10</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Main Conference</h6>
+												<p>Starts at 09:15h</p>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-event-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">08.10</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Main Conference</h6>
+												<p>Ends at about 16:15h</p>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-event-item -->
 									</div>
