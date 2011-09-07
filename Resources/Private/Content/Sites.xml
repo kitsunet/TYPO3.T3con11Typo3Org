@@ -113,44 +113,13 @@
 				</node>
 			</node>
 			<node identifier="6ebb2dd9-5924-4bbc-8602-e52495ad2451" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-				<node identifier="eca65e3d-3442-4c72-93c2-9bdc332b186d" type="TYPO3.TYPO3:Text" nodeName="text1" locale="" hiddenAfterDate="2011-09-07T00:00:00+02:00">
-					<properties>
-						<headline>T3CON11 - Frankfurt</headline>
-						<text><![CDATA[
-							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
-
-							<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/ticket-button-earlybird.png" width="138" height="38" alt="Early Bird Ticket" class="intext right" /></a>
-								<strong>Tutorial Day: Thursday, October 6 2011 (separate ticket required)</strong><br />
-								<strong>Main Conference: Friday, October 7 - Saturday, October 8 2011</strong>
-							</p>
-
-							<p>We invite you to a stunning event with a broad range of topics and professional speakers. This
-							will be a great opportunity to learn more about the powerful TYPO3 CMS, the FLOW3 framework
-							and to connect with other managers, developers and designers from all over the world. Many
-							internationally known leaders of the TYPO3 community will attend and present.</p>
-
-							<div class="b-flickr">
-								<div class="b-flickr-head">
-									<h4>Photostream T3CON10</h4>
-									<p><a class="bu bu-mini" href="http://www.flickr.com/search/?q=t3con10+OR+t3con" target="_blank">More</a></p>
-								</div><!-- b-flickr-head -->
-								<div id="flickr-slider" class="b-flickr-body">
-									<div class="slides">
-										<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&amp;display=random&amp;size=s&amp;layout=x&amp;source=all_tag&amp;tag=t3con10"></script>
-									</div>
-									<div class="flickr-overlay"></div>
-								</div><!-- b-flickr-body -->
-							</div><!-- b-flickr -->
-						]]></text>
-					</properties>
-				</node>
 				<node identifier="ecd006fd-40ba-4b61-8297-117575bc72f4" type="TYPO3.TYPO3:Text" nodeName="text2" locale="" hiddenBeforeDate="2011-09-07T00:00:00+02:00">
 					<properties>
 						<headline>T3CON11 - Frankfurt</headline>
 						<text><![CDATA[
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 
-							<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/"><img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/ticket-button.png" width="138" height="23" alt="Buy Ticket" class="intext right" /></a>
+							<p>
 								<strong>Tutorial Day: Thursday, October 6 2011 (separate ticket required)</strong><br />
 								<strong>Main Conference: Friday, October 7 - Saturday, October 8 2011</strong>
 							</p>
@@ -181,55 +150,6 @@
 					<properties>
 						<controller>Conference\Paper</controller>
 						<action>featured</action>
-					</properties>
-				</node>
-				<node identifier="ebafd0be-7e95-4606-a2f5-3ef668ec9dd8" type="TYPO3.TYPO3:Html" nodeName="html1" locale="" hiddenAfterDate="2011-09-07T00:00:00+02:00">
-					<properties>
-						<source><![CDATA[
-							<div class="gc">
-								<h4>Dates to watch</h4>
-								<div class="general-box">
-									<div class="d">
-										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">07.09</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Ticket prices rise!</h6>
-												<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get yours now!</a></p>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-event-item -->
-										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">06.10</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Tutorial Day</h6>
-												<p>Separate ticket required</p>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-event-item -->
-										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">07.10</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Main Conference</h6>
-												<p>Starts at 09:15h</p>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-event-item -->
-										<div class="b-event-item">
-											<div class="b-event-item-date">
-												<span class="m">08.10</span> <span class="y">2011</span>
-											</div><!-- b-event-item-date -->
-											<div class="b-event-item-text">
-												<h6>Main Conference</h6>
-												<p>Ends at about 16:15h</p>
-											</div><!-- b-event-item-text -->
-										</div><!-- b-event-item -->
-									</div>
-								</div><!-- general-box -->
-							</div><!-- gc -->
-						]]></source>
 					</properties>
 				</node>
 				<node identifier="db9fc205-c031-439c-a864-de9396ed5718" type="TYPO3.TYPO3:Html" nodeName="html2" locale="" hiddenBeforeDate="2011-09-07T00:00:00+02:00">
