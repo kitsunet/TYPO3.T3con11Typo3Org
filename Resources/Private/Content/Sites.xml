@@ -154,6 +154,15 @@
 								<div class="general-box">
 									<div class="d">
 										<div class="b-event-item">
+ 											<div class="b-event-item-date b-event-item-date-big dtstart">
+ 												<span class="d">15</span><span class="m">September</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+ 											<div class="b-event-item-text">
+ 												<h6>Early Bird ends!</h6>
+ 												<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get your tickets now!</a></p>
+											</div><!-- b-event-item-text -->
+ 										</div><!-- b-event-item -->
+										<div class="b-event-item">
 											<div class="b-event-item-date">
 												<span class="m">06.10</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
