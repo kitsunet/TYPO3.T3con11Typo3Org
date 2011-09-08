@@ -27,7 +27,7 @@
 							<h3>Stunning Talks and Inspiring Tutorials</h3>
 							</div>
 							<p>See who is speaking and which sessions you can join at T3CON11. The full list of accepted papers is now online.</p>
-							<p><a href="/sessions.html" class="bu">Details</a></p>
+							<p><a href="/sessions.html" class="bu">Details</a> <a class="bu" href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">Buy tickets</a></p>
 							</div>
 
 							</li>
@@ -120,7 +120,7 @@
 							<p>This year's biggest TYPO3 conference will again take place close to Frankfurt, Germany:</p>
 
 							<p>
-								<strong>Tutorial Day: Thursday, October 6 2011 (separate ticket required)</strong><br />
+								<strong>Tutorial Day: Thursday, October 6 2011 (separate <a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">ticket</a> required)</strong><br />
 								<strong>Main Conference: Friday, October 7 - Saturday, October 8 2011</strong>
 							</p>
 
@@ -146,7 +146,7 @@
 				</node>
 			</node>
 			<node identifier="2debeee7-9391-4877-b72a-1e89c6c54545" type="TYPO3.TYPO3:Section" nodeName="sidebar" locale="">
-				<node identifier="27a254c4-6ca7-4ce7-aa0e-87f192d9bdd7" type="TYPO3.TYPO3:Html" nodeName="datestowatch" locale="">
+				<node identifier="27a254c4-6ca7-4ce7-aa0e-87f192d9bdd7" type="TYPO3.TYPO3:Html" nodeName="datestowatch" hiddenAfterDate="2011-09-16T00:00:00+02:00" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="gc">
@@ -154,21 +154,62 @@
 								<div class="general-box">
 									<div class="d">
 										<div class="b-event-item">
- 											<div class="b-event-item-date b-event-item-date-big dtstart">
- 												<span class="d">15</span><span class="m">September</span> <span class="y">2011</span>
+											<div class="b-event-item-date b-event-item-date-big dtstart">
+												<span class="d">15</span><span class="m">September</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
- 											<div class="b-event-item-text">
- 												<h6>Early Bird ends!</h6>
- 												<p><a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/">Get your tickets now!</a></p>
+											<div class="b-event-item-text">
+												<h6>Early Bird ends</h6>
+												<p>Save up to 200,- €!</p>
+												<p><a class="bu" href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">Get your tickets now!</a></p>
 											</div><!-- b-event-item-text -->
- 										</div><!-- b-event-item -->
+										</div><!-- b-event-item -->
 										<div class="b-event-item">
 											<div class="b-event-item-date">
 												<span class="m">06.10</span> <span class="y">2011</span>
 											</div><!-- b-event-item-date -->
 											<div class="b-event-item-text">
 												<h6>Tutorial Day</h6>
-												<p>Separate ticket required</p>
+												<p>Separate <a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">ticket</a> required</p>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-event-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">07.10</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Main Conference</h6>
+												<p>Starts at 09:15h</p>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-event-item -->
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">08.10</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Main Conference</h6>
+												<p>Ends at about 16:15h</p>
+											</div><!-- b-event-item-text -->
+										</div><!-- b-event-item -->
+									</div>
+								</div><!-- general-box -->
+							</div><!-- gc -->
+						]]></source>
+					</properties>
+				</node>
+				<node identifier="a682d68d-b15a-4e28-a644-4919df0c8ed3" type="TYPO3.TYPO3:Html" nodeName="datestowatchafterearlybird" hiddenBeforeDate="2011-09-16T00:00:00+02:00" locale="">
+					<properties>
+						<source><![CDATA[
+							<div class="gc">
+								<h4>Dates to watch</h4>
+								<div class="general-box">
+									<div class="d">
+										<div class="b-event-item">
+											<div class="b-event-item-date">
+												<span class="m">06.10</span> <span class="y">2011</span>
+											</div><!-- b-event-item-date -->
+											<div class="b-event-item-text">
+												<h6>Tutorial Day</h6>
+												<p>Separate <a href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">ticket</a> required</p>
 											</div><!-- b-event-item-text -->
 										</div><!-- b-event-item -->
 										<div class="b-event-item">
