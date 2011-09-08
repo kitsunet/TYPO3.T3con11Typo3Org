@@ -146,7 +146,7 @@
 				</node>
 			</node>
 			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3.TYPO3:Section" nodeName="sidebar" locale="">
-				<node identifier="db9fc205-c031-439c-a864-de9396ed5718" type="TYPO3.TYPO3:Html" nodeName="html2" locale="" hiddenBeforeDate="2011-09-07T00:00:00+02:00">
+				<node identifier="27a254c4-6ca7-4ce7-aa0e-87f192d9bdd7" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="gc">
