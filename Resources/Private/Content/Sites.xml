@@ -145,8 +145,8 @@
 					</properties>
 				</node>
 			</node>
-			<node identifier="fef9eaa1-6c40-4eef-82c3-f59674e1614e" type="TYPO3.TYPO3:Section" nodeName="sidebar" locale="">
-				<node identifier="27a254c4-6ca7-4ce7-aa0e-87f192d9bdd7" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
+			<node identifier="2debeee7-9391-4877-b72a-1e89c6c54545" type="TYPO3.TYPO3:Section" nodeName="sidebar" locale="">
+				<node identifier="27a254c4-6ca7-4ce7-aa0e-87f192d9bdd7" type="TYPO3.TYPO3:Html" nodeName="datestowatch" locale="">
 					<properties>
 						<source><![CDATA[
 							<div class="gc">
@@ -186,7 +186,7 @@
 						]]></source>
 					</properties>
 				</node>
-				<node identifier="d739e460-0e7f-4d08-a376-1d7f2a9162b3" type="TYPO3.Conference:Plugin" nodeName="featuredtalks" locale="">
+				<node identifier="87fc4881-2004-4605-a360-1eb2f48713a6" type="TYPO3.Conference:Plugin" nodeName="featuredtalks" locale="">
 					<properties>
 						<controller>Conference\Paper</controller>
 						<action>featured</action>
