@@ -17,6 +17,21 @@
 							<div class="slider" id="top-slider">
 							<div class="slider-content">
 							<ul class="slides">
+
+							<li class="slide">
+							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-08.png"
+							width="982" height="282" alt="T3CON11 - It's hot don't miss it" class="slide-img"
+							/>
+							<div class="d slide-content">
+							<div class="hgroup">
+							<h2>T3CON11 - It's hot don't miss it</h2>
+							</div>
+							<p>T3CON11 is your chance to meet people from the TYPO3 community and it's
+							internationally known leaders.</p>
+							<a class="bu" href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">Get your tickets here »</a>
+							</div>
+							</li>
+
 							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-04.jpg"
 							width="982" height="282" alt="Audience interaction during T3CON10" class="slide-img"
@@ -29,8 +44,8 @@
 							<p>See who is speaking and which sessions you can join at T3CON11. The full list of accepted papers is now online.</p>
 							<p><a href="/sessions.html" class="bu">Details</a> <a class="bu" href="http://shop.typo3.org/t3con11fra/t3con11fra-tickets/ref/shop/" target="_blank">Buy tickets</a></p>
 							</div>
-
 							</li>
+
 							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-03.jpg"
 							width="982" height="282" alt="Building in Congress Park Hanau" class="slide-img"
@@ -44,8 +59,8 @@
 							Frankfurt international airport.</p>
 							<p><a href="/location.html" class="bu">Details</a></p>
 							</div>
-
 							</li>
+
 							<li class="slide">
 							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-01.jpg"
 							width="982" height="282" alt="T3CON10 welcome session" class="slide-img"
@@ -58,28 +73,19 @@
 							<p>Top sponsors and companies who donate their goods and services will gain prominent exposure at the conference.</p>
 							<p><a href="contribute/become-a-sponsor.html" class="bu">Become a Sponsor</a></p>
 							</div>
-
 							</li>
-							<li class="slide">
-							<img src="_Resources/Static/Packages/TYPO3.T3con11Typo3Org/Assets/Slider/slider-07.jpg"
-							width="982" height="282" alt="T3CON10 session recording" class="slide-img"
-							/>
-							<div class="d slide-content">
-							<div class="hgroup">
-							<h2>You missed T3CON10?</h2>
-							<h3>Videos of the talks are online</h3>
-							</div>
-							<p>If you missed parts or all of last year's T3CON10 in Frankfurt, here is your chance to
-							view some videos of the sessions captured by our video team.</p>
-							<p><a href="community/t3con10-videos.html" class="bu">Details</a></p>
-							</div>
 
-							</li>
 							</ul>
 
 							</div><!-- slider-content -->
 
 							<ul class="slider-nav">
+								<li>
+									<div class="d">
+										<h6>T3CON11 - It's hot don't miss it</h6>
+										<p>Meet the TYPO3 community</p>
+									</div>
+								</li>
 								<li class="active">
 									<div class="d">
 										<h6>Conference Program</h6>
@@ -96,12 +102,6 @@
 									<div class="d">
 										<h6>Become a Sponsor</h6>
 										<p>Support the T3CON11 in Hanau</p>
-									</div>
-								</li>
-								<li>
-									<div class="d">
-										<h6>You missed T3CON10?</h6>
-										<p>Videos of the talks are online</p>
 									</div>
 								</li>
 							</ul>
@@ -462,6 +462,33 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3.TYPO3:Page" nodeName="t3con10-videos" locale="">
+				<properties>
+					<title>Past Conference Videos</title>
+				</properties>
+				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
+						<properties>
+							<headline>Videos of past TYPO3 conferences</headline>
+							<text><![CDATA[
+								<p>As every year also last year our video team was hard at work and captured (most of)
+								the sessions for your viewing pleasure. Below is a glimpse of what the <a href="http://vimeo.com/channels/t3con">T3CON channel
+								over at vimeo</a> has to offer.</p>
+								<p>Sessions which have been recorded between 2006 and 2010 are available for download <a href="http://t3con.mirror.speedpartner.de/">on this site</a>.</p>
+							]]></text>
+						</properties>
+					</node>
+					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
+						<properties>
+							<source><![CDATA[
+								<div class="vimeoBadge">
+									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=channel&amp;stream_id=145371&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
+								</div>
+							]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node identifier="6ee4e5a7-8ba9-4188-8bc0-15d01c218752" type="TYPO3.TYPO3:Page" nodeName="cfp" locale="" hiddenInIndex="true">
 			<properties>
@@ -509,33 +536,6 @@
 			<properties>
 				<title>Community</title>
 			</properties>
-			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3.TYPO3:Page" nodeName="t3con10-videos" locale="">
-				<properties>
-					<title>TYPO3 Conference Videos</title>
-				</properties>
-				<node identifier="1e7b6642-5256-459d-85da-dbc1ea45772a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
-					<node identifier="1d3d51ba-e225-4c20-a450-f487589bc05b" type="TYPO3.TYPO3:Text" nodeName="text1" locale="">
-						<properties>
-							<headline>Videos of past TYPO3 conferences</headline>
-							<text><![CDATA[
-								<p>As every year also last year our video team was hard at work and captured (most of)
-								the sessions for your viewing pleasure. Below is a glimpse of what the <a href="http://vimeo.com/channels/t3con">T3CON channel
-								over at vimeo</a> has to offer.</p>
-								<p>Sessions which have been recorded between 2006 and 2010 are available for download <a href="http://t3con.mirror.speedpartner.de/">on this site</a>.</p>
-							]]></text>
-						</properties>
-					</node>
-					<node identifier="2dd73153-9a81-4f45-852a-441aeb3822a9" type="TYPO3.TYPO3:Html" nodeName="html1" locale="">
-						<properties>
-							<source><![CDATA[
-								<div class="vimeoBadge">
-									<script type="text/javascript" src="http://vimeo.com/t3con/badgeo/?stream=channel&amp;stream_id=145371&amp;count=8&amp;thumbnail_width=160&amp;show_titles=yes"></script>
-								</div>
-							]]></source>
-						</properties>
-					</node>
-				</node>
-			</node>
 		</node>
 		<node identifier="d21894bf-23db-4882-bcff-f611ee36a117" type="TYPO3.TYPO3:Page" nodeName="contribute" locale="">
 			<properties>
