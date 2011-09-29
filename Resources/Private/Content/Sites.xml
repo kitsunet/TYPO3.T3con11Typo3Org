@@ -442,22 +442,321 @@
 						]]></text>
 					</properties>
 				</node>
-				<node identifier="9d1bc355-f634-48a4-a38e-bf844adc23c6" type="TYPO3.Conference:Plugin" nodeName="allsessions" locale="">
-					<properties>
-						<controller>Conference\Paper</controller>
-						<action>listAccepted</action>
-					</properties>
-				</node>
 			</node>
-			<node identifier="7fd25f03-fb85-48a8-8c0b-e4da49d25cce" type="TYPO3.TYPO3:Page" nodeName="acceptedpapers" locale="" hiddenInIndex="true">
+			<node identifier="7fd25f03-fb85-48a8-8c0b-e4da49d25cce" type="TYPO3.TYPO3:Page" nodeName="acceptedpapers" locale="">
 				<properties>
-					<title>Accepted Papers</title>
+					<title>All Sessions</title>
 				</properties>
 				<node identifier="0395a08b-1ffc-4a0d-befe-866989f7bca3" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
 					<node identifier="e28a0de2-591a-42ab-a0ba-bf4e8bd81984" type="TYPO3.Conference:Plugin" nodeName="acceptedpaper" locale="">
 						<properties>
 							<controller>Conference\Paper</controller>
-							<action>showAccepted</action>
+							<action>listAccepted</action>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="2836f975-65bd-49a6-b5cb-fbcb8d763d06" type="TYPO3.TYPO3:Page" nodeName="thursday" locale="">
+				<properties>
+					<title>Thursday</title>
+				</properties>
+				<node identifier="137c76cb-3a11-4ce5-b46a-e672068a237d" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="e5e48d4c-4da2-48c3-aa75-4d0583a6eb0e" type="TYPO3.TYPO3:Html" nodeName="schedule" locale="">
+						<properties>
+							<source><![CDATA[
+	<table id="schedule" border="0">
+	  <tr>
+		 <td class="no-border">&nbsp;</td>
+		 <td class="grey center" colspan="4"><h3>Thursday, October 6th</h3></td>
+	  </tr>
+	  <tr>
+	  	<td class="no-border">&nbsp;</td>
+		 <td class="grey center no-border" colspan="4">
+		 	<p>Handout of the swag 7:00 - 16:30 <br>
+		 	Registration 7:00 - 16:00</p>
+		 </td>
+	  </tr>
+	  <tr>
+		 <td class="w1">9:00-12:00</td>
+		 <td class="w2"><strong>Brüder Grimm Saal B</strong></td>
+		 <td class="w2"><strong>Brüder Grimm Saal C</strong></td>
+		 <td class="w2"><strong>Saal Landgraf</strong></td>
+		 <td class="w2"><strong>Tagungsraum 1-3</strong></td>
+	  </tr>
+	  <tr>
+		 <td>7:00-16:00</td>
+		 <td class="green"><a href="sessions/acceptedpapers/paper/flow3_tutorial.html">FLOW3 tutorial<br />
+		 <span class="small">(Bastian Waidelich,Robert Lemke)</span></a></td>
+		 <td class="purple"><a href="http://t3con11-frankfurt.typo3.org/sessions/acceptedpapers/paper/the_power_of_typoscript.html">The Power of TypoScript<br />
+		 <span class="small">(Jo Hasenau)</span></a></td>
+		 <td class="purple"><a href="sessions/acceptedpapers/paper/apache_solr_for_typo3.html">Apache Solr for TYPO3 <span class="small">(Ingo Renner)</span></a></td>
+		 <td class="yello"><a href="sessions/acceptedpapers/paper/typo3_introduction_day___einf__hrung_in_typo3.html">TYPO3 Introduction Day - Einführung in TYPO3 <span class="small">(Jochen Weiland)</span></a></td>
+	  </tr>
+	  <tr>
+		 <td>12:00-13:30</td>
+		 <td colspan="4" class="grey center"><strong>Lunch</strong></td>
+	  </tr>
+	  <tr>
+		 <td>13:30-16:00</td>
+		 <td class="green"><a href="sessions/acceptedpapers/paper/flow3_tutorial.html">FLOW3 tutorial<br />
+			  <span class="small">(Bastian Waidelich,Robert Lemke)</span></a></td>
+		 <td class="purple"><a href="sessions/acceptedpapers/paper/the_power_of_typoscript.html">The Power of TypoScript <br />      <span class="small">(Jo Hasenau)</span></a></td>
+		 <td class="purple"><a href="sessions/acceptedpapers/paper/apache_solr_for_typo3.html">Apache Solr for TYPO3 <span class="small">(Ingo Renner)</span></a></td>
+		 <td class="yello"><a href="sessions/acceptedpapers/paper/typo3_introduction_day___einf__hrung_in_typo3.html">TYPO3 Introduction Day - Einführung in TYPO3 <span class="small">(Jochen Weiland)</span></a></td>
+	  </tr>
+	  <tr>
+		 <td>16:30-18:30</td>
+		 <td class="blue">Budget Discussions</td>
+		 <td>NN</td>
+		 <td>NN</td>
+		 <td>NN</td>
+	  </tr>
+	</table>
+
+    <table id="legend">
+      <tr>
+        <td class="no-border green">Coding</td>
+        <td class="no-border purple">Integration</td>
+        <td class="no-border yello">Business &amp; Best Practices</td>
+        <td class="no-border blue">General</td>
+      </tr>
+    </table>
+							]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="6e6b5405-26f5-4df8-85bc-89c0cec55b78" type="TYPO3.TYPO3:Page" nodeName="friday" locale="">
+				<properties>
+					<title>Friday</title>
+				</properties>
+				<node identifier="610d3f02-3222-4383-8fef-e73c569df150" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="865c3200-d401-46e8-b3a3-c09159fde904" type="TYPO3.TYPO3:Html" nodeName="schedule" locale="">
+						<properties>
+							<source><![CDATA[
+<table id="schedule" border="0">
+  <tr>
+    <td class="no-border">&nbsp;</td>
+    <td class="grey center" colspan="4"><h3>Friday, October 7th</h3></td>
+  </tr>
+  <tr>
+	<td class="no-border">&nbsp;</td>
+	 <td class="grey center no-border" colspan="4">
+		<p>Handout of the swag &amp; Conference Registration 7:00 - 16:00 <br>
+		Registration 7:00 - 16:00</p>
+	 </td>
+  </tr>
+  <tr>
+    <td class="w1">9:15-10:45</td>
+    <td colspan="4" class="blue center"><a href="sessions/acceptedpapers/paper/keynote.html"><strong>Keynote (Brüder Grimm Saal A</strong></a></td>
+  </tr>
+  <tr>
+    <td class="w1">&nbsp;</td>
+    <td colspan="4" class="grey center"><strong>Coffee break</strong></td>
+  </tr>
+  <tr>
+    <td class="w1">&nbsp;</td>
+    <td class="w2"><strong>Brüder Grimm Saal B</strong></td>
+    <td class="w2"><strong>Brüder Grimm Saal C</strong></td>
+    <td class="w2"><strong>Saal Landgraf</strong></td>
+    <td class="w2"><strong>Tagungsraum 1-3</strong></td>
+  </tr>
+  <tr>
+    <td>11:00-11:45</td>
+    <td class="blue2"><a href="sessions/acceptedpapers/paper/typo3_brand_book_presentation.html">What kind of pizza is TYPO3?<br />
+      <span class="small">(Rasmus Skjoldan)</span></a></td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/multidomain_publishing_from_a_single_pagetree.html">Multidomain publishing from a single pagetree<br />
+      <span class="small">(Thomas Hempel)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/building_accessible_websites.html">Building accessible websites<br />
+      <span class="small">(Ric van Westhreenen)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>11:50-12:35</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/flow3_1_0.html">FLOW3 1.0<br />
+    <span class="small">(Robert Lemke)</span></a></td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/how_to_secure_typo3_installations.html">How to secure TYPO3 installations<br />
+    <span class="small">(Jochen Weiland)</span></a></td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/sprites.html">Sprites<br />
+      <span class="small">(Mads Brunn)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>12:35-14:00</td>
+    <td colspan="4" class="grey center"><strong>Lunch</strong></td>
+  </tr>
+  <tr>
+    <td>14:00-14:45</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/how_to_use_code_metrics_to_improve_quality.html">How to use code metrics to improve quality<br />
+      <span class="small">(Christian)</span></a></td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/typo3_4_6_overview.html">TYPO3 4.6 Overview <br />
+      <span class="small">(Xavier Perseguers)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/cloud_development_2_0__scrum_in_distributed_teams.html">Cloud development 2.0: Scrum in distributed teams <span class="small">(Andriy Kushnarov)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>14:50-15:35</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/lazy_development_using_the_extension_builder.html">Lazy development using the Extension Builder<br />
+      <span class="small">(Rens Admiraal)</span></a></td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/continuous_inspection.html">Continuous Inspection <br />
+      <span class="small">(Olivier Gaudin)</span></a></td>
+    <td class="purple"><a href="sessions/acceptedpapers/paper/the_one_thing_to_list_everything.html">The ONE thing to LIST everything<br />
+      <span class="small">(Daniel Lienert, Michael Knoll)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/should_agencies_insist_on_the_typo3_certification_.html">Should agencies insist on the TYPO3 certification? <span class="small">(Sebastian Böttger)</span></a></td>
+  </tr>
+  <tr>
+    <td>15:35-16:00</td>
+    <td colspan="4" class="grey center"><strong>Coffee break</strong></td>
+  </tr>
+  <tr>
+    <td>16:00-16:45</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/flow3_goes_semantic.html">FLOW3 Goes Semantic<br />
+        <span class="small">(Sebastian Kurfürst)</span></a></td>
+    <td class="blue2"><a href="sessions/acceptedpapers/paper/save_time_by_using_sass.html">Save time by using SASS <br />      <span class="small">(Berit Jensen)</span></a></td>
+    <td class="purple"><a href="sessions/acceptedpapers/paper/typo3_photo_gallery_management_with_yag.html">TYPO3 Photo-Gallery Management with YAG<br />      <span class="small">(Daniel Lienert,Michael Knoll)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>17:15-18:15</td>
+    <td class="blue">certification exam</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>19:30</td>
+    <td colspan="4" class="blue center"><strong>Social Event (Paul Hindemith Saal)</strong></td>
+  </tr>
+</table>
+
+    <table id="legend">
+      <tr>
+        <td class="no-border green">Coding</td>
+        <td class="no-border purple">Integration</td>
+        <td class="no-border blue2">Design and UX</td>
+        <td class="no-border orange">Admin</td>
+        <td class="no-border yello">Business &amp; Best Practices</td>
+        <td class="no-border blue">General</td>
+      </tr>
+    </table>
+
+							]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
+			<node identifier="eecb3b91-81f5-403d-9e7d-d48728e36f30" type="TYPO3.TYPO3:Page" nodeName="saturday" locale="">
+				<properties>
+					<title>Saturday</title>
+				</properties>
+				<node identifier="6e042d45-16f7-46b6-ac0e-1a3c9c72c89a" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="63fd645a-8a26-4475-b9f2-65f9c1a21ab0" type="TYPO3.TYPO3:Html" nodeName="schedule" locale="">
+						<properties>
+							<source><![CDATA[
+<table id="schedule" border="0">
+  <tr>
+    <td class="no-border">&nbsp;</td>
+    <td class="grey center" colspan="4"><h3>Saturday, October 8th</h3></td>
+  </tr>
+  <tr>
+	<td class="no-border">&nbsp;</td>
+	 <td class="grey center no-border" colspan="4">
+		<p>Handout of the swag 9:00 - 16:00</p>
+	 </td>
+  </tr>
+  <tr>
+    <td class="w1">&nbsp;</td>
+    <td class="w2"><strong>Brüder Grimm Saal B</strong></td>
+    <td class="w2"><strong>Brüder Grimm Saal C</strong></td>
+    <td class="w2"><strong>Saal Landgraf</strong></td>
+    <td class="w2"><strong>Tagungsraum 1-3</strong></td>
+  </tr>
+  <tr>
+    <td>9:00-9:45</td>
+    <td class="blue2"><a href="sessions/acceptedpapers/paper/aloha_editor.html">Aloha Editor<br />
+      <span class="small">(Haymo Meran, Sebastian Kurfuerst)</span></a></td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/typo3_security_guidelines.html">TYPO3 Security Guidelines<br />
+      <span class="small">(Helmut Hummel)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/biceps___an_extbase_enterprise_application.html">Biceps - an Extbase enterprise application<br />
+      <span class="small">(Stefan Busemann,Tina Gasteiger)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>9:50-10:35</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/typo3_phoenix___the_current_state.html">TYPO3 Phoenix - The Current State<br />
+    <span class="small">(Sebastian Kurfuerst, Rens Admiraal, Christian Müller)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/the_typo3_government_package.html">The TYPO3 Government Package<br />
+    <span class="small">(Oliver Hader, Lars Zimmermann)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/how_to_select_the_right_open_source_cms_.html">How to select the right Open Source CMS!<br />
+      <span class="small">(Kian Gould)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>10:35-11:00</td>
+    <td colspan="4" class="grey center"><strong>Coffee break</strong></td>
+  </tr>
+  <tr>
+    <td>11:00-11:45</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/using_doctrine_2_in_flow3.html">Using Doctrine 2 in FLOW3<br />
+      <span class="small">(Benjamin Eberlei, Karsten Dambekalns)</span></a></td>
+    <td class="purple"><a href="sessions/acceptedpapers/paper/the_future_of_dam.html">The future of DAM <br />
+      <span class="small">(Fabien Udriot, Ingmar Schlecht)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/service_oriented_enterprise_application_with_flow3.html">Service-oriented enterprise application with FLOW3 <br />      <span class="small">(Christopher Hlubek)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>11:50-12:35</td>
+    <td class="green"><a href="sessions/acceptedpapers/paper/designing_http_interfaces_and_restful_web_services.html">Designing HTTP Interfaces and RESTful Web Services<br />
+      <span class="small">(David Zülke)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/why_cucumber_s__make_your_typo3_project_better.html">Why Cucumber(s) make your TYPO3 project better <br />
+      <span class="small">(Søren Schaffstein)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/flow3___typo3_phoenix__a_real_world_debut.html">FLOW3 &amp; TYPO3 Phoenix: A real-world debut<br />
+      <span class="small">(Clemens Kalb)</span></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>12:35-14:00</td>
+    <td colspan="4" class="grey center"><strong>Lunch</strong></td>
+  </tr>
+  <tr>
+    <td>14:00-14:45</td>
+    <td class="orange"><a href="sessions/acceptedpapers/paper/workflows_with_typo3_v4_and_workspaces.html">Workflows with TYPO3 v4 and Workspaces<br />
+      <span class="small">(Benjamin Mack)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/extreme_fluid.html">Extreme Fluid <br />
+      <span class="small">(Patrick Lobacher)</span></a></td>
+    <td rowspan="2" class="blue"><a href="sessions/acceptedpapers/paper/getting_involved_with_typo3.html">Getting involved with TYPO3<br />
+      <span class="small">(Berit Jensen)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/seminar_management_with_typo3_and_sap_lso.html">Seminar management with TYPO3 and SAP LSO<br /><span class="small">(Andreas Otto)</span></a></td>
+  </tr>
+  <tr>
+    <td>14:50-15:35</td>
+    <td class="blue2"><a href="sessions/acceptedpapers/paper/content_templates___a_rich_ui_in_typo3.html">Content templates &amp; a Rich UI in TYPO3<br />
+        <span class="small">(Rens Admiraal)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/better_plan_typo3_projects_with_agile_estimating.html">Better Plan TYPO3 Projects with Agile Estimating<br />      <span class="small">(Dominik Stankowski)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/typo3_meets_erp___multichannel_at_kontaktlinsen_de.html">TYPO3 meets ERP + Multichannel at kontaktlinsen.de<br /><span class="small">(Stephan Sigloch)</span></a></td>
+  </tr>
+  <tr>
+    <td>15:35-16:00</td>
+    <td colspan="4" class="grey center"><strong>Coffee break</strong></td>
+  </tr>
+  <tr>
+    <td>19:30</td>
+    <td colspan="4" class="blue center"><strong>Conference ending, best paper (Brüger Grimm Saal A)</strong></td>
+  </tr>
+</table>
+
+ <table id="legend">
+	<tr>
+	  <td class="no-border green">Coding</td>
+	  <td class="no-border purple">Integration</td>
+	  <td class="no-border blue2">Design and UX</td>
+	  <td class="no-border orange">Admin</td>
+	  <td class="no-border yello">Business &amp; Best Practices</td>
+	  <td class="no-border blue">General</td>
+	</tr>
+ </table>
+
+							]]></source>
 						</properties>
 					</node>
 				</node>
@@ -747,6 +1046,7 @@
 											<a href="https://alinbu.net/">Alinbu... alles in Butter</a> (100 €)<br />
 											<a href="http://www.comsolit.ch/">comsolit AG</a> (100 €)<br />
 											<a href="http://www.web-essentials.asia/">Web Essentials</a> (100 €)
+											<a href="http://www.marit.ag/">Marit AG</a> (100 €)
 										</td>
 										<td>
 										</td>

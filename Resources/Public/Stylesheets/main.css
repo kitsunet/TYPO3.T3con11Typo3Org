@@ -287,7 +287,7 @@ input::-moz-focus-inner 		{ padding: 0; border: none; }
 
 .nav .nav-sub 		{ width:388px; position:absolute; left:-1px; top:32px; /*BEN:height:274px;*/ overflow:hidden; color:#fff; display:none; border-top: 1px solid #E97E0D; }
 
-.nav .nav-sub .col 	{ width:161px; padding:15px 17px 15px 17px; /*border:1px solid #e97e0d;*/ /*border-width:1px 1px 1px 0; */height:74px; background:transparent url(../Images/nav-sub.png) no-repeat -193px 0; position:relative; float:left;}
+.nav .nav-sub .col 	{ width:161px; padding:15px 17px 15px 17px; /*border:1px solid #e97e0d;*/ /*border-width:1px 1px 1px 0; */height:100px; background:transparent url(../Images/nav-sub.png) no-repeat -193px 0; position:relative; float:left;}
 .nav .nav-sub .col:first-child { padding:15px; background-position:0 0; /*border-width:1px 0 1px 1px;*/ margin:0 -3px 0 0; top:0;}
 
 .nav .nav-sub .animate { margin-top:-285px;}
@@ -1045,4 +1045,63 @@ table.sponsors th {background-color:inherit;}
 	height: 100%;
 	display: block;
 	cursor: pointer;
+}
+
+table#schedule td a {
+	color: white;
+	font-weight: bold;
+}
+
+table#schedule td a .small{
+	font-weight: normal;
+	border: 0;
+}
+
+table#schedule td.green {
+	background: #69A550;
+}
+
+table#schedule td.blue {
+	background: #9C9C9C;
+}
+
+table#schedule td.blue2 {
+	background: #0091D3;
+}
+
+table#schedule td.yello {
+	background: #f3cd00;
+}
+
+table#schedule td.purple {
+	background: #BE0027;
+}
+
+table#schedule td.orange {
+	background: #FF8700;
+}
+
+table#legend td.green {
+	border-left:  5px solid #69a550;
+}
+
+table#legend td.blue {
+	border-left:  5px solid #9c9c9c;
+}
+table#legend td.blue2 {
+	border-left:  5px solid #0091d3;
+}
+table#legend td.yello {
+	border-left:  5px solid #f3cd00;
+}
+table#legend td.purple {
+	border-left:  5px solid #be0027;
+}
+table#legend td.orange {
+	border-left:  5px solid #ff8700;
+}
+
+table#legend td {
+	width: 15%;
+	vertical-align: middle;
 }
