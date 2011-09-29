@@ -1046,59 +1046,48 @@ table.sponsors th {background-color:inherit;}
 	display: block;
 	cursor: pointer;
 }
-
 table#schedule td a {
-	color: white;
+	color: black;
 	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+table#schedule td a:hover {
+	text-decoration: underline;
 }
 
 table#schedule td a .small{
 	font-weight: normal;
 	border: 0;
 }
-
-table#schedule td.green {
-	background: #69A550;
+table#schedule td.green, table#legend td.green {
+	border-left: 5px solid #69a550;
+	background: #d0e8c2;
 }
 
-table#schedule td.blue {
-	background: #9C9C9C;
+table#schedule td.blue, table#legend td.blue {
+	background: #d8d8d8;
+	border-left: 5px solid #9c9c9c;
 }
 
-table#schedule td.blue2 {
-	background: #0091D3;
+table#schedule td.blue2, table#legend td.blue2 {
+	background: #c3d9e2;
+	border-left: 5px solid #0091d3;
 }
 
-table#schedule td.yello {
-	background: #f3cd00;
+table#schedule td.yello, table#legend td.yello {
+	background: #f2e9bc;
+	border-left: 5px solid #f3cd00;
 }
 
-table#schedule td.purple {
-	background: #BE0027;
+table#schedule td.purple, table#legend td.purple {
+	background: #e0d2d5;
+	border-left: 5px solid #be0027;
 }
 
-table#schedule td.orange {
-	background: #FF8700;
-}
-
-table#legend td.green {
-	border-left:  5px solid #69a550;
-}
-
-table#legend td.blue {
-	border-left:  5px solid #9c9c9c;
-}
-table#legend td.blue2 {
-	border-left:  5px solid #0091d3;
-}
-table#legend td.yello {
-	border-left:  5px solid #f3cd00;
-}
-table#legend td.purple {
-	border-left:  5px solid #be0027;
-}
-table#legend td.orange {
-	border-left:  5px solid #ff8700;
+table#schedule td.orange, table#legend td.orange {
+	background: #ffd7ad;
+	border-left: 5px solid #ff8700;
 }
 
 table#legend td {
