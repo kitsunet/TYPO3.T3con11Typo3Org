@@ -761,6 +761,20 @@
 					</node>
 				</node>
 			</node>
+			<node identifier="99e209ac-fd3e-4cca-9363-58d186d72280" type="TYPO3.TYPO3:Page" nodeName="best-paper-award" locale="" hiddenInIndex="true">
+				<properties>
+					<title>Best Paper Award</title>
+				</properties>
+				<node identifier="ef6e77a3-c157-4e44-8da7-19da35a68a95" type="TYPO3.TYPO3:Section" nodeName="main" locale="">
+					<node identifier="4d8b5ccc-838d-4688-b2ee-b7bb98d89f38" type="TYPO3.TYPO3:Html" nodeName="schedule" locale="">
+						<properties>
+							<source><![CDATA[
+<iframe frameborder="0" height="900" width="100%" src="http://bestpaper.lienert.cc/"></iframe>
+							]]></source>
+						</properties>
+					</node>
+				</node>
+			</node>
 			<node identifier="0af36ee4-6366-4348-b43d-d66dfdef30a7" type="TYPO3.TYPO3:Page" nodeName="t3con10-videos" locale="">
 				<properties>
 					<title>Past Conference Videos</title>
