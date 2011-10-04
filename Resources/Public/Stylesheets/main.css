@@ -1060,34 +1060,35 @@ table#schedule td a .small{
 	font-weight: normal;
 	border: 0;
 }
+/* coding */
 table#schedule td.green, table#legend td.green {
-	border-left: 5px solid #69a550;
-	background: #d0e8c2;
+	background: #D6D8DB;
+	border-left: 5px solid #bcbdc0;
 }
-
+/* general / community */
 table#schedule td.blue, table#legend td.blue {
-	background: #d8d8d8;
-	border-left: 5px solid #9c9c9c;
+	background: #E5E3F4;
+	border-left: 5px solid #d4d2e9;
 }
-
+/* design / ux */
 table#schedule td.blue2, table#legend td.blue2 {
-	background: #c3d9e2;
-	border-left: 5px solid #0091d3;
+	background: #FCCB97;
+	border-left: 5px solid #fbb567;
 }
-
+/* business */
 table#schedule td.yello, table#legend td.yello {
-	background: #f2e9bc;
-	border-left: 5px solid #f3cd00;
+	background: #FFF9C1;
+	border-left: 5px solid #fff8a2;
 }
-
+/* integration */
 table#schedule td.purple, table#legend td.purple {
-	background: #e0d2d5;
-	border-left: 5px solid #be0027;
+	background: #BED7E0;
+	border-left: 5px solid #8ec2da;
 }
-
+/* admin */
 table#schedule td.orange, table#legend td.orange {
-	background: #ffd7ad;
-	border-left: 5px solid #ff8700;
+	background: #BEDD89;
+	border-left: 5px solid #a6ca68;
 }
 
 table#legend td {
