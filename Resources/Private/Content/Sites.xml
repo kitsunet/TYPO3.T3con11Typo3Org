@@ -591,7 +591,8 @@
       <span class="small">(Christian)</span></a></td>
     <td class="orange"><a href="sessions/acceptedpapers/paper/typo3_4_6_overview.html">TYPO3 4.6 Overview <br />
       <span class="small">(Xavier Perseguers)</span></a></td>
-    <td class="yello"><a href="sessions/acceptedpapers/paper/cloud_development_2_0__scrum_in_distributed_teams.html">Cloud development 2.0: Scrum in distributed teams <span class="small">(Andriy Kushnarov)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/cloud_development_2_0__scrum_in_distributed_teams.html">Cloud development 2.0: Scrum in distributed teams
+      <span class="small">(Andriy Kushnarov)</span></a></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
@@ -600,9 +601,10 @@
       <span class="small">(Rens Admiraal)</span></a></td>
     <td class="orange"><a href="sessions/acceptedpapers/paper/continuous_inspection.html">Continuous Inspection <br />
       <span class="small">(Olivier Gaudin)</span></a></td>
-    <td class="purple"><a href="sessions/acceptedpapers/paper/the_one_thing_to_list_everything.html">The ONE thing to LIST everything<br />
+    <td class="purple"><a href="sessions/acceptedpapers/paper/typo3_photo_gallery_management_with_yag.html">TYPO3 Photo-Gallery Management with YAG<br />
       <span class="small">(Daniel Lienert, Michael Knoll)</span></a></td>
-    <td class="yello"><a href="sessions/acceptedpapers/paper/should_agencies_insist_on_the_typo3_certification_.html">Should agencies insist on the TYPO3 certification? <span class="small">(Sebastian Böttger)</span></a></td>
+    <td class="yello"><a href="sessions/acceptedpapers/paper/should_agencies_insist_on_the_typo3_certification_.html">Should agencies insist on the TYPO3 certification?
+      <span class="small">(Sebastian Böttger)</span></a></td>
   </tr>
   <tr>
     <td>15:35-16:00</td>
@@ -612,8 +614,10 @@
     <td>16:00-16:45</td>
     <td class="green"><a href="sessions/acceptedpapers/paper/flow3_goes_semantic.html">FLOW3 Goes Semantic<br />
         <span class="small">(Sebastian Kurfürst)</span></a></td>
-    <td class="blue2"><a href="sessions/acceptedpapers/paper/save_time_by_using_sass.html">Save time by using SASS <br />      <span class="small">(Berit Jensen)</span></a></td>
-    <td class="purple"><a href="sessions/acceptedpapers/paper/typo3_photo_gallery_management_with_yag.html">TYPO3 Photo-Gallery Management with YAG<br />      <span class="small">(Daniel Lienert,Michael Knoll)</span></a></td>
+    <td class="blue2"><a href="sessions/acceptedpapers/paper/save_time_by_using_sass.html">Save time by using SASS <br />
+      <span class="small">(Berit Jensen)</span></a></td>
+    <td class="purple"><a href="sessions/acceptedpapers/paper/the_one_thing_to_list_everything.html">The ONE thing to LIST everything<br />
+      <span class="small">(Daniel Lienert, Michael Knoll)</span></a></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
