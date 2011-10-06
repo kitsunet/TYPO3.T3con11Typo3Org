@@ -765,7 +765,7 @@
 					</node>
 				</node>
 			</node>
-			<node identifier="99e209ac-fd3e-4cca-9363-58d186d72280" type="TYPO3.TYPO3:Page" nodeName="best-paper-award" locale="" hiddenInIndex="true">
+			<node identifier="99e209ac-fd3e-4cca-9363-58d186d72280" type="TYPO3.TYPO3:Page" nodeName="best-paper-award" locale="">
 				<properties>
 					<title>Best Paper Award</title>
 				</properties>
