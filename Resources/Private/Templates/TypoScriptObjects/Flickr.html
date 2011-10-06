@@ -1,0 +1,19 @@
+{namespace t=TYPO3\TYPO3\ViewHelpers}
+
+<!-- TODO: show the wrapping div only when logged in / when in non-live workspace -->
+
+
+<t:contentElement node="{node}">
+<div class="b-flickr">
+	<div class="b-flickr-head">
+		<h4>Photostream {properties.title}</h4>
+		<p><a class="bu bu-mini" href="http://www.flickr.com/search/?q={properties.tag}" target="_blank">More</a></p>
+	</div><!-- b-flickr-head -->
+	<div id="flickr-slider" class="b-flickr-body">
+		<div class="slides">
+			<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&amp;display=random&amp;size=s&amp;layout=x&amp;source=all_tag&amp;tag={properties.tag}"></script>
+		</div>
+		<div class="flickr-overlay"></div>
+	</div><!-- b-flickr-body -->
+</div><!-- b-flickr -->
+</t:contentElement>
