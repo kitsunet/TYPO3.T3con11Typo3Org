@@ -78,3 +78,27 @@ TYPO3:
         - package: TYPO3.Conference
           controller: Conference\Paper
           targetNode: e45fcffb-5cee-4a64-b9dd-8790096a203c
+
+  TYPO3CR:
+    contentTypes:
+      'TYPO3.T3con11Typo3Org:Flickr':
+        superTypes: ['TYPO3.TYPO3:ContentObject']
+        group: 'Mashup'
+        icon: 'Images/Icons/White/picture_icon-16.png'
+        label: 'Flickr'
+
+        properties:
+          title:
+            type: string
+            label: 'Title'
+            category: 'options'
+            reloadOnChange: true
+          tag:
+            type: string
+            label: 'Flickr Tag to display stream for:'
+            category: 'options'
+            reloadOnChange: true
+        propertyGroups:
+          options:
+            label: 'Flickr Options'
+            priority: 10
