@@ -102,29 +102,3 @@ TYPO3:
           options:
             label: 'Flickr Options'
             priority: 10
-      'TYPO3.T3con11Typo3Org:Youtube':
-        superTypes: ['TYPO3.TYPO3:ContentObject']
-        group: 'Mashup'
-        icon: 'Images/Icons/White/movie_icon-16.png'
-        label: 'Youtube'
-
-        properties:
-          videoIdentifier:
-            type: string
-            label: 'Video Identifier'
-            category: 'options'
-            reloadOnChange: true
-          width:
-            type: string
-            label: 'Width'
-            category: 'options'
-            reloadOnChange: true
-          height:
-            type: string
-            label: 'Height'
-            category: 'options'
-            reloadOnChange: true
-        propertyGroups:
-          options:
-            label: 'Youtube Options'
-            priority: 10
