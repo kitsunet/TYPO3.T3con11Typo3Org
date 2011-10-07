@@ -128,20 +128,13 @@
 							will be a great opportunity to learn more about the powerful TYPO3 CMS, the FLOW3 framework
 							and to connect with other managers, developers and designers from all over the world. Many
 							internationally known leaders of the TYPO3 community will attend and present.</p>
-
-							<div class="b-flickr">
-								<div class="b-flickr-head">
-									<h4>Photostream T3CON10</h4>
-									<p><a class="bu bu-mini" href="http://www.flickr.com/search/?q=t3con10+OR+t3con" target="_blank">More</a></p>
-								</div><!-- b-flickr-head -->
-								<div id="flickr-slider" class="b-flickr-body">
-									<div class="slides">
-										<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&amp;display=random&amp;size=s&amp;layout=x&amp;source=all_tag&amp;tag=t3con10"></script>
-									</div>
-									<div class="flickr-overlay"></div>
-								</div><!-- b-flickr-body -->
-							</div><!-- b-flickr -->
 						]]></text>
+					</properties>
+				</node>
+				<node identifier="86ccf170-f0e5-11e0-be50-0800200c9a66" type="TYPO3.T3con11Typo3Org:Flickr" nodeName="flickr" locale="">
+					<properties>
+						<title>T3CON10</title>
+						<tag>t3con10</tag>
 					</properties>
 				</node>
 			</node>
